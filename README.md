@@ -67,7 +67,7 @@ Cross data set cell type mapping is given in the file: `/inst/extdata/cell_type_
 [Yervand Azatian](https://www.linkedin.com/in/yervand-azatian/) with Alexander Bates, Wei Lee and Jan Funke has predicted dense core vesicles across FAFB, the results are in good agreement with 
 the ground truth this repository is collating:
 
-![dcv_predictions_known_nps](https://github.com/funkelab/drosophila_neurotransmitters/blob/main/inst/images/dcv_predictions_known_nps.png?raw=true)
+![dcv_predictions_known_nps](https://github.com/funkelab/drosophila_neuropeptides/blob/main/inst/images/dcv_predictions_known_nps.png?raw=true)
 
 ## How to Contribute Data
 
