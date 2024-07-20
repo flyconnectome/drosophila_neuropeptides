@@ -48,6 +48,8 @@ The repository includes information on ~50 known Drosophila neuropeptides, inclu
 38. **Tachykinin (Tk):** Modulates olfactory processing and aggressive behaviors.
 39. **Trissin:** Functions not fully characterized.
 
+## Our Goal
+
 Our goal is to collate as much data from the literature as possible, linking neuropeptide information to neuronal cell types from connectomic datasets. 
 Current datasets include:
 
@@ -59,6 +61,8 @@ Current datasets include:
 - maleCNS (whole nervous system)
 - BANC (whole nervous system)
 - L1 (whole larval nervous system)
+
+Cross data set cell type mapping is given in the file: `/inst/extdata/cell_type_cross_matching.csv`
 
 [Yervand Azatian](https://www.linkedin.com/in/yervand-azatian/) with Alexander Bates, Wei Lee and Jan Funke has predicted dense core vesicles across FAFB, the results are in good agreement with 
 the ground truth this repository is collating:
