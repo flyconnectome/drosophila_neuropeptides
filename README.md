@@ -146,7 +146,7 @@ The `zandawala_2024/neuropeptide_meta.csv` file contains detailed meta informati
 *As of July 20th 2024 -- repo private* 
 
 This data was collated by [Alexander Bates](https://as-bates.netlify.app/portfolio/) at Harvard Medical School while in the group of Prof. Rachel Wilson
-Meet Zandawala](https://www.unr.edu/neuroscience/people/meet-zandawala) at the University of Nevada, Reno. 
+[Meet Zandawala](https://www.unr.edu/neuroscience/people/meet-zandawala) at the University of Nevada, Reno. 
 It is manageed and curated together with [Diane Adjavon](https://adjavon.github.io/) in the laboratory of [Jan Funke](https://www.hhmi.org/scientists/jan-funke) at Janelia Research Campus. 
 
 If you use this collected data in your research please liaise with Alex, Diane, Meet and Jan on the appropriate ways to acknowledge this resource.
