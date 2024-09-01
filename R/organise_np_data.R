@@ -163,7 +163,7 @@ gt.nt.new$known_np_evidence[is.na(gt.nt.new$known_np_confidence)] <- 0
 
 # Save data
 readr::write_csv(x =  ft.np,
-                 file = "/Users/GD/LMBD/Papers/synister/drosophila_neuropeptides/gt_sources/bates_2024/202405-starting_gt_np_data.csv")
+                 file = "/Users/GD/LMBD/Papers/synister/drosophila_neuropeptides/gt_sources/bates_2024/202409-gt_np_data.csv")
 readr::write_csv(x = gt.nt.new,
                  file = "/Users/GD/LMBD/Papers/synister/drosophila_neuropeptides/gt_np_data.csv")
 
