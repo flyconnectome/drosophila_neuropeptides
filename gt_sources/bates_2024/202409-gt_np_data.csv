@@ -3,6 +3,7 @@ adult_drosophila_melanogaster,midbrain,APDN3,SLPpl1,"Dh44, allatostatin-c","Rein
 adult_drosophila_melanogaster,midbrain,AVLP594,putative_primary,natalisin,"Jiang et al., 2013",immuno,4
 adult_drosophila_melanogaster,midbrain,AstA1,putative_primary,allatostatin-a,"Hergarden et al., 2012",transgenics,3
 adult_drosophila_melanogaster,midbrain,CAPA,primary,capability,"Reinhard et al., 2023",immuno,4
+adult_drosophila_melanogaster,midbrain,CAPA,primary,myosupressin,McKim et al. 2024,immuno,4
 adult_drosophila_melanogaster,midbrain,CB.FB1E1,DL1_dorsal,MIP,Janelia,EASI-FISH,2
 adult_drosophila_melanogaster,midbrain,CB.FB1H0,DM6__prim,Nplp1,Janelia,EASI-FISH,2
 adult_drosophila_melanogaster,midbrain,CB.FB2E10,DL1_dorsal,"MIP, tachykinin",Janelia,EASI-FISH,2
@@ -16,6 +17,7 @@ adult_drosophila_melanogaster,midbrain,CB.FB2K1,CREa2_medial,"Dh44, proctolin",J
 adult_drosophila_melanogaster,midbrain,CB.FB2K1,CREa1_dorsal,"Dh44, proctolin",Janelia,EASI-FISH,2
 adult_drosophila_melanogaster,midbrain,"CB.FB3,4A2",DM6_dorso_medial,myosupressin,Janelia,EASI-FISH,2
 adult_drosophila_melanogaster,midbrain,"CB.FB3,4A21",DM6__prim,"allatostatin-c, Dh44, SIFamide",Janelia,EASI-FISH,2
+adult_drosophila_melanogaster,midbrain,"CB.FB3,4A3",NA,Nplp1,Janelia,EASI-FISH,2
 adult_drosophila_melanogaster,midbrain,"CB.FB3,4A9",DM6__prim,space blanket,Janelia,EASI-FISH,2
 adult_drosophila_melanogaster,midbrain,"CB.FB3,4D0",AOTUv4_ventral,tachykinin,Janelia,EASI-FISH,2
 adult_drosophila_melanogaster,midbrain,"CB.FB3,4D3",AOTUv4_ventral,tachykinin,Janelia,EASI-FISH,2
@@ -220,6 +222,12 @@ adult_drosophila_melanogaster,midbrain,"PFNm,PFNp",DM4_CX_v,MIP,Janelia,EASI-FIS
 adult_drosophila_melanogaster,midbrain,"PFNm,PFNp",DM1_CX_v,MIP,Janelia,EASI-FISH,2
 adult_drosophila_melanogaster,midbrain,"PFNm,PFNp",DM2_CX_p,MIP,Janelia,EASI-FISH,2
 adult_drosophila_melanogaster,midbrain,"PFNm,PFNp",DM1_CX_p,MIP,Janelia,EASI-FISH,2
+adult_drosophila_melanogaster,midbrain,"PI_m-NSC
+
+",putative_primary,myosuppressin,"Reinhard et al., 2023",immuno,4
+adult_drosophila_melanogaster,midbrain,"PI_m-NSC
+
+",DILP__prim,myosuppressin,"Reinhard et al., 2023",immuno,4
 adult_drosophila_melanogaster,midbrain,"PI_m-NSC_DH44
 
 ",DILP__prim,Dh44,"Reinhard et al., 2023",immuno,4
@@ -294,3 +302,30 @@ adult_drosophila_melanogaster,midbrain,l-LNv,putative_primary,"pdf, dNPF","Reinh
 adult_drosophila_melanogaster,midbrain,lLN2P_b,ALl1_dorsal,MIP,"Sizemore et al., 2023",immuno,4
 adult_drosophila_melanogaster,midbrain,s-LNv_a,NA,ITP,"Reinhard et al., 2023",scRNA-seq,1
 adult_drosophila_melanogaster,midbrain,s-LNv_b,NA,"pdf, sNPF","Reinhard et al., 2023",scRNA-seq,1
+adult_drosophila_melanogaster,midbrain,vDeltaC,NA,"sNPF, Dh31",Janelia,EASI-FSH,3
+adult_drosophila_melanogaster,midbrain,vDeltaD,NA,sNPF,Janelia,EASI-FSH,3
+adult_drosophila_melanogaster,midbrain,vDeltaM,NA,MIP,Janelia,EASI-FSH,3
+adult_drosophila_melanogaster,midbrain,FB1B,NA,Nplp1,Janelia,EASI-FSH,3
+adult_drosophila_melanogaster,midbrain,FB2C,NA,Nplp1,Janelia,EASI-FSH,3
+adult_drosophila_melanogaster,midbrain,FB2F_a,NA,Dh31,Janelia,EASI-FSH,3
+adult_drosophila_melanogaster,midbrain,FB4D,NA,Nplp1,Janelia,EASI-FSH,3
+adult_drosophila_melanogaster,midbrain,FB4E,NA,"Dh31, Nplp1",Janelia,EASI-FSH,3
+adult_drosophila_melanogaster,midbrain,FB4J,NA,Nplp1,Janelia,EASI-FSH,3
+adult_drosophila_melanogaster,midbrain,FB5N,NA,"FMRF, proctolin",Janelia,EASI-FSH,3
+adult_drosophila_melanogaster,midbrain,FB5R,NA,"Dh44, myosupressin",Janelia,EASI-FSH,3
+adult_drosophila_melanogaster,midbrain,FB5T,NA,neuropeptides-negative,Janelia,EASI-FSH,3
+adult_drosophila_melanogaster,midbrain,FB5J,NA,neuropeptides-negative,Janelia,EASI-FSH,3
+adult_drosophila_melanogaster,midbrain,FB7H,NA,"Nplp1, proctolin",Janelia,EASI-FSH,3
+adult_drosophila_melanogaster,midbrain,FB8F_a,NA,Nplp1,Janelia,EASI-FSH,3
+adult_drosophila_melanogaster,midbrain,FB8F_a,NA,Nplp1,Janelia,EASI-FSH,3
+adult_drosophila_melanogaster,midbrain,FB8F,NA,Nplp1,Janelia,EASI-FSH,3
+adult_drosophila_melanogaster,vnc,MNad13,NA,"leucokinin, Dh44",Maggio et al. 2023,immuno,3
+adult_drosophila_melanogaster,vnc,MNad38,NA,"leucokinin, Dh44",Maggio et al. 2023,immuno,3
+adult_drosophila_melanogaster,vnc,MNad27 ,NA,"leucokinin, Dh44",Maggio et al. 2023,immuno,3
+adult_drosophila_melanogaster,vnc,MNad18 ,NA,"leucokinin, Dh44",Maggio et al. 2023,immuno,3
+adult_drosophila_melanogaster,vnc,MNad21 ,NA,"leucokinin, Dh44",Maggio et al. 2023,immuno,3
+adult_drosophila_melanogaster,vnc,MNad59 ,NA,"leucokinin, Dh44",Maggio et al. 2023,immuno,3
+adult_drosophila_melanogaster,vnc,MNad25 ,NA,"leucokinin, Dh44",Maggio et al. 2023,immuno,3
+adult_drosophila_melanogaster,vnc,MNad52 ,NA,"leucokinin, Dh44",Maggio et al. 2023,immuno,3
+adult_drosophila_melanogaster,vnc,MNad03 ,NA,"leucokinin, Dh44",Maggio et al. 2023,immuno,3
+adult_drosophila_melanogaster,vnc,MNad37 ,NA,"leucokinin, Dh44",Maggio et al. 2023,immuno,3

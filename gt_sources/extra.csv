@@ -1,18 +1,28 @@
-﻿species,region,hemilineage,cell_type,known_nt_evidence,known_nt,known_nt_source,known_nt_confidence
-adult_drosophila_melanogaster,midbrain,,vDeltaC,EASI-FSH,"sNPF, Dh31",Janelia (EASI-FISH),3
-adult_drosophila_melanogaster,midbrain,,vDeltaD,EASI-FSH,sNPF,Janelia (EASI-FISH),3
-adult_drosophila_melanogaster,midbrain,,vDeltaM,EASI-FSH,MIP,Janelia (EASI-FISH),3
-adult_drosophila_melanogaster,midbrain,,FB1B,EASI-FSH,Nplp1,Janelia (EASI-FISH),3
-adult_drosophila_melanogaster,midbrain,,FB2C,EASI-FSH,Nplp1,Janelia (EASI-FISH),3
-adult_drosophila_melanogaster,midbrain,,FB2F_a,EASI-FSH,Dh31,Janelia (EASI-FISH),3
-adult_drosophila_melanogaster,midbrain,,FB4D,EASI-FSH,Nplp1,Janelia (EASI-FISH),3
-adult_drosophila_melanogaster,midbrain,,FB4E,EASI-FSH,"Dh31, Nplp1",Janelia (EASI-FISH),3
-adult_drosophila_melanogaster,midbrain,,FB4J,EASI-FSH,Nplp1,Janelia (EASI-FISH),3
-adult_drosophila_melanogaster,midbrain,,FB5N,EASI-FSH,"FMRF, proctolin",Janelia (EASI-FISH),3
-adult_drosophila_melanogaster,midbrain,,FB5R,EASI-FSH,"Dh44, myosupressin",Janelia (EASI-FISH),3
-adult_drosophila_melanogaster,midbrain,,FB5T,EASI-FSH,neuropeptides-negative,Janelia (EASI-FISH),3
-adult_drosophila_melanogaster,midbrain,,FB5J,EASI-FSH,neuropeptides-negative,Janelia (EASI-FISH),3
-adult_drosophila_melanogaster,midbrain,,FB7H,EASI-FSH,"Nplp1, proctolin",Janelia (EASI-FISH),3
-adult_drosophila_melanogaster,midbrain,,FB8F_a,EASI-FSH,Nplp1,Janelia (EASI-FISH),3
-adult_drosophila_melanogaster,midbrain,,FB8F_a,EASI-FSH,Nplp1,Janelia (EASI-FISH),0
-adult_drosophila_melanogaster,midbrain,,FB8F,EASI-FSH,Nplp1,Janelia (EASI-FISH),0
+﻿species,region,hemilineage,cell_type,known_np_evidence,known_np,known_np_source,known_np_confidence
+adult_drosophila_melanogaster,midbrain,,vDeltaC,EASI-FSH,"sNPF, Dh31",Janelia,3
+adult_drosophila_melanogaster,midbrain,,vDeltaD,EASI-FSH,sNPF,Janelia,3
+adult_drosophila_melanogaster,midbrain,,vDeltaM,EASI-FSH,MIP,Janelia,3
+adult_drosophila_melanogaster,midbrain,,FB1B,EASI-FSH,Nplp1,Janelia,3
+adult_drosophila_melanogaster,midbrain,,FB2C,EASI-FSH,Nplp1,Janelia,3
+adult_drosophila_melanogaster,midbrain,,FB2F_a,EASI-FSH,Dh31,Janelia,3
+adult_drosophila_melanogaster,midbrain,,FB4D,EASI-FSH,Nplp1,Janelia,3
+adult_drosophila_melanogaster,midbrain,,FB4E,EASI-FSH,"Dh31, Nplp1",Janelia,3
+adult_drosophila_melanogaster,midbrain,,FB4J,EASI-FSH,Nplp1,Janelia,3
+adult_drosophila_melanogaster,midbrain,,FB5N,EASI-FSH,"FMRF, proctolin",Janelia,3
+adult_drosophila_melanogaster,midbrain,,FB5R,EASI-FSH,"Dh44, myosupressin",Janelia,3
+adult_drosophila_melanogaster,midbrain,,FB5T,EASI-FSH,neuropeptides-negative,Janelia,3
+adult_drosophila_melanogaster,midbrain,,FB5J,EASI-FSH,neuropeptides-negative,Janelia,3
+adult_drosophila_melanogaster,midbrain,,FB7H,EASI-FSH,"Nplp1, proctolin",Janelia,3
+adult_drosophila_melanogaster,midbrain,,FB8F_a,EASI-FSH,Nplp1,Janelia,3
+adult_drosophila_melanogaster,midbrain,,FB8F_a,EASI-FSH,Nplp1,Janelia,3
+adult_drosophila_melanogaster,midbrain,,FB8F,EASI-FSH,Nplp1,Janelia,3
+adult_drosophila_melanogaster,vnc,,MNad13,immuno,"leucokinin, Dh44",Maggio et al. 2023,3
+adult_drosophila_melanogaster,vnc,,MNad38,immuno,"leucokinin, Dh44",Maggio et al. 2023,3
+adult_drosophila_melanogaster,vnc,,MNad27 ,immuno,"leucokinin, Dh44",Maggio et al. 2023,3
+adult_drosophila_melanogaster,vnc,,MNad18 ,immuno,"leucokinin, Dh44",Maggio et al. 2023,3
+adult_drosophila_melanogaster,vnc,,MNad21 ,immuno,"leucokinin, Dh44",Maggio et al. 2023,3
+adult_drosophila_melanogaster,vnc,,MNad59 ,immuno,"leucokinin, Dh44",Maggio et al. 2023,3
+adult_drosophila_melanogaster,vnc,,MNad25 ,immuno,"leucokinin, Dh44",Maggio et al. 2023,3
+adult_drosophila_melanogaster,vnc,,MNad52 ,immuno,"leucokinin, Dh44",Maggio et al. 2023,3
+adult_drosophila_melanogaster,vnc,,MNad03 ,immuno,"leucokinin, Dh44",Maggio et al. 2023,3
+adult_drosophila_melanogaster,vnc,,MNad37 ,immuno,"leucokinin, Dh44",Maggio et al. 2023,3

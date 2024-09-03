@@ -6,6 +6,7 @@ library(catmaid)
 
 # Get the data we have already built
 gt.nt.orig <- readr::read_csv(file = "/Users/GD/LMBD/Papers/synister/drosophila_neuropeptides/gt_np_data.csv")
+extra <- readr::read_csv(file = "/Users/GD/LMBD/Papers/synister/drosophila_neuropeptides/gt_sources/extra.csv")
 
 # Transmitters we care about
 fast.nts <- c("acetylcholine", "gaba", "glutamate",
@@ -120,6 +121,7 @@ ft.np <- ft %>%
     known_np_evidence %in% c("scRNA-seq, unsure") ~ 0,
     TRUE ~ 0
   ))
+ft.np <- plyr::rbind.fill(ft.np,extra)
 
 # Turn into a matrix
 ft.np.m <- ft.np %>%
