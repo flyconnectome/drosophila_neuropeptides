@@ -9,10 +9,11 @@ adult_drosophila_melanogaster,midbrain,CB.FB2E10,DL1_dorsal,"MIP, tachykinin",Ja
 adult_drosophila_melanogaster,midbrain,CB.FB2E8,DL1_dorsal,"MIP, tachykinin",Janelia,EASI-FISH,2
 adult_drosophila_melanogaster,midbrain,CB.FB2E9,DL1_dorsal,"MIP, tachykinin",Janelia,EASI-FISH,2
 adult_drosophila_melanogaster,midbrain,CB.FB2G0,DM4_dorsal,space blanket,Janelia,EASI-FISH,2
-adult_drosophila_melanogaster,midbrain,CB.FB2K0,CREa2_medial,"Dh44, proctolin","Chiang et al., 2011",MCFO,3
-adult_drosophila_melanogaster,midbrain,CB.FB2K0,CREa1_dorsal,"Dh44, proctolin","Chiang et al., 2011",MCFO,3
-adult_drosophila_melanogaster,midbrain,CB.FB2K1,CREa2_medial,"Dh44, proctolin","Chiang et al., 2011",MCFO,3
-adult_drosophila_melanogaster,midbrain,CB.FB2K1,CREa1_dorsal,"Dh44, proctolin","Chiang et al., 2011",MCFO,3
+adult_drosophila_melanogaster,midbrain,CB.FB2I2,LALv1_dorsal,Nplp1,Janelia,EASI-FISH,2
+adult_drosophila_melanogaster,midbrain,CB.FB2K0,CREa2_medial,"Dh44, proctolin",Janelia,EASI-FISH,2
+adult_drosophila_melanogaster,midbrain,CB.FB2K0,CREa1_dorsal,"Dh44, proctolin",Janelia,EASI-FISH,2
+adult_drosophila_melanogaster,midbrain,CB.FB2K1,CREa2_medial,"Dh44, proctolin",Janelia,EASI-FISH,2
+adult_drosophila_melanogaster,midbrain,CB.FB2K1,CREa1_dorsal,"Dh44, proctolin",Janelia,EASI-FISH,2
 adult_drosophila_melanogaster,midbrain,"CB.FB3,4A2",DM6_dorso_medial,myosupressin,Janelia,EASI-FISH,2
 adult_drosophila_melanogaster,midbrain,"CB.FB3,4A21",DM6__prim,"allatostatin-c, Dh44, SIFamide",Janelia,EASI-FISH,2
 adult_drosophila_melanogaster,midbrain,"CB.FB3,4A9",DM6__prim,space blanket,Janelia,EASI-FISH,2
@@ -21,6 +22,7 @@ adult_drosophila_melanogaster,midbrain,"CB.FB3,4D3",AOTUv4_ventral,tachykinin,Ja
 adult_drosophila_melanogaster,midbrain,"CB.FB3,4I0",LALv1_dorsal,Nplp1,Janelia,EASI-FISH,2
 adult_drosophila_melanogaster,midbrain,"CB.FB3,4I2",LALv1_dorsal,"Dh31, Nplp1",Janelia,EASI-FISH,2
 adult_drosophila_melanogaster,midbrain,"CB.FB3,4I3",LALv1_dorsal,Nplp1,Janelia,EASI-FISH,2
+adult_drosophila_melanogaster,midbrain,"CB.FB3,4I6",LALv1_dorsal,Nplp1,Janelia,EASI-FISH,2
 adult_drosophila_melanogaster,midbrain,"CB.FB3,4I8",LALv1_dorsal,Dh31,Janelia,EASI-FISH,2
 adult_drosophila_melanogaster,midbrain,"CB.FB3,4L1",EBa1,"Dh31, Nplp1",Janelia,EASI-FISH,2
 adult_drosophila_melanogaster,midbrain,CB.FB5B0,DM6_dorso_medial,"Dh44, myosupressin",Janelia,EASI-FISH,2
@@ -28,6 +30,7 @@ adult_drosophila_melanogaster,midbrain,CB.FB5B0,DM6_dorso_medial,myosupressin,Ja
 adult_drosophila_melanogaster,midbrain,CB.FB5B1,DM6_dorso_medial,myosupressin,Janelia,EASI-FISH,2
 adult_drosophila_melanogaster,midbrain,CB.FB5C0,SIPp1,neuropeptides-negative,Janelia,EASI-FISH,2
 adult_drosophila_melanogaster,midbrain,CB.FB5D4,AOTUv4_ventral,tachykinin,Janelia,EASI-FISH,2
+adult_drosophila_melanogaster,midbrain,CB.FB5I1,LALv1_dorsal,neuropeptides-negative,Janelia,EASI-FISH,2
 adult_drosophila_melanogaster,midbrain,CB.FB6B1,DM6_dorso_medial,"Dh44, myosupressin",Janelia,EASI-FISH,2
 adult_drosophila_melanogaster,midbrain,CB.FB6E4,DL1_dorsal,"allatostatin-c, Nplp1",Janelia,EASI-FISH,2
 adult_drosophila_melanogaster,midbrain,CB.FB6F0,putative_primary,proctolin,Janelia,EASI-FISH,2
