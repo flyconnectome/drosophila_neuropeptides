@@ -300,6 +300,8 @@ adult_drosophila_melanogaster,midbrain,hDeltaK,DM2_CX_p,"allatostatin-a, allatos
 adult_drosophila_melanogaster,midbrain,hDeltaK,DM1_CX_v,"allatostatin-a, allatostatin-c, NPF",Janelia,EASI-FISH,2
 adult_drosophila_melanogaster,midbrain,l-LNv,putative_primary,"pdf, dNPF","Reinhard et al., 2023",immuno,4
 adult_drosophila_melanogaster,midbrain,lLN2P_b,ALl1_dorsal,MIP,"Sizemore et al., 2023",immuno,4
+adult_drosophila_melanogaster,midbrain,pC1b,DM4_dorsal,Dh44,"Kim et al., 2024",immuno,4
+adult_drosophila_melanogaster,midbrain,pC1c,DM4_dorsal,Dh44,"Kim et al., 2024",immuno,4
 adult_drosophila_melanogaster,midbrain,s-LNv_a,NA,ITP,"Reinhard et al., 2023",scRNA-seq,1
 adult_drosophila_melanogaster,midbrain,s-LNv_b,NA,"pdf, sNPF","Reinhard et al., 2023",scRNA-seq,1
 adult_drosophila_melanogaster,midbrain,vDeltaC,NA,"sNPF, Dh31",Janelia,EASI-FSH,3

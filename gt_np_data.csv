@@ -163,6 +163,8 @@ adult_drosophila_melanogaster,midbrain,0,ORN_VM7d,"Carlsson et al., 2010",immuno
 adult_drosophila_melanogaster,midbrain,0,ORN_VM7d,Yasuyama et al. 1999,immuno,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
 adult_drosophila_melanogaster,midbrain,0,ORN_VM7v,"Carlsson et al., 2010",immuno,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
 adult_drosophila_melanogaster,midbrain,0,ORN_VM7v,Yasuyama et al. 1999,immuno,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+adult_drosophila_melanogaster,midbrain,DM4_dorsal,pC1b,"Kim et al., 2024",immuno,4,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+adult_drosophila_melanogaster,midbrain,DM4_dorsal,pC1c,"Kim et al., 2024",immuno,4,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,midbrain,DM2_CX_d1,PEG,Janelia,EASI-FISH,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
 adult_drosophila_melanogaster,midbrain,DM1_CX_p,PEN_a(PEN1),Janelia,EASI-FISH,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,midbrain,DM4_CX_d2,PFGs,Janelia,EASI-FISH,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
