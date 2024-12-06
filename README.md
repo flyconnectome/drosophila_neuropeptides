@@ -2,6 +2,8 @@
 
 This repository contains curated data on neuropeptides found in *Drosophila melanogaster*. The data is stored in a version-controlled CSV file named `gt_np_data.csv`, with changes managed through GitHub Pull Requests.
 
+For a complete list of references for our ground truth, please see our [CITATIONS.md](CITATIONS.md) file.
+
 ## Scope
 
 This repository focuses on neuropeptides in Drosophila, which are larger signaling molecules than fast-acting neurotransmitters. Neuropeptides often act as neuromodulators, affecting the properties of neural circuits. For fast-acting small molecule neurotransmitter annotation, please refer to our separate repository: [funkelab/drosophila_neurotransmitters](https://github.com/funkelab/drosophila_neurotransmitters).
@@ -157,11 +159,7 @@ If you use this collected data in your research please liaise with Alex, Diane, 
 
 2. Eckstein, N., Bates, A. S., Champion, A., Du, M., Yin, Y., Schlegel, P., ... & Funke, J. (2024). Neurotransmitter classification from electron microscopy images at synaptic sites in Drosophila melanogaster. Cell, 187(10), 2574-2594.
 
-For a complete list of references, please see our [citations.md](citations.md) file.
-
-## License
-
-[Include your chosen license information here]
+For a complete list of references, please see our [CITATIONS.md](CITATIONS.md) file.
 
 ## Contact
 
