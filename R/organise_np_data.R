@@ -39,7 +39,8 @@ simplify_nt <- function(input_string){
 }
 
 # Query and organse flytable data, from midbrain and optic lobe tables
-ft <- fafbseg::flytable_query("select _id, root_id, root_630, root_783, supervoxel_id, proofread, status, pos_x, pos_y, pos_z, nucleus_id, soma_x, soma_y, soma_z, side, ito_lee_hemilineage, hartenstein_hemilineage, top_nt, flow, super_class, cell_class, cell_type, hemibrain_match, hemibrain_type, malecns_type, cb_type, root_duplicated, morphology_group, known_nt, known_nt_source, notes from info")
+#ft <- fafbseg::flytable_query("select _id, root_id, root_630, root_783, supervoxel_id, proofread, status, pos_x, pos_y, pos_z, nucleus_id, soma_x, soma_y, soma_z, side, ito_lee_hemilineage, hartenstein_hemilineage, top_nt, flow, super_class, cell_class, cell_type, hemibrain_match, hemibrain_type, malecns_type, cb_type, root_duplicated, morphology_group, known_nt, known_nt_source, notes from info")
+ft <- bancr::franken_meta()
 ft$region <- 'midbrain'
 ft.optic <- fafbseg::flytable_query("select * from optic")
 ft.optic <- ft.optic[, intersect(colnames(ft.optic),
