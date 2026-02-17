@@ -136,7 +136,9 @@ colnames(ft.np.m) <- tolower(colnames(ft.np.m))
 
 # Order the data appropriately
 meta.cols <- c("species", "region", "hemilineage", "cell_type",
-               "neuropeptide_verified_source", "neuropeptide_verified_evidence", "neuropeptide_verified_confidence")
+               "neuropeptide_verified_source",
+               "neuropeptide_verified_evidence",
+               "neuropeptide_verified_confidence")
 nps <- sort(setdiff(colnames(ft.np.m),meta.cols))
 gt.nt <- ft.np.m
 gt.nt[is.na(gt.nt)] <- 0

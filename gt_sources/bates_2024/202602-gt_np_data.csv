@@ -1,420 +1,420 @@
-species,region,cell_type,hemilineage,neuropeptide_verified,neuropeptide_verified_source,neuropeptide_verified_evidence,neuropeptide_verified_confidence,known_np_evidence,known_np,known_np_source,known_np_confidence
-adult_drosophila_melanogaster,central_brain,APDN3,SLPpl1,"Dh44, allatostatin-c","Reinhard et al., 2023",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,AVLP594,putative_primary,natalisin,"Jiang et al., 2013",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,AstA1,putative_primary,allatostatin-a,"Hergarden et al., 2012",transgenics,3,NA,NA,NA,NA
-adult_drosophila_melanogaster,optic_lobe,C2,NA,nitric_oxide,"Davis et al., 2020",TAPIN,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,CB0060,LB5,allatostatin-a,Landayan et al. 2021,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,CB0153,putative_primary,"CCAP, bursicon-negative","Dolan et al., 2017",transgenics,3,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,CB0878,TRdm,"hugin, sNPF","Carlsson et al., 2013",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,CB1215,SMPpv2_dorsal,Dh31,"Reinhard et al., 2021",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,CB1215,SMPpv2_dorsal,"allatostatin-a, allatostatin-c, Dh44","Reinhard et al., 2023",scRNA-seq,1,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,CB2748,MX0__prim,CCAP,"Luan et al., 2006",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,CB2748,MX0__prim,Hugin,Pankratz,"larva, immuno",0,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,"CRZ01,CRZ02",putative_primary,"corazonin, sNPF","Kubrak et al., 2016",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,DN1a,putative_primary,"CCHa1, Dh44","Reinhard et al., 2023",scRNA-seq,1,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,DN1pA,putative_primary,CNMa,"Jin et al., 2021",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,DN1pA,putative_primary,Dh31,"Goda et al., 2016",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,DN1pA,putative_primary,allatostatin-c,"Diaz et al., 2019",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,DN1pA,putative_primary,allatostatin-c,"Reinhard et al., 2023",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,DN1pB,putative_primary,CNMa,"Jin et al., 2021",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,DN1pB,putative_primary,Dh31,"Goda et al., 2016",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,neck_connective,DNc01,putative_primary,SIFamide,Martelli et al. 2017,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,neck_connective,DNc02,putative_primary,SIFamide,Martelli et al. 2017,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,neck_connective,DNg22,putative_primary,FMRFa,"Song et al., 2023",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,neck_connective,DNg26,MX0__prim,allatostatin-c,"Cheong et al., 2023",MCFO,3,NA,NA,NA,NA
-adult_drosophila_melanogaster,neck_connective,DNg26,MX0__prim,hugin,Pankratz lab,transgenics,3,NA,NA,NA,NA
-adult_drosophila_melanogaster,neck_connective,DNg30,putative_primary,MIP,"Scheunemann et al., 2018",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,neck_connective,DNg30,putative_primary,natalisin,"Jiang et al., 2013",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,neck_connective,DNg70,MX3,leucokinin,"Mollá-Albaladejo et al., 2024","scRNA-seq, unsure",0,NA,NA,NA,NA
-adult_drosophila_melanogaster,neck_connective,DNg80,putative_primary,CCAP,unknown,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,neck_connective,DNp27,NA,allatostatin-c,"Meiselman et al., 2022",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,neck_connective,DNp27,NA,orcokinin,"Chen et al., 2015",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,neck_connective,DNp27,NA,trissin,Brown et al. 2024,intersection,3,NA,NA,NA,NA
-adult_drosophila_melanogaster,neck_connective,DNp29,putative_primary,dNPF,"Chiang et al., 2011",MCFO,3,NA,NA,NA,NA
-adult_drosophila_melanogaster,neck_connective,DNp29,putative_primary,dNPF,Krashes et al. 2009,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,neck_connective,DNp30,putative_primary,drosulfakinin,"Soderberg et al., 2012",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,neck_connective,DNp32,putative_primary,myosuppressin,"Carlsson et al., 2010",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,neck_connective,DNp62,putative_primary,drosulfakinin,"Soderberg et al., 2012",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,neck_connective,DNpe048,SMPpv1,CCAP,"González Segarra et al., 2023",transgenics,3,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,DPM,putative_primary,amnesiac,Waddell et al. 2000,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,DSKMP3,putative_primary,drosulfakinin,"Soderberg et al., 2012",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,DSKMP3,putative_primary,drosulfakinin,"Wu et al., 2019",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,Delta7,PBp1,proctolin,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,neck_connective,EAXXX079,TBD,leucokinin,"Chen et al., 2024",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,EL,DM1_CX_d2,"SIFa, Spab","Wolff et a., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,EL,DM2_CX_d1,"SIFa, Spab","Wolff et a., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,EL,DM2_CX_d2,"SIFa, Spab","Wolff et a., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,EL,DM3_CX_d1,"SIFa, Spab","Wolff et a., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,EL,DM3_CX_d2,"SIFa, Spab","Wolff et a., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,EL,DM4_CX_d1,"SIFa, Spab","Wolff et a., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,EL,DM4_CX_d2,"SIFa, Spab","Wolff et a., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,ventral_nerve_cord,EN27X010,27X,FMRFa,"Lundquist et al., 1990",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,ventral_nerve_cord,ENXXX012,TBD,capability,"Zandawala et al., 2021",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,EPG,DM1_CX_d2,Spab,Turner-Evans et al. 2020,scRNA-seq,1,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,EPG,DM2_CX_d1,Spab,Turner-Evans et al. 2020,scRNA-seq,1,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,EPG,DM2_CX_d2,Spab,Turner-Evans et al. 2020,scRNA-seq,1,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,EPG,DM3_CX_d1,Spab,Turner-Evans et al. 2020,scRNA-seq,1,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,EPG,DM3_CX_d2,Spab,Turner-Evans et al. 2020,scRNA-seq,1,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,EPG,DM4_CX_d1,Spab,Turner-Evans et al. 2020,scRNA-seq,1,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,EPG,DM4_CX_d2,Spab,Turner-Evans et al. 2020,scRNA-seq,1,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,EPG,DM4_CX_d3,Spab,Turner-Evans et al. 2020,scRNA-seq,1,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,EPG,DM1_CX_d2,Spab,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,EPG,DM2_CX_d1,Spab,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,EPG,DM2_CX_d2,Spab,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,EPG,DM3_CX_d1,Spab,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,EPG,DM3_CX_d2,Spab,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,EPG,DM4_CX_d1,Spab,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,EPG,DM4_CX_d2,Spab,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,EPG,DM4_CX_d3,Spab,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,EPGt,DM4_CX_d2,Spab,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,EPGt,DM4_CX_d3,Spab,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,ER4m,EBa1,Dh31,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,ER5,EBa1,Dh31,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,ExR1,DM4__prim,neuropeptides-negative,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,ExR1,DM3__prim,neuropeptides-negative,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,ExR3,putative_primary,"negative, neuropeptides-negative","Wolff et a., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB1A,LALv1_dorsal,Nplp1,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB1B,LALv1_dorsal,Nplp1,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB1C,DM6__prim,"Nplp1, Dh44","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB1D,DL1_dorsal,MIP,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB1F,LALv1_dorsal,Nplp1,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB1G,DM4_dorsal,space blanket,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB2B,CREa1_dorsal,"Dh44, proctolin","Wolff et a., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB2B,CREa2_medial,"Dh44, proctolin","Wolff et a., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB2B_b,CREa1_dorsal,"Dh44, proctolin","Wolff et a., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB2B_b,CREa2_medial,"Dh44, proctolin","Wolff et a., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB2C,LALv1_dorsal,Nplp1,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB2E,DL1_dorsal,"MIP, tachykinin","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB2G,DL1_dorsal,"Nplp1, Spab","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB2I_a,DL1_dorsal,"MIP, tachykinin","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB3A,LALv1_dorsal,Nplp1,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,"FB3B,FB3C,FB3E",EBa1,"Dh31, Nplp1","Ito et al., 2013",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,"FB3B,FB3C,FB3E",EBa1,"Dh31, Nplp1","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB3D,LALv1_dorsal,"Nplp1, Dh31","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB4A,LALv1_dorsal,Dh31,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB4B,LALv1_dorsal,Dh31,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB4D,LALv1_dorsal,Nplp1,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB4E,LALv1_dorsal,"Dh31, Nplp1","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,"FB4F_a,FB4F_b,FB4F_c",LALv1_dorsal,Nplp1,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB4G,LALv1_dorsal,"Dh31, Nplp1, Proc","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB4I,LALv1_dorsal,Nplp1,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB4J,LALv1_dorsal,Nplp1,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB4K,putative_primary,"Proc, Nplp1","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB4L,DM6__prim,"allatostatin-c, Dh44, SIFamide","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB4N,putative_primary,Nplp1,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB4O,AOTUv4_ventral,"tachykinin, Dh31","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB4R,AOTUv4_ventral,"Tk, Dh31","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB4X,putative_primary,Nplp1,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB4Y,DM6__prim,Spab,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB4Z,DM6_dorso_medial,"myosupressin, Dh44, Nplp1","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB5B,SIPp1,neuropeptides-negative,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB5G,AOTUv4_ventral,Spab,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB5J,LALv1_dorsal,neuropeptides-negative,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB5K,LALv1_dorsal,Nplp1,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB5L,LALv1_dorsal,Nplp1,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB5N,LALv1_dorsal,"FMRFa, Proc, Dh44","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB5Q,AOTUv4_ventral,Spab,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,"FB5R,FB5U",DM6_dorso_medial,"myosupressin, Dh44","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB6A,DL1_dorsal,"allatostatin-c, Nplp1, Spab","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB6A_c,DL1_dorsal,"allatostatin-c, Nplp1","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB6B,DL1_dorsal,"Nplp1, sNPF","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB6D,DL1_dorsal,"allatostatin-c, Nplp1","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB6M,putative_primary,proctolin,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB6R,SIPp1,neuropeptides-negative,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB7B,DL1_dorsal,"Dh31, Nplp1, Spab","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB7H,LALv1_dorsal,"Proc, Nplp1","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB7J,DM6_dorso_medial,"Nplp1, Dh44","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB7L,DL1_dorsal,Nplp1,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,"FB8A,FB8H",DL1_dorsal,Nplp1,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB8B,DM6_dorso_medial,proctolin,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB8C,DM6_dorso_medial,proctolin,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB8F_a,SIPp1,Nplp1,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FB8F_b,SIPp1,Nplp1,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FR1,DM1_CX_d2,sNPF,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FR1,DM2_CX_d1,sNPF,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FR1,DM3_CX_d1,sNPF,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FR1,DM3_CX_d2,sNPF,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FR1,DM4_CX_d1,sNPF,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FR1,DM4_CX_d3,sNPF,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FR1,DM2_CX_d2,sNPF,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,FR1,DM4_CX_d2,sNPF,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,ISN,putative_primary,DILP3,"González Segarra et al., 2023",RNAi,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,KCab,MBp1,sNPF,Aso et al. 2019,scRNA-seq,1,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,KCab,MBp2,sNPF,Aso et al. 2019,scRNA-seq,1,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,KCab,MBp3,sNPF,Aso et al. 2019,scRNA-seq,1,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,KCab,MBp4,sNPF,Aso et al. 2019,scRNA-seq,1,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,KCab,MBp1,sNPF,Johard et al.,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,KCab,MBp2,sNPF,Johard et al.,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,KCab,MBp3,sNPF,Johard et al.,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,KCab,MBp4,sNPF,Johard et al.,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,KCg-d,MBp1,sNPF,Aso et al. 2019,scRNA-seq,1,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,KCg-d,MBp2,sNPF,Aso et al. 2019,scRNA-seq,1,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,KCg-d,MBp3,sNPF,Aso et al. 2019,scRNA-seq,1,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,KCg-d,MBp4,sNPF,Aso et al. 2019,scRNA-seq,1,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,KCg-d,MBp1,sNPF,"Johard et al., 2008",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,KCg-d,MBp2,sNPF,"Johard et al., 2008",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,KCg-d,MBp3,sNPF,"Johard et al., 2008",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,KCg-d,MBp4,sNPF,"Johard et al., 2008",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,KCg-m,MBp1,sNPF,Aso et al. 2019,scRNA-seq,1,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,KCg-m,MBp2,sNPF,Aso et al. 2019,scRNA-seq,1,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,KCg-m,MBp3,sNPF,Aso et al. 2019,scRNA-seq,1,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,KCg-m,MBp4,sNPF,Aso et al. 2019,scRNA-seq,1,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,KCg-m,MBp1,sNPF,"Johard et al., 2008",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,KCg-m,MBp2,sNPF,"Johard et al., 2008",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,KCg-m,MBp3,sNPF,"Johard et al., 2008",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,KCg-m,MBp4,sNPF,"Johard et al., 2008",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,KCg-s1,MBp4,sNPF,Aso et al. 2019,scRNA-seq,1,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,KCg-s1,MBp4,sNPF,"Johard et al., 2008",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,KCg-s2,MBp4,sNPF,Aso et al. 2019,scRNA-seq,1,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,KCg-s2,MBp4,sNPF,"Johard et al., 2008",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,KCg-s3,MBp1,sNPF,Aso et al. 2019,scRNA-seq,1,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,KCg-s3,MBp1,sNPF,"Johard et al., 2008",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,LCNOp,LALv1_dorsal,Nplp1,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,LHPV6q1,putative_primary,FMRFa,"Song et al., 2023",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,optic_lobe,LMTe01,SLPpl1,"Dh44, allatostatin-c","Reinhard et al., 2023",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,LNOa,LALv1_dorsal,Nplp1,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,LNd_a,SLPav1_lateral,ITP,"Hermann-Luibl et al., 2014",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,LNd_a,SLPav1_lateral,"ITP, dNPF","Reinhard et al., 2023",scRNA-seq,1,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,LNd_c,SLPav1_lateral,"dNPF, Dh44",Reinhard et al. 2023,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,optic_lobe,LTe71,SLPpl1,"Dh44, allatostatin-c","Reinhard et al., 2023",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,ventral_nerve_cord,MNad03,TBD,dh44,Maggio et al. 2023,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,ventral_nerve_cord,MNad03,TBD,leucokinin,Maggio et al. 2023,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,ventral_nerve_cord,MNad13,TBD,dh44,Maggio et al. 2023,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,ventral_nerve_cord,MNad13,TBD,leucokinin,Maggio et al. 2023,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,ventral_nerve_cord,MNad18,TBD,dh44,Maggio et al. 2023,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,ventral_nerve_cord,MNad18,TBD,leucokinin,Maggio et al. 2023,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,ventral_nerve_cord,MNad21,TBD,dh44,Maggio et al. 2023,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,ventral_nerve_cord,MNad21,TBD,leucokinin,Maggio et al. 2023,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,ventral_nerve_cord,MNad25,TBD,dh44,Maggio et al. 2023,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,ventral_nerve_cord,MNad25,TBD,leucokinin,Maggio et al. 2023,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,ventral_nerve_cord,MNad27,TBD,dh44,Maggio et al. 2023,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,ventral_nerve_cord,MNad27,TBD,leucokinin,Maggio et al. 2023,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,ventral_nerve_cord,MNad38,TBD,dh44,Maggio et al. 2023,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,ventral_nerve_cord,MNad38,TBD,leucokinin,Maggio et al. 2023,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,ventral_nerve_cord,MNad52,TBD,dh44,Maggio et al. 2023,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,ventral_nerve_cord,MNad52,TBD,leucokinin,Maggio et al. 2023,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,ventral_nerve_cord,MNad59,TBD,dh44,Maggio et al. 2023,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,ventral_nerve_cord,MNad59,TBD,leucokinin,Maggio et al. 2023,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,neck_connective,MsAHN,NA,Dh44,"Benett et al.,",scRNA-seq,1,NA,NA,NA,NA
-adult_drosophila_melanogaster,neck_connective,MtAHN,NA,Dh44,"Benett et al.,",scRNA-seq,1,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,NPFL1-I,putative_primary,dNPF,"Chiang et al., 2011",MCFO,3,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,NPFL1-I,putative_primary,dNPF,Krashes et al. 2009,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,ORN_DA1,NA,sNPF,"Carlsson et al., 2010",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,ORN_DA1,NA,sNPF,Yasuyama et al. 1999,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,ORN_DA2,NA,sNPF,"Carlsson et al., 2010",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,ORN_DA2,NA,sNPF,Yasuyama et al. 1999,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,ORN_DA4l,NA,sNPF,"Carlsson et al., 2010",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,ORN_DA4l,NA,sNPF,Yasuyama et al. 1999,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,ORN_DL3,NA,sNPF,"Carlsson et al., 2010",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,ORN_DL3,NA,sNPF,Yasuyama et al. 1999,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,ORN_DL4,NA,sNPF,"Carlsson et al., 2010",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,ORN_DL4,NA,sNPF,Yasuyama et al. 1999,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,ORN_DM2,NA,sNPF,"Carlsson et al., 2010",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,ORN_DM2,NA,sNPF,Yasuyama et al. 1999,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,ORN_VA1v,NA,sNPF,"Carlsson et al., 2010",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,ORN_VA1v,NA,sNPF,Yasuyama et al. 1999,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,ORN_VA4,NA,sNPF,"Carlsson et al., 2010",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,ORN_VA4,NA,sNPF,Yasuyama et al. 1999,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,ORN_VA6,NA,sNPF,"Carlsson et al., 2010",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,ORN_VA6,NA,sNPF,Yasuyama et al. 1999,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,ORN_VA7l,NA,sNPF,"Carlsson et al., 2010",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,ORN_VA7l,NA,sNPF,Yasuyama et al. 1999,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,ORN_VC1,NA,sNPF,"Carlsson et al., 2010",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,ORN_VC1,NA,sNPF,Yasuyama et al. 1999,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,ORN_VC2,NA,sNPF,"Carlsson et al., 2010",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,ORN_VC2,NA,sNPF,Yasuyama et al. 1999,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,ORN_VM7d,NA,sNPF,"Carlsson et al., 2010",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,ORN_VM7d,NA,sNPF,Yasuyama et al. 1999,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,ORN_VM7v,NA,sNPF,"Carlsson et al., 2010",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,ORN_VM7v,NA,sNPF,Yasuyama et al. 1999,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PEG,DM1_CX_d2,Spab,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PEG,DM2_CX_d1,Spab,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PEG,DM2_CX_d2,Spab,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PEG,DM3_CX_d1,Spab,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PEG,DM3_CX_d2,Spab,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PEG,DM4_CX_d1,Spab,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PEG,DM4_CX_d2,Spab,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PEG,DM4_CX_d3,Spab,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PEN_a(PEN1),DM1_CX_p,"Dh44, FMRFa, Spab","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PEN_a(PEN1),DM1_CX_v,"Dh44, FMRFa, Spab","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PEN_a(PEN1),DM2_CX_p,"Dh44, FMRFa, Spab","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PEN_a(PEN1),DM2_CX_v,"Dh44, FMRFa, Spab","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PEN_a(PEN1),DM3_CX_p,"Dh44, FMRFa, Spab","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PEN_a(PEN1),DM3_CX_v,"Dh44, FMRFa, Spab","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PEN_a(PEN1),DM4_CX_p,"Dh44, FMRFa, Spab","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PEN_a(PEN1),DM4_CX_v,"Dh44, FMRFa, Spab","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFGs,DM1_CX_d2,"Mip, Dh31","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFGs,DM2_CX_d1,"Mip, Dh31","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFGs,DM2_CX_d2,"Mip, Dh31","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFGs,DM3_CX_d1,"Mip, Dh31","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFGs,DM3_CX_d2,"Mip, Dh31","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFGs,DM4_CX_d1,"Mip, Dh31","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFGs,DM4_CX_d2,"Mip, Dh31","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFGs,DM4_CX_d3,"Mip, Dh31","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFGs,DM2_CX_p,"Mip, Dh31","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFL2,DM2_CX_d2,"Spab, SIFa","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFL2,DM4_CX_d1,"Spab, SIFa","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFL2,DM4_CX_d2,"Spab, SIFa","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFL2,DM1_CX_d2,"Spab, SIFa","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFNd,DM1_CX_p,"Dh44, Nplp1","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFNd,DM1_CX_v,"Dh44, Nplp1","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFNd,DM2_CX_p,"Dh44, Nplp1","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFNd,DM2_CX_v,"Dh44, Nplp1","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFNd,DM3_CX_p,"Dh44, Nplp1","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFNd,DM3_CX_v,"Dh44, Nplp1","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFNd,DM4_CX_p,"Dh44, Nplp1","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFNd,DM4_CX_v,"Dh44, Nplp1","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFNm,DM1_CX_p,MIP,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFNm,DM1_CX_v,MIP,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFNm,DM2_CX_p,MIP,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFNm,DM2_CX_v,MIP,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFNm,DM3_CX_p,MIP,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFNm,DM3_CX_v,MIP,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFNm,DM4_CX_p,MIP,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFNm,DM4_CX_v,MIP,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFNp,DM1_CX_v,MIP,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFNp,DM3_CX_v,MIP,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFNp,DM1_CX_p,MIP,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFNp,DM2_CX_p,MIP,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFNp,DM2_CX_v,MIP,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFNp,DM3_CX_p,MIP,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFNp,DM4_CX_p,MIP,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFNp,DM4_CX_v,MIP,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFNv,DM1_CX_p,Dh44,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFNv,DM1_CX_v,Dh44,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFNv,DM2_CX_p,Dh44,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFNv,DM2_CX_v,Dh44,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFNv,DM3_CX_p,Dh44,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFNv,DM3_CX_v,Dh44,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFNv,DM4_CX_p,Dh44,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PFNv,DM4_CX_v,Dh44,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PPL105,putative_primary,sNPF,Aso et al. 2019,scRNA-seq,1,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PV7c11,SMPpv2_dorsal,Dh31,"Reinhard et al., 2021",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,PV7c11,SMPpv2_dorsal,"allatostatin-a, allatostatin-c, Dh44","Reinhard et al., 2023",scRNA-seq,1,NA,NA,NA,NA
-adult_drosophila_melanogaster,optic_lobe,Pm05,NA,sNPF,"Nassel et al., 2008",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,optic_lobe,Pm09,NA,allatostatin-a,"Vitzthum et al., 1996",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,SEZ_NSC_CAPA,primary,capability,"Reinhard et al., 2023",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,SEZ_NSC_CAPA,primary,myosupressin,McKim et al. 2024,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,SEZ_NSC_Hugin,primary,hugin,"Reinhard et al., 2023",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,SLP304b,putative_primary,leucokinin,"Yurgel et al., 2019",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,SLP374,putative_primary,capability,"Deng et al., 2019",transgenics,3,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,SLP438,SLPpm4,eclosion hormone,"Scott et al., 2020",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,SLP444,putative_primary,"corazonin, sNPF",Zandawala lab,immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,SLP463,putative_primary,"proctolin, allatostatin-c","Reinhard et al., 2023","immuno, intersection",4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,SMP001,putative_primary,allatostatin-a,"Vitzthum et al., 1996",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,SMP588,SMPp&v1_ventral,eclosion hormone,"Scott et al., 2020",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,optic_lobe,Tm1,NA,tachykinin,"Winther et al., 2003",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,aMe13,putative_primary,FMRFa,"Song et al., 2023",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,cM03,SMPp&v1_ventral,eclosion hormone,"Scott et al., 2020",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,cM08b,putative_primary,MIP,"Krzeptowski et al., 2021",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,hDeltaD,DM1_CX_v,"Dh44, tachykinin, Spab","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,hDeltaD,DM2_CX_d2,"Dh44, tachykinin, Spab","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,hDeltaD,DM3_CX_d2,"Dh44, tachykinin, Spab","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,hDeltaD,DM4_CX_d3,"Dh44, tachykinin, Spab","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,hDeltaD,DM1_CX_p,"Dh44, tachykinin, Spab","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,hDeltaE,DM1_CX_v,"Dh44, tachykinin, Spab, SIFa gaba-negative","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,hDeltaE,DM2_CX_d2,"Dh44, tachykinin, Spab, SIFa gaba-negative","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,hDeltaE,DM3_CX_d2,"Dh44, tachykinin, Spab, SIFa gaba-negative","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,hDeltaE,DM4_CX_p,"Dh44, tachykinin, Spab, SIFa gaba-negative","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,hDeltaE,DM1_CX_p,"Dh44, tachykinin, Spab, SIFa gaba-negative","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,hDeltaF,DM1_CX_d2,neuropeptide-negative,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,hDeltaF,DM2_CX_d2,neuropeptide-negative,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,hDeltaF,DM1_CX_p,neuropeptide-negative,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,hDeltaF,DM4_CX_d2,neuropeptide-negative,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,hDeltaH,DM1_CX_p,"tachykinin, Spab","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,hDeltaH,DM1_CX_v,"tachykinin, Spab","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,hDeltaH,DM2_CX_p,"tachykinin, Spab","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,hDeltaH,DM3_CX_p,"tachykinin, Spab","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,hDeltaH,DM4_CX_d3,"tachykinin, Spab","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,hDeltaI,DM1_CX_d2,allatostatin-a,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,hDeltaI,DM2_CX_d2,allatostatin-a,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,hDeltaI,DM2_CX_p,allatostatin-a,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,hDeltaI,DM3_CX_d2,allatostatin-a,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,hDeltaI,DM3_CX_p,allatostatin-a,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,hDeltaI,DM4_CX_p,allatostatin-a,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,hDeltaK,DM1_CX_p,"allatostatin-a, allatostatin-c, NPF","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,hDeltaK,DM1_CX_v,"allatostatin-a, allatostatin-c, NPF","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,hDeltaK,DM2_CX_p,"allatostatin-a, allatostatin-c, NPF","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,hDeltaK,DM3_CX_p,"allatostatin-a, allatostatin-c, NPF","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,hDeltaK,DM4_CX_d3,"allatostatin-a, allatostatin-c, NPF","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,hDeltaK,DM4_CX_p,"allatostatin-a, allatostatin-c, NPF","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,l-LNv,putative_primary,"pdf, dNPF","Reinhard et al., 2023",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,lLN2P_b,ALl1_dorsal,MIP,"Sizemore et al., 2023",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,l_NSC_CRZ,putative_primary,"corazonin, sNPF","Reinhard et al., 2023",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,l_NSC_DH31,putative_primary,Dh31,"Reinhard et al., 2023",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,l_NSC_ITP,putative_primary,"ITP, tachykinin, sNPF, leucokinin","Reinhard et al., 2023",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,m_NSC_DH44,DILP__prim,Dh44,"Reinhard et al., 2023",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,m_NSC_DILP,DILP__prim,"DILP2, DILP3, DILP5","Cao et al., 2001",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,m_NSC_DILP,DILP__prim,dARC1,"Mattaliano et al., 2007",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,m_NSC_DMS,DILP__prim,myosuppressin,"Reinhard et al., 2023",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,pC1b,DM4_dorsal,Dh44,"Kim et al., 2024",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,pC1c,DM4_dorsal,Dh44,"Kim et al., 2024",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,optic_lobe,s-LNv_a,NA,ITP,"Reinhard et al., 2023",scRNA-seq,1,NA,NA,NA,NA
-adult_drosophila_melanogaster,optic_lobe,s-LNv_b,NA,"pdf, sNPF","Johard et al., 2019",immuno,4,NA,NA,NA,NA
-adult_drosophila_melanogaster,optic_lobe,s-LNv_b,NA,"pdf, sNPF","Reinhard et al., 2023",scRNA-seq,1,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,vDeltaB,DM1_CX_p,sNPF,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,vDeltaB,DM1_CX_v,sNPF,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,vDeltaB,DM2_CX_p,sNPF,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,vDeltaB,DM2_CX_v,sNPF,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,vDeltaB,DM3_CX_p,sNPF,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,vDeltaB,DM3_CX_v,sNPF,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,vDeltaB,DM4_CX_p,sNPF,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,vDeltaB,DM4_CX_v,sNPF,"Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,vDeltaC,DM1_CX_p,"sNPF, Dh31","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,vDeltaC,DM1_CX_v,"sNPF, Dh31","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,vDeltaC,DM2_CX_p,"sNPF, Dh31","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,vDeltaC,DM2_CX_v,"sNPF, Dh31","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,vDeltaC,DM3_CX_p,"sNPF, Dh31","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,vDeltaC,DM3_CX_v,"sNPF, Dh31","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,vDeltaC,DM4_CX_p,"sNPF, Dh31","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,vDeltaC,DM4_CX_v,"sNPF, Dh31","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,vDeltaD,DM1_CX_p,"Dh31, sNPF","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,vDeltaD,DM1_CX_v,"Dh31, sNPF","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,vDeltaD,DM2_CX_p,"Dh31, sNPF","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,vDeltaD,DM2_CX_v,"Dh31, sNPF","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,vDeltaD,DM3_CX_p,"Dh31, sNPF","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,vDeltaD,DM3_CX_v,"Dh31, sNPF","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,vDeltaD,DM4_CX_p,"Dh31, sNPF","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,vDeltaD,DM4_CX_v,"Dh31, sNPF","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,vDeltaE,DM1_CX_v,"sNPF, Dh31","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,vDeltaE,DM2_CX_p,"sNPF, Dh31","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,vDeltaE,DM2_CX_v,"sNPF, Dh31","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,vDeltaE,DM3_CX_p,"sNPF, Dh31","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,vDeltaE,DM3_CX_v,"sNPF, Dh31","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,vDeltaE,DM4_CX_p,"sNPF, Dh31","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,vDeltaE,DM4_CX_v,"sNPF, Dh31","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,vDeltaM,DM2_CX_v,"Mip, Dh44","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,vDeltaM,DM1_CX_p,"Mip, Dh44","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,vDeltaM,DM1_CX_v,"Mip, Dh44","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,vDeltaM,DM2_CX_p,"Mip, Dh44","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,vDeltaM,DM3_CX_p,"Mip, Dh44","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,vDeltaM,DM3_CX_v,"Mip, Dh44","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,vDeltaM,DM4_CX_p,"Mip, Dh44","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,central_brain,vDeltaM,DM4_CX_v,"Mip, Dh44","Wolff et al., 2024",EASI-FISH,2,NA,NA,NA,NA
-adult_drosophila_melanogaster,midbrain,vDeltaC,NA,NA,NA,NA,NA,EASI-FSH,"sNPF, Dh31",Janelia,3
-adult_drosophila_melanogaster,midbrain,vDeltaD,NA,NA,NA,NA,NA,EASI-FSH,sNPF,Janelia,3
-adult_drosophila_melanogaster,midbrain,vDeltaM,NA,NA,NA,NA,NA,EASI-FSH,MIP,Janelia,3
-adult_drosophila_melanogaster,midbrain,FB1B,NA,NA,NA,NA,NA,EASI-FSH,Nplp1,Janelia,3
-adult_drosophila_melanogaster,midbrain,FB2C,NA,NA,NA,NA,NA,EASI-FSH,Nplp1,Janelia,3
-adult_drosophila_melanogaster,midbrain,FB2F_a,NA,NA,NA,NA,NA,EASI-FSH,Dh31,Janelia,3
-adult_drosophila_melanogaster,midbrain,FB4D,NA,NA,NA,NA,NA,EASI-FSH,Nplp1,Janelia,3
-adult_drosophila_melanogaster,midbrain,FB4E,NA,NA,NA,NA,NA,EASI-FSH,"Dh31, Nplp1",Janelia,3
-adult_drosophila_melanogaster,midbrain,FB4J,NA,NA,NA,NA,NA,EASI-FSH,Nplp1,Janelia,3
-adult_drosophila_melanogaster,midbrain,FB5N,NA,NA,NA,NA,NA,EASI-FSH,"FMRF, proctolin",Janelia,3
-adult_drosophila_melanogaster,midbrain,FB5R,NA,NA,NA,NA,NA,EASI-FSH,"Dh44, myosupressin",Janelia,3
-adult_drosophila_melanogaster,midbrain,FB5T,NA,NA,NA,NA,NA,EASI-FSH,neuropeptides-negative,Janelia,3
-adult_drosophila_melanogaster,midbrain,FB5J,NA,NA,NA,NA,NA,EASI-FSH,neuropeptides-negative,Janelia,3
-adult_drosophila_melanogaster,midbrain,FB7H,NA,NA,NA,NA,NA,EASI-FSH,"Nplp1, proctolin",Janelia,3
-adult_drosophila_melanogaster,midbrain,FB8F_a,NA,NA,NA,NA,NA,EASI-FSH,Nplp1,Janelia,3
-adult_drosophila_melanogaster,midbrain,FB8F_a,NA,NA,NA,NA,NA,EASI-FSH,Nplp1,Janelia,3
-adult_drosophila_melanogaster,midbrain,FB8F,NA,NA,NA,NA,NA,EASI-FSH,Nplp1,Janelia,3
-adult_drosophila_melanogaster,vnc,MNad13,NA,NA,NA,NA,NA,immuno,"leucokinin, Dh44",Maggio et al. 2023,3
-adult_drosophila_melanogaster,vnc,MNad38,NA,NA,NA,NA,NA,immuno,"leucokinin, Dh44",Maggio et al. 2023,3
-adult_drosophila_melanogaster,vnc,MNad27 ,NA,NA,NA,NA,NA,immuno,"leucokinin, Dh44",Maggio et al. 2023,3
-adult_drosophila_melanogaster,vnc,MNad18 ,NA,NA,NA,NA,NA,immuno,"leucokinin, Dh44",Maggio et al. 2023,3
-adult_drosophila_melanogaster,vnc,MNad21 ,NA,NA,NA,NA,NA,immuno,"leucokinin, Dh44",Maggio et al. 2023,3
-adult_drosophila_melanogaster,vnc,MNad59 ,NA,NA,NA,NA,NA,immuno,"leucokinin, Dh44",Maggio et al. 2023,3
-adult_drosophila_melanogaster,vnc,MNad25 ,NA,NA,NA,NA,NA,immuno,"leucokinin, Dh44",Maggio et al. 2023,3
-adult_drosophila_melanogaster,vnc,MNad52 ,NA,NA,NA,NA,NA,immuno,"leucokinin, Dh44",Maggio et al. 2023,3
-adult_drosophila_melanogaster,vnc,MNad03 ,NA,NA,NA,NA,NA,immuno,"leucokinin, Dh44",Maggio et al. 2023,3
-adult_drosophila_melanogaster,vnc,MNad37 ,NA,NA,NA,NA,NA,immuno,"leucokinin, Dh44",Maggio et al. 2023,3
+species,region,cell_type,hemilineage,neuropeptide_verified,neuropeptide_verified_source,neuropeptide_verified_evidence,neuropeptide_verified_confidence
+adult_drosophila_melanogaster,central_brain,APDN3,SLPpl1,"Dh44, allatostatin-c","Reinhard et al., 2023",immuno,4
+adult_drosophila_melanogaster,central_brain,AVLP594,putative_primary,natalisin,"Jiang et al., 2013",immuno,4
+adult_drosophila_melanogaster,central_brain,AstA1,putative_primary,allatostatin-a,"Hergarden et al., 2012",transgenics,3
+adult_drosophila_melanogaster,optic_lobe,C2,NA,nitric_oxide,"Davis et al., 2020",TAPIN,2
+adult_drosophila_melanogaster,central_brain,CB0060,LB5,allatostatin-a,Landayan et al. 2021,immuno,4
+adult_drosophila_melanogaster,central_brain,CB0153,putative_primary,"CCAP, bursicon-negative","Dolan et al., 2017",transgenics,3
+adult_drosophila_melanogaster,central_brain,CB0878,TRdm,"hugin, sNPF","Carlsson et al., 2013",immuno,4
+adult_drosophila_melanogaster,central_brain,CB1215,SMPpv2_dorsal,Dh31,"Reinhard et al., 2021",immuno,4
+adult_drosophila_melanogaster,central_brain,CB1215,SMPpv2_dorsal,"allatostatin-a, allatostatin-c, Dh44","Reinhard et al., 2023",scRNA-seq,1
+adult_drosophila_melanogaster,central_brain,CB2748,MX0__prim,CCAP,"Luan et al., 2006",immuno,4
+adult_drosophila_melanogaster,central_brain,CB2748,MX0__prim,Hugin,Pankratz,"larva, immuno",0
+adult_drosophila_melanogaster,central_brain,"CRZ01,CRZ02",putative_primary,"corazonin, sNPF","Kubrak et al., 2016",immuno,4
+adult_drosophila_melanogaster,central_brain,DN1a,putative_primary,"CCHa1, Dh44","Reinhard et al., 2023",scRNA-seq,1
+adult_drosophila_melanogaster,central_brain,DN1pA,putative_primary,CNMa,"Jin et al., 2021",immuno,4
+adult_drosophila_melanogaster,central_brain,DN1pA,putative_primary,Dh31,"Goda et al., 2016",immuno,4
+adult_drosophila_melanogaster,central_brain,DN1pA,putative_primary,allatostatin-c,"Diaz et al., 2019",immuno,4
+adult_drosophila_melanogaster,central_brain,DN1pA,putative_primary,allatostatin-c,"Reinhard et al., 2023",immuno,4
+adult_drosophila_melanogaster,central_brain,DN1pB,putative_primary,CNMa,"Jin et al., 2021",immuno,4
+adult_drosophila_melanogaster,central_brain,DN1pB,putative_primary,Dh31,"Goda et al., 2016",immuno,4
+adult_drosophila_melanogaster,neck_connective,DNc01,putative_primary,SIFamide,Martelli et al. 2017,immuno,4
+adult_drosophila_melanogaster,neck_connective,DNc02,putative_primary,SIFamide,Martelli et al. 2017,immuno,4
+adult_drosophila_melanogaster,neck_connective,DNg22,putative_primary,FMRFa,"Song et al., 2023",immuno,4
+adult_drosophila_melanogaster,neck_connective,DNg26,MX0__prim,allatostatin-c,"Cheong et al., 2023",MCFO,3
+adult_drosophila_melanogaster,neck_connective,DNg26,MX0__prim,hugin,Pankratz lab,transgenics,3
+adult_drosophila_melanogaster,neck_connective,DNg30,putative_primary,MIP,"Scheunemann et al., 2018",immuno,4
+adult_drosophila_melanogaster,neck_connective,DNg30,putative_primary,natalisin,"Jiang et al., 2013",immuno,4
+adult_drosophila_melanogaster,neck_connective,DNg70,MX3,leucokinin,"Mollá-Albaladejo et al., 2024","scRNA-seq, unsure",0
+adult_drosophila_melanogaster,neck_connective,DNg80,putative_primary,CCAP,unknown,immuno,4
+adult_drosophila_melanogaster,neck_connective,DNp27,NA,allatostatin-c,"Meiselman et al., 2022",immuno,4
+adult_drosophila_melanogaster,neck_connective,DNp27,NA,orcokinin,"Chen et al., 2015",immuno,4
+adult_drosophila_melanogaster,neck_connective,DNp27,NA,trissin,Brown et al. 2024,intersection,3
+adult_drosophila_melanogaster,neck_connective,DNp29,putative_primary,dNPF,"Chiang et al., 2011",MCFO,3
+adult_drosophila_melanogaster,neck_connective,DNp29,putative_primary,dNPF,Krashes et al. 2009,immuno,4
+adult_drosophila_melanogaster,neck_connective,DNp30,putative_primary,drosulfakinin,"Soderberg et al., 2012",immuno,4
+adult_drosophila_melanogaster,neck_connective,DNp32,putative_primary,myosuppressin,"Carlsson et al., 2010",immuno,4
+adult_drosophila_melanogaster,neck_connective,DNp62,putative_primary,drosulfakinin,"Soderberg et al., 2012",immuno,4
+adult_drosophila_melanogaster,neck_connective,DNpe048,SMPpv1,CCAP,"González Segarra et al., 2023",transgenics,3
+adult_drosophila_melanogaster,central_brain,DPM,putative_primary,amnesiac,Waddell et al. 2000,immuno,4
+adult_drosophila_melanogaster,central_brain,DSKMP3,putative_primary,drosulfakinin,"Soderberg et al., 2012",immuno,4
+adult_drosophila_melanogaster,central_brain,DSKMP3,putative_primary,drosulfakinin,"Wu et al., 2019",immuno,4
+adult_drosophila_melanogaster,central_brain,Delta7,PBp1,proctolin,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,neck_connective,EAXXX079,TBD,leucokinin,"Chen et al., 2024",immuno,4
+adult_drosophila_melanogaster,central_brain,EL,DM1_CX_d2,"SIFa, Spab","Wolff et a., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,EL,DM2_CX_d1,"SIFa, Spab","Wolff et a., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,EL,DM2_CX_d2,"SIFa, Spab","Wolff et a., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,EL,DM3_CX_d1,"SIFa, Spab","Wolff et a., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,EL,DM3_CX_d2,"SIFa, Spab","Wolff et a., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,EL,DM4_CX_d1,"SIFa, Spab","Wolff et a., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,EL,DM4_CX_d2,"SIFa, Spab","Wolff et a., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,ventral_nerve_cord,EN27X010,27X,FMRFa,"Lundquist et al., 1990",immuno,4
+adult_drosophila_melanogaster,ventral_nerve_cord,ENXXX012,TBD,capability,"Zandawala et al., 2021",immuno,4
+adult_drosophila_melanogaster,central_brain,EPG,DM1_CX_d2,Spab,Turner-Evans et al. 2020,scRNA-seq,1
+adult_drosophila_melanogaster,central_brain,EPG,DM2_CX_d1,Spab,Turner-Evans et al. 2020,scRNA-seq,1
+adult_drosophila_melanogaster,central_brain,EPG,DM2_CX_d2,Spab,Turner-Evans et al. 2020,scRNA-seq,1
+adult_drosophila_melanogaster,central_brain,EPG,DM3_CX_d1,Spab,Turner-Evans et al. 2020,scRNA-seq,1
+adult_drosophila_melanogaster,central_brain,EPG,DM3_CX_d2,Spab,Turner-Evans et al. 2020,scRNA-seq,1
+adult_drosophila_melanogaster,central_brain,EPG,DM4_CX_d1,Spab,Turner-Evans et al. 2020,scRNA-seq,1
+adult_drosophila_melanogaster,central_brain,EPG,DM4_CX_d2,Spab,Turner-Evans et al. 2020,scRNA-seq,1
+adult_drosophila_melanogaster,central_brain,EPG,DM4_CX_d3,Spab,Turner-Evans et al. 2020,scRNA-seq,1
+adult_drosophila_melanogaster,central_brain,EPG,DM1_CX_d2,Spab,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,EPG,DM2_CX_d1,Spab,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,EPG,DM2_CX_d2,Spab,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,EPG,DM3_CX_d1,Spab,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,EPG,DM3_CX_d2,Spab,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,EPG,DM4_CX_d1,Spab,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,EPG,DM4_CX_d2,Spab,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,EPG,DM4_CX_d3,Spab,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,EPGt,DM4_CX_d2,Spab,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,EPGt,DM4_CX_d3,Spab,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,ER4m,EBa1,Dh31,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,ER5,EBa1,Dh31,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,ExR1,DM4__prim,neuropeptides-negative,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,ExR1,DM3__prim,neuropeptides-negative,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,ExR3,putative_primary,"negative, neuropeptides-negative","Wolff et a., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB1A,LALv1_dorsal,Nplp1,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB1B,LALv1_dorsal,Nplp1,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB1C,DM6__prim,"Nplp1, Dh44","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB1D,DL1_dorsal,MIP,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB1F,LALv1_dorsal,Nplp1,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB1G,DM4_dorsal,space blanket,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB2B,CREa1_dorsal,"Dh44, proctolin","Wolff et a., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB2B,CREa2_medial,"Dh44, proctolin","Wolff et a., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB2B_b,CREa1_dorsal,"Dh44, proctolin","Wolff et a., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB2B_b,CREa2_medial,"Dh44, proctolin","Wolff et a., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB2C,LALv1_dorsal,Nplp1,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB2E,DL1_dorsal,"MIP, tachykinin","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB2G,DL1_dorsal,"Nplp1, Spab","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB2I_a,DL1_dorsal,"MIP, tachykinin","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB3A,LALv1_dorsal,Nplp1,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,"FB3B,FB3C,FB3E",EBa1,"Dh31, Nplp1","Ito et al., 2013",immuno,4
+adult_drosophila_melanogaster,central_brain,"FB3B,FB3C,FB3E",EBa1,"Dh31, Nplp1","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB3D,LALv1_dorsal,"Nplp1, Dh31","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB4A,LALv1_dorsal,Dh31,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB4B,LALv1_dorsal,Dh31,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB4D,LALv1_dorsal,Nplp1,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB4E,LALv1_dorsal,"Dh31, Nplp1","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,"FB4F_a,FB4F_b,FB4F_c",LALv1_dorsal,Nplp1,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB4G,LALv1_dorsal,"Dh31, Nplp1, Proc","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB4I,LALv1_dorsal,Nplp1,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB4J,LALv1_dorsal,Nplp1,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB4K,putative_primary,"Proc, Nplp1","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB4L,DM6__prim,"allatostatin-c, Dh44, SIFamide","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB4N,putative_primary,Nplp1,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB4O,AOTUv4_ventral,"tachykinin, Dh31","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB4R,AOTUv4_ventral,"Tk, Dh31","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB4X,putative_primary,Nplp1,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB4Y,DM6__prim,Spab,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB4Z,DM6_dorso_medial,"myosupressin, Dh44, Nplp1","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB5B,SIPp1,neuropeptides-negative,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB5G,AOTUv4_ventral,Spab,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB5J,LALv1_dorsal,neuropeptides-negative,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB5K,LALv1_dorsal,Nplp1,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB5L,LALv1_dorsal,Nplp1,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB5N,LALv1_dorsal,"FMRFa, Proc, Dh44","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB5Q,AOTUv4_ventral,Spab,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,"FB5R,FB5U",DM6_dorso_medial,"myosupressin, Dh44","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB6A,DL1_dorsal,"allatostatin-c, Nplp1, Spab","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB6A_c,DL1_dorsal,"allatostatin-c, Nplp1","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB6B,DL1_dorsal,"Nplp1, sNPF","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB6D,DL1_dorsal,"allatostatin-c, Nplp1","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB6M,putative_primary,proctolin,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB6R,SIPp1,neuropeptides-negative,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB7B,DL1_dorsal,"Dh31, Nplp1, Spab","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB7H,LALv1_dorsal,"Proc, Nplp1","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB7J,DM6_dorso_medial,"Nplp1, Dh44","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB7L,DL1_dorsal,Nplp1,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,"FB8A,FB8H",DL1_dorsal,Nplp1,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB8B,DM6_dorso_medial,proctolin,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB8C,DM6_dorso_medial,proctolin,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB8F_a,SIPp1,Nplp1,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FB8F_b,SIPp1,Nplp1,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FR1,DM1_CX_d2,sNPF,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FR1,DM2_CX_d1,sNPF,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FR1,DM3_CX_d1,sNPF,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FR1,DM3_CX_d2,sNPF,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FR1,DM4_CX_d1,sNPF,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FR1,DM4_CX_d3,sNPF,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FR1,DM2_CX_d2,sNPF,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,FR1,DM4_CX_d2,sNPF,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,ISN,putative_primary,DILP3,"González Segarra et al., 2023",RNAi,2
+adult_drosophila_melanogaster,central_brain,KCab,MBp1,sNPF,Aso et al. 2019,scRNA-seq,1
+adult_drosophila_melanogaster,central_brain,KCab,MBp2,sNPF,Aso et al. 2019,scRNA-seq,1
+adult_drosophila_melanogaster,central_brain,KCab,MBp3,sNPF,Aso et al. 2019,scRNA-seq,1
+adult_drosophila_melanogaster,central_brain,KCab,MBp4,sNPF,Aso et al. 2019,scRNA-seq,1
+adult_drosophila_melanogaster,central_brain,KCab,MBp1,sNPF,Johard et al.,immuno,4
+adult_drosophila_melanogaster,central_brain,KCab,MBp2,sNPF,Johard et al.,immuno,4
+adult_drosophila_melanogaster,central_brain,KCab,MBp3,sNPF,Johard et al.,immuno,4
+adult_drosophila_melanogaster,central_brain,KCab,MBp4,sNPF,Johard et al.,immuno,4
+adult_drosophila_melanogaster,central_brain,KCg-d,MBp1,sNPF,Aso et al. 2019,scRNA-seq,1
+adult_drosophila_melanogaster,central_brain,KCg-d,MBp2,sNPF,Aso et al. 2019,scRNA-seq,1
+adult_drosophila_melanogaster,central_brain,KCg-d,MBp3,sNPF,Aso et al. 2019,scRNA-seq,1
+adult_drosophila_melanogaster,central_brain,KCg-d,MBp4,sNPF,Aso et al. 2019,scRNA-seq,1
+adult_drosophila_melanogaster,central_brain,KCg-d,MBp1,sNPF,"Johard et al., 2008",immuno,4
+adult_drosophila_melanogaster,central_brain,KCg-d,MBp2,sNPF,"Johard et al., 2008",immuno,4
+adult_drosophila_melanogaster,central_brain,KCg-d,MBp3,sNPF,"Johard et al., 2008",immuno,4
+adult_drosophila_melanogaster,central_brain,KCg-d,MBp4,sNPF,"Johard et al., 2008",immuno,4
+adult_drosophila_melanogaster,central_brain,KCg-m,MBp1,sNPF,Aso et al. 2019,scRNA-seq,1
+adult_drosophila_melanogaster,central_brain,KCg-m,MBp2,sNPF,Aso et al. 2019,scRNA-seq,1
+adult_drosophila_melanogaster,central_brain,KCg-m,MBp3,sNPF,Aso et al. 2019,scRNA-seq,1
+adult_drosophila_melanogaster,central_brain,KCg-m,MBp4,sNPF,Aso et al. 2019,scRNA-seq,1
+adult_drosophila_melanogaster,central_brain,KCg-m,MBp1,sNPF,"Johard et al., 2008",immuno,4
+adult_drosophila_melanogaster,central_brain,KCg-m,MBp2,sNPF,"Johard et al., 2008",immuno,4
+adult_drosophila_melanogaster,central_brain,KCg-m,MBp3,sNPF,"Johard et al., 2008",immuno,4
+adult_drosophila_melanogaster,central_brain,KCg-m,MBp4,sNPF,"Johard et al., 2008",immuno,4
+adult_drosophila_melanogaster,central_brain,KCg-s1,MBp4,sNPF,Aso et al. 2019,scRNA-seq,1
+adult_drosophila_melanogaster,central_brain,KCg-s1,MBp4,sNPF,"Johard et al., 2008",immuno,4
+adult_drosophila_melanogaster,central_brain,KCg-s2,MBp4,sNPF,Aso et al. 2019,scRNA-seq,1
+adult_drosophila_melanogaster,central_brain,KCg-s2,MBp4,sNPF,"Johard et al., 2008",immuno,4
+adult_drosophila_melanogaster,central_brain,KCg-s3,MBp1,sNPF,Aso et al. 2019,scRNA-seq,1
+adult_drosophila_melanogaster,central_brain,KCg-s3,MBp1,sNPF,"Johard et al., 2008",immuno,4
+adult_drosophila_melanogaster,central_brain,LCNOp,LALv1_dorsal,Nplp1,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,LHPV6q1,putative_primary,FMRFa,"Song et al., 2023",immuno,4
+adult_drosophila_melanogaster,optic_lobe,LMTe01,SLPpl1,"Dh44, allatostatin-c","Reinhard et al., 2023",immuno,4
+adult_drosophila_melanogaster,central_brain,LNOa,LALv1_dorsal,Nplp1,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,LNd_a,SLPav1_lateral,ITP,"Hermann-Luibl et al., 2014",immuno,4
+adult_drosophila_melanogaster,central_brain,LNd_a,SLPav1_lateral,"ITP, dNPF","Reinhard et al., 2023",scRNA-seq,1
+adult_drosophila_melanogaster,central_brain,LNd_c,SLPav1_lateral,"dNPF, Dh44",Reinhard et al. 2023,immuno,4
+adult_drosophila_melanogaster,optic_lobe,LTe71,SLPpl1,"Dh44, allatostatin-c","Reinhard et al., 2023",immuno,4
+adult_drosophila_melanogaster,ventral_nerve_cord,MNad03,TBD,dh44,Maggio et al. 2023,immuno,4
+adult_drosophila_melanogaster,ventral_nerve_cord,MNad03,TBD,leucokinin,Maggio et al. 2023,immuno,4
+adult_drosophila_melanogaster,ventral_nerve_cord,MNad13,TBD,dh44,Maggio et al. 2023,immuno,4
+adult_drosophila_melanogaster,ventral_nerve_cord,MNad13,TBD,leucokinin,Maggio et al. 2023,immuno,4
+adult_drosophila_melanogaster,ventral_nerve_cord,MNad18,TBD,dh44,Maggio et al. 2023,immuno,4
+adult_drosophila_melanogaster,ventral_nerve_cord,MNad18,TBD,leucokinin,Maggio et al. 2023,immuno,4
+adult_drosophila_melanogaster,ventral_nerve_cord,MNad21,TBD,dh44,Maggio et al. 2023,immuno,4
+adult_drosophila_melanogaster,ventral_nerve_cord,MNad21,TBD,leucokinin,Maggio et al. 2023,immuno,4
+adult_drosophila_melanogaster,ventral_nerve_cord,MNad25,TBD,dh44,Maggio et al. 2023,immuno,4
+adult_drosophila_melanogaster,ventral_nerve_cord,MNad25,TBD,leucokinin,Maggio et al. 2023,immuno,4
+adult_drosophila_melanogaster,ventral_nerve_cord,MNad27,TBD,dh44,Maggio et al. 2023,immuno,4
+adult_drosophila_melanogaster,ventral_nerve_cord,MNad27,TBD,leucokinin,Maggio et al. 2023,immuno,4
+adult_drosophila_melanogaster,ventral_nerve_cord,MNad38,TBD,dh44,Maggio et al. 2023,immuno,4
+adult_drosophila_melanogaster,ventral_nerve_cord,MNad38,TBD,leucokinin,Maggio et al. 2023,immuno,4
+adult_drosophila_melanogaster,ventral_nerve_cord,MNad52,TBD,dh44,Maggio et al. 2023,immuno,4
+adult_drosophila_melanogaster,ventral_nerve_cord,MNad52,TBD,leucokinin,Maggio et al. 2023,immuno,4
+adult_drosophila_melanogaster,ventral_nerve_cord,MNad59,TBD,dh44,Maggio et al. 2023,immuno,4
+adult_drosophila_melanogaster,ventral_nerve_cord,MNad59,TBD,leucokinin,Maggio et al. 2023,immuno,4
+adult_drosophila_melanogaster,neck_connective,MsAHN,NA,Dh44,"Benett et al.,",scRNA-seq,1
+adult_drosophila_melanogaster,neck_connective,MtAHN,NA,Dh44,"Benett et al.,",scRNA-seq,1
+adult_drosophila_melanogaster,central_brain,NPFL1-I,putative_primary,dNPF,"Chiang et al., 2011",MCFO,3
+adult_drosophila_melanogaster,central_brain,NPFL1-I,putative_primary,dNPF,Krashes et al. 2009,immuno,4
+adult_drosophila_melanogaster,central_brain,ORN_DA1,NA,sNPF,"Carlsson et al., 2010",immuno,4
+adult_drosophila_melanogaster,central_brain,ORN_DA1,NA,sNPF,Yasuyama et al. 1999,immuno,4
+adult_drosophila_melanogaster,central_brain,ORN_DA2,NA,sNPF,"Carlsson et al., 2010",immuno,4
+adult_drosophila_melanogaster,central_brain,ORN_DA2,NA,sNPF,Yasuyama et al. 1999,immuno,4
+adult_drosophila_melanogaster,central_brain,ORN_DA4l,NA,sNPF,"Carlsson et al., 2010",immuno,4
+adult_drosophila_melanogaster,central_brain,ORN_DA4l,NA,sNPF,Yasuyama et al. 1999,immuno,4
+adult_drosophila_melanogaster,central_brain,ORN_DL3,NA,sNPF,"Carlsson et al., 2010",immuno,4
+adult_drosophila_melanogaster,central_brain,ORN_DL3,NA,sNPF,Yasuyama et al. 1999,immuno,4
+adult_drosophila_melanogaster,central_brain,ORN_DL4,NA,sNPF,"Carlsson et al., 2010",immuno,4
+adult_drosophila_melanogaster,central_brain,ORN_DL4,NA,sNPF,Yasuyama et al. 1999,immuno,4
+adult_drosophila_melanogaster,central_brain,ORN_DM2,NA,sNPF,"Carlsson et al., 2010",immuno,4
+adult_drosophila_melanogaster,central_brain,ORN_DM2,NA,sNPF,Yasuyama et al. 1999,immuno,4
+adult_drosophila_melanogaster,central_brain,ORN_VA1v,NA,sNPF,"Carlsson et al., 2010",immuno,4
+adult_drosophila_melanogaster,central_brain,ORN_VA1v,NA,sNPF,Yasuyama et al. 1999,immuno,4
+adult_drosophila_melanogaster,central_brain,ORN_VA4,NA,sNPF,"Carlsson et al., 2010",immuno,4
+adult_drosophila_melanogaster,central_brain,ORN_VA4,NA,sNPF,Yasuyama et al. 1999,immuno,4
+adult_drosophila_melanogaster,central_brain,ORN_VA6,NA,sNPF,"Carlsson et al., 2010",immuno,4
+adult_drosophila_melanogaster,central_brain,ORN_VA6,NA,sNPF,Yasuyama et al. 1999,immuno,4
+adult_drosophila_melanogaster,central_brain,ORN_VA7l,NA,sNPF,"Carlsson et al., 2010",immuno,4
+adult_drosophila_melanogaster,central_brain,ORN_VA7l,NA,sNPF,Yasuyama et al. 1999,immuno,4
+adult_drosophila_melanogaster,central_brain,ORN_VC1,NA,sNPF,"Carlsson et al., 2010",immuno,4
+adult_drosophila_melanogaster,central_brain,ORN_VC1,NA,sNPF,Yasuyama et al. 1999,immuno,4
+adult_drosophila_melanogaster,central_brain,ORN_VC2,NA,sNPF,"Carlsson et al., 2010",immuno,4
+adult_drosophila_melanogaster,central_brain,ORN_VC2,NA,sNPF,Yasuyama et al. 1999,immuno,4
+adult_drosophila_melanogaster,central_brain,ORN_VM7d,NA,sNPF,"Carlsson et al., 2010",immuno,4
+adult_drosophila_melanogaster,central_brain,ORN_VM7d,NA,sNPF,Yasuyama et al. 1999,immuno,4
+adult_drosophila_melanogaster,central_brain,ORN_VM7v,NA,sNPF,"Carlsson et al., 2010",immuno,4
+adult_drosophila_melanogaster,central_brain,ORN_VM7v,NA,sNPF,Yasuyama et al. 1999,immuno,4
+adult_drosophila_melanogaster,central_brain,PEG,DM1_CX_d2,Spab,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PEG,DM2_CX_d1,Spab,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PEG,DM2_CX_d2,Spab,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PEG,DM3_CX_d1,Spab,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PEG,DM3_CX_d2,Spab,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PEG,DM4_CX_d1,Spab,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PEG,DM4_CX_d2,Spab,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PEG,DM4_CX_d3,Spab,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PEN_a(PEN1),DM1_CX_p,"Dh44, FMRFa, Spab","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PEN_a(PEN1),DM1_CX_v,"Dh44, FMRFa, Spab","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PEN_a(PEN1),DM2_CX_p,"Dh44, FMRFa, Spab","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PEN_a(PEN1),DM2_CX_v,"Dh44, FMRFa, Spab","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PEN_a(PEN1),DM3_CX_p,"Dh44, FMRFa, Spab","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PEN_a(PEN1),DM3_CX_v,"Dh44, FMRFa, Spab","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PEN_a(PEN1),DM4_CX_p,"Dh44, FMRFa, Spab","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PEN_a(PEN1),DM4_CX_v,"Dh44, FMRFa, Spab","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFGs,DM1_CX_d2,"Mip, Dh31","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFGs,DM2_CX_d1,"Mip, Dh31","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFGs,DM2_CX_d2,"Mip, Dh31","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFGs,DM3_CX_d1,"Mip, Dh31","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFGs,DM3_CX_d2,"Mip, Dh31","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFGs,DM4_CX_d1,"Mip, Dh31","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFGs,DM4_CX_d2,"Mip, Dh31","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFGs,DM4_CX_d3,"Mip, Dh31","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFGs,DM2_CX_p,"Mip, Dh31","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFL2,DM2_CX_d2,"Spab, SIFa","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFL2,DM4_CX_d1,"Spab, SIFa","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFL2,DM4_CX_d2,"Spab, SIFa","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFL2,DM1_CX_d2,"Spab, SIFa","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFNd,DM1_CX_p,"Dh44, Nplp1","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFNd,DM1_CX_v,"Dh44, Nplp1","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFNd,DM2_CX_p,"Dh44, Nplp1","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFNd,DM2_CX_v,"Dh44, Nplp1","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFNd,DM3_CX_p,"Dh44, Nplp1","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFNd,DM3_CX_v,"Dh44, Nplp1","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFNd,DM4_CX_p,"Dh44, Nplp1","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFNd,DM4_CX_v,"Dh44, Nplp1","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFNm,DM1_CX_p,MIP,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFNm,DM1_CX_v,MIP,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFNm,DM2_CX_p,MIP,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFNm,DM2_CX_v,MIP,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFNm,DM3_CX_p,MIP,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFNm,DM3_CX_v,MIP,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFNm,DM4_CX_p,MIP,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFNm,DM4_CX_v,MIP,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFNp,DM1_CX_v,MIP,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFNp,DM3_CX_v,MIP,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFNp,DM1_CX_p,MIP,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFNp,DM2_CX_p,MIP,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFNp,DM2_CX_v,MIP,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFNp,DM3_CX_p,MIP,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFNp,DM4_CX_p,MIP,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFNp,DM4_CX_v,MIP,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFNv,DM1_CX_p,Dh44,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFNv,DM1_CX_v,Dh44,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFNv,DM2_CX_p,Dh44,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFNv,DM2_CX_v,Dh44,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFNv,DM3_CX_p,Dh44,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFNv,DM3_CX_v,Dh44,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFNv,DM4_CX_p,Dh44,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PFNv,DM4_CX_v,Dh44,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,PPL105,putative_primary,sNPF,Aso et al. 2019,scRNA-seq,1
+adult_drosophila_melanogaster,central_brain,PV7c11,SMPpv2_dorsal,Dh31,"Reinhard et al., 2021",immuno,4
+adult_drosophila_melanogaster,central_brain,PV7c11,SMPpv2_dorsal,"allatostatin-a, allatostatin-c, Dh44","Reinhard et al., 2023",scRNA-seq,1
+adult_drosophila_melanogaster,optic_lobe,Pm05,NA,sNPF,"Nassel et al., 2008",immuno,4
+adult_drosophila_melanogaster,optic_lobe,Pm09,NA,allatostatin-a,"Vitzthum et al., 1996",immuno,4
+adult_drosophila_melanogaster,central_brain,SEZ_NSC_CAPA,primary,capability,"Reinhard et al., 2023",immuno,4
+adult_drosophila_melanogaster,central_brain,SEZ_NSC_CAPA,primary,myosupressin,McKim et al. 2024,immuno,4
+adult_drosophila_melanogaster,central_brain,SEZ_NSC_Hugin,primary,hugin,"Reinhard et al., 2023",immuno,4
+adult_drosophila_melanogaster,central_brain,SLP304b,putative_primary,leucokinin,"Yurgel et al., 2019",immuno,4
+adult_drosophila_melanogaster,central_brain,SLP374,putative_primary,capability,"Deng et al., 2019",transgenics,3
+adult_drosophila_melanogaster,central_brain,SLP438,SLPpm4,eclosion hormone,"Scott et al., 2020",immuno,4
+adult_drosophila_melanogaster,central_brain,SLP444,putative_primary,"corazonin, sNPF",Zandawala lab,immuno,4
+adult_drosophila_melanogaster,central_brain,SLP463,putative_primary,"proctolin, allatostatin-c","Reinhard et al., 2023","immuno, intersection",4
+adult_drosophila_melanogaster,central_brain,SMP001,putative_primary,allatostatin-a,"Vitzthum et al., 1996",immuno,4
+adult_drosophila_melanogaster,central_brain,SMP588,SMPp&v1_ventral,eclosion hormone,"Scott et al., 2020",immuno,4
+adult_drosophila_melanogaster,optic_lobe,Tm1,NA,tachykinin,"Winther et al., 2003",immuno,4
+adult_drosophila_melanogaster,central_brain,aMe13,putative_primary,FMRFa,"Song et al., 2023",immuno,4
+adult_drosophila_melanogaster,central_brain,cM03,SMPp&v1_ventral,eclosion hormone,"Scott et al., 2020",immuno,4
+adult_drosophila_melanogaster,central_brain,cM08b,putative_primary,MIP,"Krzeptowski et al., 2021",immuno,4
+adult_drosophila_melanogaster,central_brain,hDeltaD,DM1_CX_v,"Dh44, tachykinin, Spab","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,hDeltaD,DM2_CX_d2,"Dh44, tachykinin, Spab","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,hDeltaD,DM3_CX_d2,"Dh44, tachykinin, Spab","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,hDeltaD,DM4_CX_d3,"Dh44, tachykinin, Spab","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,hDeltaD,DM1_CX_p,"Dh44, tachykinin, Spab","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,hDeltaE,DM1_CX_v,"Dh44, tachykinin, Spab, SIFa gaba-negative","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,hDeltaE,DM2_CX_d2,"Dh44, tachykinin, Spab, SIFa gaba-negative","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,hDeltaE,DM3_CX_d2,"Dh44, tachykinin, Spab, SIFa gaba-negative","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,hDeltaE,DM4_CX_p,"Dh44, tachykinin, Spab, SIFa gaba-negative","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,hDeltaE,DM1_CX_p,"Dh44, tachykinin, Spab, SIFa gaba-negative","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,hDeltaF,DM1_CX_d2,neuropeptide-negative,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,hDeltaF,DM2_CX_d2,neuropeptide-negative,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,hDeltaF,DM1_CX_p,neuropeptide-negative,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,hDeltaF,DM4_CX_d2,neuropeptide-negative,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,hDeltaH,DM1_CX_p,"tachykinin, Spab","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,hDeltaH,DM1_CX_v,"tachykinin, Spab","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,hDeltaH,DM2_CX_p,"tachykinin, Spab","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,hDeltaH,DM3_CX_p,"tachykinin, Spab","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,hDeltaH,DM4_CX_d3,"tachykinin, Spab","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,hDeltaI,DM1_CX_d2,allatostatin-a,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,hDeltaI,DM2_CX_d2,allatostatin-a,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,hDeltaI,DM2_CX_p,allatostatin-a,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,hDeltaI,DM3_CX_d2,allatostatin-a,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,hDeltaI,DM3_CX_p,allatostatin-a,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,hDeltaI,DM4_CX_p,allatostatin-a,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,hDeltaK,DM1_CX_p,"allatostatin-a, allatostatin-c, NPF","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,hDeltaK,DM1_CX_v,"allatostatin-a, allatostatin-c, NPF","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,hDeltaK,DM2_CX_p,"allatostatin-a, allatostatin-c, NPF","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,hDeltaK,DM3_CX_p,"allatostatin-a, allatostatin-c, NPF","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,hDeltaK,DM4_CX_d3,"allatostatin-a, allatostatin-c, NPF","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,hDeltaK,DM4_CX_p,"allatostatin-a, allatostatin-c, NPF","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,l-LNv,putative_primary,"pdf, dNPF","Reinhard et al., 2023",immuno,4
+adult_drosophila_melanogaster,central_brain,lLN2P_b,ALl1_dorsal,MIP,"Sizemore et al., 2023",immuno,4
+adult_drosophila_melanogaster,central_brain,l_NSC_CRZ,putative_primary,"corazonin, sNPF","Reinhard et al., 2023",immuno,4
+adult_drosophila_melanogaster,central_brain,l_NSC_DH31,putative_primary,Dh31,"Reinhard et al., 2023",immuno,4
+adult_drosophila_melanogaster,central_brain,l_NSC_ITP,putative_primary,"ITP, tachykinin, sNPF, leucokinin","Reinhard et al., 2023",immuno,4
+adult_drosophila_melanogaster,central_brain,m_NSC_DH44,DILP__prim,Dh44,"Reinhard et al., 2023",immuno,4
+adult_drosophila_melanogaster,central_brain,m_NSC_DILP,DILP__prim,"DILP2, DILP3, DILP5","Cao et al., 2001",immuno,4
+adult_drosophila_melanogaster,central_brain,m_NSC_DILP,DILP__prim,dARC1,"Mattaliano et al., 2007",immuno,4
+adult_drosophila_melanogaster,central_brain,m_NSC_DMS,DILP__prim,myosuppressin,"Reinhard et al., 2023",immuno,4
+adult_drosophila_melanogaster,central_brain,pC1b,DM4_dorsal,Dh44,"Kim et al., 2024",immuno,4
+adult_drosophila_melanogaster,central_brain,pC1c,DM4_dorsal,Dh44,"Kim et al., 2024",immuno,4
+adult_drosophila_melanogaster,optic_lobe,s-LNv_a,NA,ITP,"Reinhard et al., 2023",scRNA-seq,1
+adult_drosophila_melanogaster,optic_lobe,s-LNv_b,NA,"pdf, sNPF","Johard et al., 2019",immuno,4
+adult_drosophila_melanogaster,optic_lobe,s-LNv_b,NA,"pdf, sNPF","Reinhard et al., 2023",scRNA-seq,1
+adult_drosophila_melanogaster,central_brain,vDeltaB,DM1_CX_p,sNPF,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,vDeltaB,DM1_CX_v,sNPF,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,vDeltaB,DM2_CX_p,sNPF,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,vDeltaB,DM2_CX_v,sNPF,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,vDeltaB,DM3_CX_p,sNPF,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,vDeltaB,DM3_CX_v,sNPF,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,vDeltaB,DM4_CX_p,sNPF,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,vDeltaB,DM4_CX_v,sNPF,"Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,vDeltaC,DM1_CX_p,"sNPF, Dh31","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,vDeltaC,DM1_CX_v,"sNPF, Dh31","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,vDeltaC,DM2_CX_p,"sNPF, Dh31","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,vDeltaC,DM2_CX_v,"sNPF, Dh31","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,vDeltaC,DM3_CX_p,"sNPF, Dh31","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,vDeltaC,DM3_CX_v,"sNPF, Dh31","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,vDeltaC,DM4_CX_p,"sNPF, Dh31","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,vDeltaC,DM4_CX_v,"sNPF, Dh31","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,vDeltaD,DM1_CX_p,"Dh31, sNPF","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,vDeltaD,DM1_CX_v,"Dh31, sNPF","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,vDeltaD,DM2_CX_p,"Dh31, sNPF","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,vDeltaD,DM2_CX_v,"Dh31, sNPF","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,vDeltaD,DM3_CX_p,"Dh31, sNPF","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,vDeltaD,DM3_CX_v,"Dh31, sNPF","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,vDeltaD,DM4_CX_p,"Dh31, sNPF","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,vDeltaD,DM4_CX_v,"Dh31, sNPF","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,vDeltaE,DM1_CX_v,"sNPF, Dh31","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,vDeltaE,DM2_CX_p,"sNPF, Dh31","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,vDeltaE,DM2_CX_v,"sNPF, Dh31","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,vDeltaE,DM3_CX_p,"sNPF, Dh31","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,vDeltaE,DM3_CX_v,"sNPF, Dh31","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,vDeltaE,DM4_CX_p,"sNPF, Dh31","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,vDeltaE,DM4_CX_v,"sNPF, Dh31","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,vDeltaM,DM2_CX_v,"Mip, Dh44","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,vDeltaM,DM1_CX_p,"Mip, Dh44","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,vDeltaM,DM1_CX_v,"Mip, Dh44","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,vDeltaM,DM2_CX_p,"Mip, Dh44","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,vDeltaM,DM3_CX_p,"Mip, Dh44","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,vDeltaM,DM3_CX_v,"Mip, Dh44","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,vDeltaM,DM4_CX_p,"Mip, Dh44","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,central_brain,vDeltaM,DM4_CX_v,"Mip, Dh44","Wolff et al., 2024",EASI-FISH,2
+adult_drosophila_melanogaster,midbrain,vDeltaC,NA,"sNPF, Dh31",Janelia,EASI-FSH,3
+adult_drosophila_melanogaster,midbrain,vDeltaD,NA,sNPF,Janelia,EASI-FSH,3
+adult_drosophila_melanogaster,midbrain,vDeltaM,NA,MIP,Janelia,EASI-FSH,3
+adult_drosophila_melanogaster,midbrain,FB1B,NA,Nplp1,Janelia,EASI-FSH,3
+adult_drosophila_melanogaster,midbrain,FB2C,NA,Nplp1,Janelia,EASI-FSH,3
+adult_drosophila_melanogaster,midbrain,FB2F_a,NA,Dh31,Janelia,EASI-FSH,3
+adult_drosophila_melanogaster,midbrain,FB4D,NA,Nplp1,Janelia,EASI-FSH,3
+adult_drosophila_melanogaster,midbrain,FB4E,NA,"Dh31, Nplp1",Janelia,EASI-FSH,3
+adult_drosophila_melanogaster,midbrain,FB4J,NA,Nplp1,Janelia,EASI-FSH,3
+adult_drosophila_melanogaster,midbrain,FB5N,NA,"FMRF, proctolin",Janelia,EASI-FSH,3
+adult_drosophila_melanogaster,midbrain,FB5R,NA,"Dh44, myosupressin",Janelia,EASI-FSH,3
+adult_drosophila_melanogaster,midbrain,FB5T,NA,neuropeptides-negative,Janelia,EASI-FSH,3
+adult_drosophila_melanogaster,midbrain,FB5J,NA,neuropeptides-negative,Janelia,EASI-FSH,3
+adult_drosophila_melanogaster,midbrain,FB7H,NA,"Nplp1, proctolin",Janelia,EASI-FSH,3
+adult_drosophila_melanogaster,midbrain,FB8F_a,NA,Nplp1,Janelia,EASI-FSH,3
+adult_drosophila_melanogaster,midbrain,FB8F_a,NA,Nplp1,Janelia,EASI-FSH,3
+adult_drosophila_melanogaster,midbrain,FB8F,NA,Nplp1,Janelia,EASI-FSH,3
+adult_drosophila_melanogaster,vnc,MNad13,NA,"leucokinin, Dh44",Maggio et al. 2023,immuno,3
+adult_drosophila_melanogaster,vnc,MNad38,NA,"leucokinin, Dh44",Maggio et al. 2023,immuno,3
+adult_drosophila_melanogaster,vnc,MNad27 ,NA,"leucokinin, Dh44",Maggio et al. 2023,immuno,3
+adult_drosophila_melanogaster,vnc,MNad18 ,NA,"leucokinin, Dh44",Maggio et al. 2023,immuno,3
+adult_drosophila_melanogaster,vnc,MNad21 ,NA,"leucokinin, Dh44",Maggio et al. 2023,immuno,3
+adult_drosophila_melanogaster,vnc,MNad59 ,NA,"leucokinin, Dh44",Maggio et al. 2023,immuno,3
+adult_drosophila_melanogaster,vnc,MNad25 ,NA,"leucokinin, Dh44",Maggio et al. 2023,immuno,3
+adult_drosophila_melanogaster,vnc,MNad52 ,NA,"leucokinin, Dh44",Maggio et al. 2023,immuno,3
+adult_drosophila_melanogaster,vnc,MNad03 ,NA,"leucokinin, Dh44",Maggio et al. 2023,immuno,3
+adult_drosophila_melanogaster,vnc,MNad37 ,NA,"leucokinin, Dh44",Maggio et al. 2023,immuno,3
