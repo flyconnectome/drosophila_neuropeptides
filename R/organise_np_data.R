@@ -158,6 +158,6 @@ gt.nt.new$neuropeptide_verified_evidence[is.na(gt.nt.new$neuropeptide_verified_c
 
 # Save data
 readr::write_csv(x =  ft.np,
-                 file = "/Users/GD/LMBD/Papers/synister/drosophila_neuropeptides/gt_sources/bates_2024/202508-gt_np_data.csv")
+                 file = "/Users/GD/LMBD/Papers/synister/drosophila_neuropeptides/gt_sources/bates_2024/202602-gt_np_data.csv")
 readr::write_csv(x = gt.nt.new,
                  file = "/Users/GD/LMBD/Papers/synister/drosophila_neuropeptides/gt_np_data.csv")
