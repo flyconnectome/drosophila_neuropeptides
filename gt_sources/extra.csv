@@ -1,28 +1,28 @@
-﻿species,region,hemilineage,cell_type,neuropeptide_verified_evidence,neuropeptide_verified,neuropeptide_verified_source,neuropeptide_verified_confidence
+species,region,hemilineage,cell_type,neuropeptide_verified_evidence,neuropeptide_verified,neuropeptide_verified_source,neuropeptide_verified_confidence
 adult_drosophila_melanogaster,midbrain,,vDeltaC,EASI-FSH,"sNPF, Dh31",Janelia,3
 adult_drosophila_melanogaster,midbrain,,vDeltaD,EASI-FSH,sNPF,Janelia,3
-adult_drosophila_melanogaster,midbrain,,vDeltaM,EASI-FSH,MIP,Janelia,3
+adult_drosophila_melanogaster,midbrain,,vDeltaM,EASI-FSH,Mip,Janelia,3
 adult_drosophila_melanogaster,midbrain,,FB1B,EASI-FSH,Nplp1,Janelia,3
 adult_drosophila_melanogaster,midbrain,,FB2C,EASI-FSH,Nplp1,Janelia,3
 adult_drosophila_melanogaster,midbrain,,FB2F_a,EASI-FSH,Dh31,Janelia,3
 adult_drosophila_melanogaster,midbrain,,FB4D,EASI-FSH,Nplp1,Janelia,3
 adult_drosophila_melanogaster,midbrain,,FB4E,EASI-FSH,"Dh31, Nplp1",Janelia,3
 adult_drosophila_melanogaster,midbrain,,FB4J,EASI-FSH,Nplp1,Janelia,3
-adult_drosophila_melanogaster,midbrain,,FB5N,EASI-FSH,"FMRF, proctolin",Janelia,3
-adult_drosophila_melanogaster,midbrain,,FB5R,EASI-FSH,"Dh44, myosupressin",Janelia,3
+adult_drosophila_melanogaster,midbrain,,FB5N,EASI-FSH,"FMRFa, Proc",Janelia,3
+adult_drosophila_melanogaster,midbrain,,FB5R,EASI-FSH,"Dh44, Ms",Janelia,3
 adult_drosophila_melanogaster,midbrain,,FB5T,EASI-FSH,neuropeptides-negative,Janelia,3
 adult_drosophila_melanogaster,midbrain,,FB5J,EASI-FSH,neuropeptides-negative,Janelia,3
-adult_drosophila_melanogaster,midbrain,,FB7H,EASI-FSH,"Nplp1, proctolin",Janelia,3
+adult_drosophila_melanogaster,midbrain,,FB7H,EASI-FSH,"Nplp1, Proc",Janelia,3
 adult_drosophila_melanogaster,midbrain,,FB8F_a,EASI-FSH,Nplp1,Janelia,3
 adult_drosophila_melanogaster,midbrain,,FB8F_a,EASI-FSH,Nplp1,Janelia,3
 adult_drosophila_melanogaster,midbrain,,FB8F,EASI-FSH,Nplp1,Janelia,3
-adult_drosophila_melanogaster,vnc,,MNad13,immuno,"leucokinin, Dh44",Maggio et al. 2023,3
-adult_drosophila_melanogaster,vnc,,MNad38,immuno,"leucokinin, Dh44",Maggio et al. 2023,3
-adult_drosophila_melanogaster,vnc,,MNad27 ,immuno,"leucokinin, Dh44",Maggio et al. 2023,3
-adult_drosophila_melanogaster,vnc,,MNad18 ,immuno,"leucokinin, Dh44",Maggio et al. 2023,3
-adult_drosophila_melanogaster,vnc,,MNad21 ,immuno,"leucokinin, Dh44",Maggio et al. 2023,3
-adult_drosophila_melanogaster,vnc,,MNad59 ,immuno,"leucokinin, Dh44",Maggio et al. 2023,3
-adult_drosophila_melanogaster,vnc,,MNad25 ,immuno,"leucokinin, Dh44",Maggio et al. 2023,3
-adult_drosophila_melanogaster,vnc,,MNad52 ,immuno,"leucokinin, Dh44",Maggio et al. 2023,3
-adult_drosophila_melanogaster,vnc,,MNad03 ,immuno,"leucokinin, Dh44",Maggio et al. 2023,3
-adult_drosophila_melanogaster,vnc,,MNad37 ,immuno,"leucokinin, Dh44",Maggio et al. 2023,3
+adult_drosophila_melanogaster,vnc,,MNad13,immuno,"Lk, Dh44",Maggio et al. 2023,3
+adult_drosophila_melanogaster,vnc,,MNad38,immuno,"Lk, Dh44",Maggio et al. 2023,3
+adult_drosophila_melanogaster,vnc,,MNad27 ,immuno,"Lk, Dh44",Maggio et al. 2023,3
+adult_drosophila_melanogaster,vnc,,MNad18 ,immuno,"Lk, Dh44",Maggio et al. 2023,3
+adult_drosophila_melanogaster,vnc,,MNad21 ,immuno,"Lk, Dh44",Maggio et al. 2023,3
+adult_drosophila_melanogaster,vnc,,MNad59 ,immuno,"Lk, Dh44",Maggio et al. 2023,3
+adult_drosophila_melanogaster,vnc,,MNad25 ,immuno,"Lk, Dh44",Maggio et al. 2023,3
+adult_drosophila_melanogaster,vnc,,MNad52 ,immuno,"Lk, Dh44",Maggio et al. 2023,3
+adult_drosophila_melanogaster,vnc,,MNad03 ,immuno,"Lk, Dh44",Maggio et al. 2023,3
+adult_drosophila_melanogaster,vnc,,MNad37 ,immuno,"Lk, Dh44",Maggio et al. 2023,3

@@ -4,11 +4,35 @@ library(tidyverse)
 library(readr)
 library(catmaid)
 
-# Get the data we have already built
-gt.nt.orig <- readr::read_csv(file = "/Users/GD/LMBD/Papers/synister/drosophila_neuropeptides/gt_np_data.csv")
-extra <- readr::read_csv(file = "/Users/GD/LMBD/Papers/synister/drosophila_neuropeptides/gt_sources/extra.csv")
+# Use repo-root paths so the script runs anywhere the repo is cloned.
+repo_root <- tryCatch(
+  rprojroot::find_rstudio_root_file(),
+  error = function(e) here::here())
+gt_path    <- file.path(repo_root, "gt_np_data.csv")
+extra_path <- file.path(repo_root, "gt_sources", "extra.csv")
+zandawala  <- file.path(repo_root, "gt_sources", "zandawala_2024",
+                         "neuropeptide_meta.csv")
 
-# Transmitters we care about
+# Build a Symbol→lowercase column-header map from the Zandawala 2024
+# meta CSV. Used to canonicalise peptide column names in gt_np_data.csv
+# regardless of the casing in franken_meta.
+np_meta <- readr::read_csv(zandawala, show_col_types = FALSE)
+np_symbol_to_col <- setNames(tolower(np_meta$Symbol), np_meta$Symbol)
+# Add aliases for non-Zandawala FlyBase peptides we know appear:
+np_symbol_to_col <- c(np_symbol_to_col,
+                       Spab = "spab", Amn = "amn", Arc1 = "arc1",
+                       Thyrostimulin = "thyrostimulin")
+
+# Get the data we have already built (optional — only used for the
+# legacy union step; safe to skip if missing)
+gt.nt.orig <- if (file.exists(gt_path))
+  readr::read_csv(gt_path, show_col_types = FALSE) else NULL
+extra <- if (file.exists(extra_path))
+  readr::read_csv(extra_path, show_col_types = FALSE) else NULL
+
+# Transmitters we care about (kept as defensive filter only — the
+# franken_meta NT/NP split (May 2026) means peptides should NOT appear
+# in `neurotransmitter_verified`, but we double-check below).
 fast.nts <- c("acetylcholine", "gaba", "glutamate",
               "dopamine", "serotonin", "octopamine",
               "nitric oxide", "histamine", "tyramine", "glycine")
@@ -18,7 +42,7 @@ neg.fast.nts <- c("acetylcholine-negative", "gaba-negative", "glutamate-negative
               "no small-molecule transmitters","NA")
 all.fast.nts <- c(fast.nts, neg.fast.nts)
 
-# Function to process neurotransmitter_verified column
+# Function to process verified-source columns
 filter_words <- function(input_string, words_to_keep, invert = FALSE){
   words <- unlist(strsplit(input_string, ",|, |;|; |NA"))
   words <- gsub("^ | $","",words)
@@ -63,9 +87,18 @@ ft.cross <- ft %>%
   )) %>%
   dplyr::distinct(cell_type, hemibrain_type, hemilineage, region) %>%
   dplyr::arrange(hemilineage)
-readr::write_csv(x = ft.cross, file = "/Users/GD/LMBD/Papers/synister/drosophila_neuropeptides/inst/extdata/cell_type_cross_matching.csv")
+extdata_dir <- file.path(repo_root, "inst", "extdata")
+dir.create(extdata_dir, showWarnings = FALSE, recursive = TRUE)
+readr::write_csv(x = ft.cross,
+                 file = file.path(extdata_dir,
+                   "cell_type_cross_matching.csv"))
 
-# Take only the entries with a neurotransmitter_verified column
+# Take only the entries with a neuropeptide_verified column.
+#
+# Post May-2026 franken split: peptide entries live in
+# `neuropeptide_verified` and their evidence in
+# `neuropeptide_verified_source`. We no longer need to parse them out
+# of `neurotransmitter_verified`.
 ft.np <- ft %>%
   dplyr::mutate(cell_type = dplyr::case_when(
     !is.na(cell_type) ~ cell_type,
@@ -73,39 +106,53 @@ ft.np <- ft %>%
     !is.na(morphology_group) ~ morphology_group,
     TRUE ~ cell_type
   )) %>%
-  dplyr::mutate(neurotransmitter_verified = dplyr::case_when(
-    grepl("^LK",notes) ~ paste0(neurotransmitter_verified,"leucokinin"),
-    TRUE ~ neurotransmitter_verified
+  # LK-in-notes legacy hint: still useful for neurons annotated only
+  # in `notes` (not yet promoted into neuropeptide_verified).
+  dplyr::mutate(neuropeptide_verified = dplyr::case_when(
+    grepl("^LK", notes) & (is.na(neuropeptide_verified) | neuropeptide_verified == "") ~ "Lk",
+    grepl("^LK", notes) & !grepl("Lk|leucokinin", neuropeptide_verified) ~ paste0(neuropeptide_verified, ", Lk"),
+    TRUE ~ neuropeptide_verified
   )) %>%
-  dplyr::mutate(neurotransmitter_verified_source = dplyr::case_when(
-    grepl("^LK",notes) ~ paste0(neurotransmitter_verified_source,"; Zandawala (immuno)"),
-    TRUE ~ neurotransmitter_verified_source
+  dplyr::mutate(neuropeptide_verified_source = dplyr::case_when(
+    grepl("^LK", notes) & (is.na(neuropeptide_verified_source) | neuropeptide_verified_source == "") ~ "Zandawala (immuno)",
+    grepl("^LK", notes) & !grepl("Zandawala", neuropeptide_verified_source) ~ paste0(neuropeptide_verified_source, "; Zandawala (immuno)"),
+    TRUE ~ neuropeptide_verified_source
   )) %>%
   dplyr::mutate(cell_type = dplyr::case_when(
     cell_type=="PI" ~ paste0("PI_",gsub("cell_type==(.+?)[,\n].*", "\\1", notes, perl=TRUE)),
     TRUE ~ cell_type
   )) %>%
-  dplyr::select(cell_type, hemilineage, hemibrain_type, notes, neurotransmitter_verified, neurotransmitter_verified_source, species, region) %>%
-  dplyr::filter(!is.na(neurotransmitter_verified), !neurotransmitter_verified%in%c(""," ","NA","unknown")) %>%
-  tidyr::separate_longer_delim(c(neurotransmitter_verified, neurotransmitter_verified_source), delim = ";") %>%
+  dplyr::select(cell_type, hemilineage, hemibrain_type, notes,
+                 neuropeptide_verified, neuropeptide_verified_source,
+                 species, region) %>%
+  dplyr::filter(!is.na(neuropeptide_verified),
+                 !neuropeptide_verified %in% c(""," ","NA","unknown")) %>%
+  tidyr::separate_longer_delim(c(neuropeptide_verified,
+                                  neuropeptide_verified_source),
+                                delim = ";") %>%
   dplyr::rowwise() %>%
-  dplyr::mutate(neuropeptide_verified = filter_words(neurotransmitter_verified, all.fast.nts, invert = TRUE)) %>%
+  dplyr::mutate(neuropeptide_verified =
+                  trimws(neuropeptide_verified)) %>%
   dplyr::ungroup() %>%
-  dplyr::filter(neuropeptide_verified!="", grepl("\\(",neurotransmitter_verified_source)) %>%
+  dplyr::filter(neuropeptide_verified != "",
+                 grepl("\\(", neuropeptide_verified_source)) %>%
   dplyr::rowwise() %>%
-  dplyr::mutate(neuropeptide_verified_evidence = gsub("\\(|\\)",
-                                         "",
-                                         regmatches(neurotransmitter_verified_source, gregexpr("\\((.*?)\\)", neurotransmitter_verified_source))[[1]])) %>%
+  dplyr::mutate(neuropeptide_verified_evidence = gsub(
+                  "\\(|\\)", "",
+                  regmatches(neuropeptide_verified_source,
+                             gregexpr("\\((.*?)\\)",
+                                      neuropeptide_verified_source))[[1]])) %>%
   dplyr::ungroup() %>%
-  dplyr::mutate(neuropeptide_verified_source = gsub("\\(.*?\\)", "", neurotransmitter_verified_source),
+  dplyr::mutate(neuropeptide_verified_source = gsub("\\(.*?\\)", "", neuropeptide_verified_source),
                 neuropeptide_verified_source = gsub(" $", "", neuropeptide_verified_source),
                 neuropeptide_verified_source = gsub("et al |et al,", "et al., ", neuropeptide_verified_source),
                 neuropeptide_verified_source = gsub("^ ", "", neuropeptide_verified_source),
                 neuropeptide_verified_source = gsub("\\)\\)", ")", neuropeptide_verified_source)) %>%
   tidyr::separate_longer_delim(cell_type, delim = ", ") %>%
   dplyr::arrange(cell_type, neuropeptide_verified, neuropeptide_verified_source, neuropeptide_verified_evidence) %>%
-  dplyr::distinct(species, region, cell_type, hemilineage, neuropeptide_verified, neuropeptide_verified_source, neuropeptide_verified_evidence) %>%
-  dplyr::rename(hemilineage=hemilineage) %>%
+  dplyr::distinct(species, region, cell_type, hemilineage,
+                   neuropeptide_verified, neuropeptide_verified_source,
+                   neuropeptide_verified_evidence) %>%
   dplyr::mutate(neuropeptide_verified_confidence = dplyr::case_when(
     neuropeptide_verified_evidence %in% c("immuno","immuno, intersection") ~ 4,
     neuropeptide_verified_evidence %in% c("transgenics","intersection","MCFO") ~ 3,
@@ -114,7 +161,9 @@ ft.np <- ft %>%
     neuropeptide_verified_evidence %in% c("scRNA-seq, unsure") ~ 0,
     TRUE ~ 0
   ))
-ft.np <- plyr::rbind.fill(ft.np,extra)
+if (!is.null(extra)) {
+  ft.np <- plyr::rbind.fill(ft.np, extra)
+}
 
 # Turn into a matrix
 ft.np.m <- ft.np %>%
@@ -159,7 +208,75 @@ gt.nt.new$neuropeptide_verified_evidence[is.na(gt.nt.new$neuropeptide_verified_e
 gt.nt.new$neuropeptide_verified_evidence[is.na(gt.nt.new$neuropeptide_verified_confidence)] <- 0
 
 # Save data
-readr::write_csv(x =  ft.np,
-                 file = "/Users/GD/LMBD/Papers/synister/drosophila_neuropeptides/gt_sources/bates_2024/202602-gt_np_data.csv")
+sources_dir <- file.path(repo_root, "gt_sources", "bates_2024")
+dir.create(sources_dir, showWarnings = FALSE, recursive = TRUE)
+readr::write_csv(x = ft.np,
+                 file = file.path(sources_dir,
+                   sprintf("%s-gt_np_data.csv",
+                           format(Sys.Date(), "%Y%m"))))
 readr::write_csv(x = gt.nt.new,
-                 file = "/Users/GD/LMBD/Papers/synister/drosophila_neuropeptides/gt_np_data.csv")
+                 file = file.path(repo_root, "gt_np_data.csv"))
+
+#############################
+### Make plot for README  ###
+#############################
+# Coverage by super_class × peptide. Only counts cells with positive
+# (1) evidence; rolls up rare peptides into "other" so the legend
+# stays legible.
+library(ggplot2)
+
+# Re-pull super_class onto the per-cell-type rows. Use the franken
+# table directly — ft is already loaded above.
+ft.np.plot <- ft %>%
+  dplyr::filter(!is.na(neuropeptide_verified),
+                 !neuropeptide_verified %in% c(""," ","NA","unknown")) %>%
+  dplyr::distinct(neuron_id, super_class, flow,
+                   neuropeptide_verified) %>%
+  dplyr::mutate(super_class = ifelse(is.na(super_class),
+                                       flow, super_class),
+                 super_class = ifelse(is.na(super_class),
+                                       "other", super_class)) %>%
+  tidyr::separate_longer_delim(neuropeptide_verified, delim = ";") %>%
+  tidyr::separate_longer_delim(neuropeptide_verified, delim = ",") %>%
+  dplyr::mutate(neuropeptide_verified =
+                  trimws(neuropeptide_verified)) %>%
+  dplyr::filter(neuropeptide_verified != "",
+                 !grepl("negative", neuropeptide_verified))
+
+# Roll low-frequency peptides into "other"
+top_peptides <- ft.np.plot %>%
+  dplyr::count(neuropeptide_verified, sort = TRUE) %>%
+  utils::head(15) %>%
+  dplyr::pull(neuropeptide_verified)
+ft.np.plot <- ft.np.plot %>%
+  dplyr::mutate(peptide = ifelse(neuropeptide_verified %in% top_peptides,
+                                   neuropeptide_verified, "other"))
+
+plot_data <- ft.np.plot %>%
+  dplyr::count(super_class, peptide) %>%
+  dplyr::group_by(super_class) %>%
+  dplyr::mutate(percentage = n / sum(n),
+                 total_count = sum(n)) %>%
+  dplyr::ungroup()
+
+g_np <- ggplot(plot_data,
+               aes(x = super_class, y = percentage, fill = peptide)) +
+  geom_bar(stat = "identity", position = "fill") +
+  geom_text(aes(y = 1.05, label = total_count, group = super_class),
+            color = "black", size = 3, fontface = "bold") +
+  scale_y_continuous(labels = scales::percent,
+                      expand = expansion(mult = c(0, .1))) +
+  labs(title = paste("Franken-meta peptide coverage by super class",
+                       "(positive evidence only)"),
+       x = "super class", y = "percentage",
+       fill = "neuropeptide (Symbol)") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "bottom") +
+  coord_flip()
+
+img_dir <- file.path(repo_root, "inst", "images")
+dir.create(img_dir, showWarnings = FALSE, recursive = TRUE)
+ggsave(g_np,
+        filename = file.path(img_dir, "franken_known_nps.png"),
+        width = 9, height = 7)

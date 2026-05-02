@@ -71,6 +71,10 @@ the ground truth this repository is collating:
 
 ![dcv_predictions_known_nps](https://github.com/funkelab/drosophila_neuropeptides/blob/main/inst/images/dcv_predictions_known_nps.png?raw=true)
 
+Coverage of `neuropeptide_verified` annotations across `franken_meta` super-classes (positive evidence only):
+
+![franken_known_nps](https://github.com/funkelab/drosophila_neuropeptides/blob/main/inst/images/franken_known_nps.png?raw=true)
+
 ## How to Contribute Data
 
 ### For Git Novices
@@ -109,21 +113,23 @@ The data columns are:
 
 *hemilineage* - the hemilineage bundle to which the cell type belongs, in the nomenclature of Ito et al., 2013 and (midbrain), or (ventral nerve cord)
 
-*cell_type* - a cell type name relevant to one of the connectomic datasets. In general, we prefer a FAFB-FlyWire (brain) or MANC (ventrla nerve cord) name.
+*cell_type* - a cell type name relevant to one of the connectomic datasets. In general, we prefer a FAFB-FlyWire (brain) or MANC (ventral nerve cord) name.
 
-*known_np_source* - the name of the study from which the observation this row records has originated. Note, rows are unique combinations of cell_type and known_nt_source, so each can repeat over multiple rows is many studies look at the same cell type, or information on many cell types has been reported by the same study.
-   
-*known_np_evidence* - the method used by the given study to determine transmission.
+*neuropeptide_verified_source* - the name of the study from which the observation this row records has originated. Rows are unique combinations of `cell_type` and `neuropeptide_verified_source`, so each can repeat over multiple rows when many studies look at the same cell type, or when one study reports on many cell types.
 
-*known_np_confidence* - an expression of how confident you are that the study has correctly identified the right neuropeptide for the given cell type, and how well that cell type has been matched to connectome data. Scores ~indicate:
-  - 5: evidence for protein expression in the given cell type, cell type specific labelling.
-  - 4: evidence for protein expression with coarser anatomical detail / reliable transcript expression usign in situ hybridisation, and ideally for which some negative data is available (different neuropeptide options tried per cell type) 
-  - 3: identification of RNA transcipts related ot neuropeptide expression,
-  - 2: Unreliable moirphological match to the EM / more bulk RNA sequecning / gross neuroanatomy based on immunohistochemistry 
-  - 1: Genetic knockdown, e.g. RNAi of neuropeptide pathways / speculative morphological matches to EM
-  - 0: Educated guesses at transmission based on any of the above, but lacking anatomical precision in matching to the EM. 
+*neuropeptide_verified_evidence* - the method used by the given study to determine peptide expression (e.g. `immuno`, `EASI-FISH`, `RNAi`, `transgenics`, `MCFO`, `scRNA-seq`).
 
- *allatostatin-a, ..., dnpf, ..., snpf, ..., proctolin, ..., etc* - Each neuropeptide column contains a -1, 0 or 1. 1 = positive evidence for neuropeptide usage, 0 = no evidence either way for neuropeptide usage, -1 = negative evidence for neuropeptide usage. Due to the way wetlab reports are gathered and conveyed, there is relatively little negative data from the literaure but it is useful - and so we really encourage you to add it, if you have it!
+*neuropeptide_verified_confidence* - an integer expressing how confident the curator is that the study correctly identified the peptide for the given cell type, and how well that cell type has been matched to connectome data:
+  - 5: evidence for protein expression in the given cell type, cell-type-specific labelling.
+  - 4: evidence for protein expression with coarser anatomical detail / reliable transcript expression using in-situ hybridisation, and ideally for which some negative data is available (different neuropeptide options tried per cell type).
+  - 3: identification of RNA transcripts related to neuropeptide expression.
+  - 2: unreliable morphological match to the EM / bulk RNA sequencing / gross neuroanatomy based on immunohistochemistry.
+  - 1: genetic knockdown (e.g. RNAi) of neuropeptide pathways / speculative morphological matches to EM.
+  - 0: educated guesses at expression based on any of the above, but lacking anatomical precision in matching to the EM.
+
+*peptide columns* (`asta`, `astc`, `dh31`, `dh44`, `dsk`, `eh`, `eth`, `fmrfa`, `hug`, `ilp2`, `ilp3`, `ilp5`, `itp`, `lk`, `mip`, `ms`, `npf`, `nplp1`, `pdf`, `proc`, `sifa`, `snpf`, `tk`, `trissin`, `spab`, `amn`, …) — one column per peptide, named with the lowercase Zandawala 2024 gene symbol (see [`gt_sources/zandawala_2024/neuropeptide_meta.csv`](gt_sources/zandawala_2024/neuropeptide_meta.csv) for the canonical list of Symbols, full names, and aliases). Values are `-1` (negative evidence), `0` (no evidence either way), or `1` (positive evidence). Negative data is rare but valuable — please contribute it if you have it.
+
+> **Schema note (May 2026)**: peptide annotations were previously stored mixed into the `neurotransmitter_verified` column of `franken_meta` (alongside small-molecule transmitters). They have been migrated into the dedicated `neuropeptide_verified` column, with corresponding evidence in `neuropeptide_verified_source`, and peptide names normalised to Zandawala 2024 gene symbols (e.g. `allatostatin-a` → `AstA`, `tachykinin` → `Tk`). The script `R/organise_np_data.R` now reads from `neuropeptide_verified` directly. Old column headers in `gt_np_data.csv` like `allatostatin-a`, `dnpf`, `proctolin`, `eclosion_hormone`, `tachykinin`, `space_blanket` are replaced by `asta`, `npf`, `proc`, `eh`, `tk`, `spab` respectively.
 
 ## About the Meta Data
 
