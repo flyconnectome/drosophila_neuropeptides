@@ -5,20 +5,60 @@
   "upload_type": "dataset",
   "access_right": "open",
   "creators": [
-    {"name": "Bates, Alexander Shakeel", "orcid": "0000-0002-1195-0445", "affiliation": "Harvard Medical School"},
-    {"name": "Zandawala, Meet", "orcid": "0000-0001-6498-2208", "affiliation": "University of Nevada Reno"},
-    {"name": "Adjavon, Diane-Yayra", "orcid": "0009-0001-4702-0776", "affiliation": "HHMI Janelia Research Campus"}
+    {
+      "name": "Bates, Alexander Shakeel",
+      "orcid": "0000-0002-1195-0445",
+      "affiliation": "Harvard Medical School"
+    },
+    {
+      "name": "Zandawala, Meet",
+      "orcid": "0000-0001-6498-2208",
+      "affiliation": "University of Nevada Reno"
+    },
+    {
+      "name": "Adjavon, Diane-Yayra",
+      "orcid": "0009-0001-4702-0776",
+      "affiliation": "HHMI Janelia Research Campus"
+    },
+    {
+      "name": "Funke, Jan",
+      "orcid": "0000-0003-4388-7783",
+      "affiliation": "HHMI Janelia Research Campus"
+    }
   ],
-  "contributors": [
-    {"type": "ContactPerson", "name": "Funke, Jan", "orcid": "0000-0003-4388-7783", "affiliation": "HHMI Janelia Research Campus"}
+  "grants": [
+    {
+      "id": "10.13039/100010269::222782/Z/21/Z"
+    },
+    {
+      "id": "10.13039/501100001659::ZA1296/1-1"
+    },
+    {
+      "id": "10.13039/100000002::P20GM103440"
+    }
   ],
   "keywords": [
-    "Drosophila", "neuropeptide", "connectomics", "cell types",
-    "ground truth", "neuromodulator",
-    "FAFB", "MANC", "hemibrain", "BANC"
+    "Drosophila",
+    "neuropeptide",
+    "connectomics",
+    "cell types",
+    "ground truth",
+    "neuromodulator",
+    "FAFB",
+    "MANC",
+    "hemibrain",
+    "BANC"
   ],
   "related_identifiers": [
-    {"relation": "isSupplementTo", "identifier": "10.1101/2025.07.31.667571", "resource_type": "publication-preprint"},
-    {"relation": "isPartOf", "identifier": "https://github.com/funkelab/drosophila_neurotransmitters", "resource_type": "dataset"}
+    {
+      "relation": "isSupplementTo",
+      "identifier": "10.1101/2025.07.31.667571",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "relation": "isPartOf",
+      "identifier": "https://github.com/funkelab/drosophila_neurotransmitters",
+      "resource_type": "dataset"
+    }
   ]
 }
