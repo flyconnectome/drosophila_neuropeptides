@@ -1,6 +1,6 @@
 {
   "title": "drosophila_neuropeptides: A curated database of neuropeptide expression by Drosophila cell types",
-  "description": "Community-curated, version-controlled ground-truth dataset linking neuronal cell types in Drosophila melanogaster connectomes to evidence for their expression of ~50 known neuropeptides (e.g. Akh, AstA, AstC, Burs, Capa, CCHa1/2, CNMa, Crz, CCAP, Dh31, Dh44, Dsk, ETH, FMRFa, Hugin, Lk, Ms, NPF, sNPF, PDF, Proc, SIFa, TK and others). Companion to the [drosophila_neurotransmitters](https://github.com/funkelab/drosophila_neurotransmitters) dataset and curated under the same Pull-Request-driven workflow. Used as ground truth and reference annotation for connectome analyses in Drosophila, including the BANC connectome paper (Bates, Phelps, Kim, Yang et al., 2025).",
+  "description": "Community-curated, version-controlled ground-truth dataset linking neuronal cell types in Drosophila melanogaster connectomes to evidence for their expression of ~50 known neuropeptides (e.g. Akh, AstA, AstC, Burs, Capa, CCHa1/2, CNMa, Crz, CCAP, Dh31, Dh44, Dsk, ETH, FMRFa, Hugin, Lk, Ms, NPF, sNPF, PDF, Proc, SIFa, TK and others). Companion to the [drosophila_neurotransmitters](https://github.com/funkelab/drosophila_neurotransmitters) dataset and curated under the same Pull-Request-driven workflow. Used as ground truth and reference annotation for connectome analyses in Drosophila, including the BANC connectome paper (Bates, Phelps, Kim, Yang et al., 2026).",
   "license": "CC-BY-4.0",
   "upload_type": "dataset",
   "access_right": "open",
@@ -55,6 +55,11 @@
     "BANC"
   ],
   "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "10.1038/s41586-026-10735-w",
+      "resource_type": "publication-article"
+    },
     {
       "relation": "isSupplementTo",
       "identifier": "10.1101/2025.07.31.667571",
