@@ -18,10 +18,27 @@ zandawala  <- file.path(repo_root, "gt_sources", "zandawala_2024",
 # regardless of the casing in franken_meta.
 np_meta <- readr::read_csv(zandawala, show_col_types = FALSE)
 np_symbol_to_col <- setNames(tolower(np_meta$Symbol), np_meta$Symbol)
-# Add aliases for non-Zandawala FlyBase peptides we know appear:
+# Add aliases for non-Zandawala FlyBase peptides we know appear, and for the
+# spellings curators actually type. Without these, one peptide becomes several
+# columns: "dNPF" and "NPF" are the same gene product, as are "Hugin"/"Hug",
+# "Tachykinin"/"Tk" and "dArc1"/"Arc1".
 np_symbol_to_col <- c(np_symbol_to_col,
                        Spab = "spab", Amn = "amn", Arc1 = "arc1",
-                       Thyrostimulin = "thyrostimulin")
+                       Thyrostimulin = "thyrostimulin",
+                       dNPF = "npf", dArc1 = "arc1", Hugin = "hug",
+                       Tachykinin = "tk", Leucokinin = "lk")
+
+# Canonicalise ONE peptide name to its column header. Matching is
+# case-insensitive because the annotation layer is hand-typed ("AstC", "Astc",
+# "ASTC" all occur); anything unrecognised falls through as its own lower-case
+# column rather than being dropped, so a genuinely new peptide is still visible.
+canonical_peptide <- function(x) {
+  x <- trimws(x)
+  key <- match(tolower(x), tolower(names(np_symbol_to_col)))
+  out <- ifelse(is.na(key), tolower(x), unname(np_symbol_to_col)[key])
+  out[is.na(x)] <- NA_character_
+  out
+}
 
 # Get the data we have already built (optional — only used for the
 # legacy union step; safe to skip if missing)
@@ -86,7 +103,14 @@ simplify_nt <- function(input_string){
 
 # Query and organse flytable data, from midbrain and optic lobe tables
 #ft <- fafbseg::flytable_query("select _id, root_id, root_630, root_783, supervoxel_id, proofread, status, pos_x, pos_y, pos_z, nucleus_id, soma_x, soma_y, soma_z, side, hemilineage, hartenstein_hemilineage, top_nt, flow, super_class, cell_class, cell_type, hemibrain_match, hemibrain_type, malecns_type, cb_type, root_duplicated, morphology_group, neurotransmitter_verified, neurotransmitter_verified_source, notes from info")
-ft.all <- bancr::franken_meta()
+# READ THE LIVE ANNOTATION LAYER, NOT THE FROZEN SNAPSHOT.
+# bancr::franken_meta() defaults to source = "gcs", which serves a periodically
+# refreshed feather export. Curation happens in SeaTable (base `cns_meta`, tables
+# `fafb` and `manc`), so a bare franken_meta() rebuilds the ground truth from
+# whatever the last export happened to contain and silently misses every
+# annotation entered since -- which is the only reason to rebuild at all.
+# Needs $BANCTABLE_TOKEN.
+ft.all <- bancr::franken_meta(source = "seatable", base = "cns_meta")
 #ft$region <- 'midbrain'
 # ft.optic <- fafbseg::flytable_query("select * from optic")
 # ft.optic <- ft.optic[, intersect(colnames(ft.optic),
@@ -188,9 +212,19 @@ if (!is.null(extra)) {
   ft.np <- plyr::rbind.fill(ft.np, extra)
 }
 
-# Turn into a matrix
+# Turn into a matrix.
+#
+# SPLIT ON A COMMA, NOT ON ", ". The delimiter was the two-character string
+# ", ", so a curator who typed "Dh44,Lk" got neither peptide: the pair survived
+# the split intact and `spread()` made it a COLUMN, "dh44,lk", that no
+# downstream join can ever ask for. 49 of 81 columns were multi-peptide strings
+# like this, and the real `lk`/`npf`/`pdf` columns lost those cell types.
+# `\\s*` also absorbs "Dh44 , Lk".
 ft.np.m <- ft.np %>%
-  tidyr::separate_longer_delim(neuropeptide_verified, delim = ", ") %>%
+  tidyr::separate_longer_delim(neuropeptide_verified,
+                                delim = stringr::regex(",\\s*")) %>%
+  dplyr::mutate(neuropeptide_verified = trimws(neuropeptide_verified)) %>%
+  dplyr::filter(neuropeptide_verified != "") %>%
   dplyr::distinct(cell_type, neuropeptide_verified, neuropeptide_verified_source, .keep_all = TRUE) %>%
   dplyr::filter(!is.na(cell_type), !is.na(neuropeptide_verified)) %>%
   dplyr::mutate(value = dplyr::case_when(
@@ -198,6 +232,8 @@ ft.np.m <- ft.np %>%
     TRUE ~ 1
   )) %>%
   dplyr::mutate(neuropeptide_verified = gsub("-negative.*","",neuropeptide_verified)) %>%
+  # Canonicalise BEFORE spreading, so "dNPF" and "NPF" land in one column.
+  dplyr::mutate(neuropeptide_verified = canonical_peptide(neuropeptide_verified)) %>%
   dplyr::distinct() %>%
   tidyr::spread(key = neuropeptide_verified, value = value, fill = 0) %>%
   as.data.frame()
