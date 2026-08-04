@@ -30,6 +30,28 @@ gt.nt.orig <- if (file.exists(gt_path))
 extra <- if (file.exists(extra_path))
   readr::read_csv(extra_path, show_col_types = FALSE) else NULL
 
+# Normalise the hand-curated fields that key every downstream join.
+#
+#  * cell_type: hand-entered rows have arrived carrying a trailing NON-BREAKING
+#    SPACE (U+00A0). trimws() does not strip U+00A0, so "MNad03 " survives as a
+#    key distinct from "MNad03", splits one cell type across two rows of
+#    gt_np_data.csv, and can never match a connectome cell_type. Convert U+00A0 to a
+#    plain space, then trim.
+#  * region: use one spelling per region. "vnc" and "ventral_nerve_cord" were both in
+#    use for the same nerve-cord rows, so anything selecting VNC ground truth by region
+#    silently saw only half of it.
+normalise_gt_fields <- function(df) {
+  if (is.null(df)) return(df)
+  if ("cell_type" %in% names(df))
+    df$cell_type <- trimws(gsub(" ", " ", df$cell_type))
+  if ("region" %in% names(df)) {
+    r <- trimws(as.character(df$region))
+    df$region <- ifelse(r %in% "vnc", "ventral_nerve_cord", r)
+  }
+  df
+}
+extra <- normalise_gt_fields(extra)
+
 # Transmitters we care about (kept as defensive filter only — the
 # franken_meta NT/NP split (May 2026) means peptides should NOT appear
 # in `neurotransmitter_verified`, but we double-check below).
@@ -161,6 +183,7 @@ ft.np <- ft %>%
     neuropeptide_verified_evidence %in% c("scRNA-seq, unsure") ~ 0,
     TRUE ~ 0
   ))
+ft.np <- normalise_gt_fields(ft.np)
 if (!is.null(extra)) {
   ft.np <- plyr::rbind.fill(ft.np, extra)
 }
