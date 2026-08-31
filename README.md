@@ -97,6 +97,30 @@ Coverage of `neuropeptide_verified` annotations across `franken_meta` super-clas
 3. Commit your changes with a meaningful commit message and push to your branch.
 4. Create a Pull Request for your branch when you're satisfied with your changes.
 
+### Adding and withdrawing calls: `gt_sources/extra.csv` and `gt_sources/exclusions.csv`
+
+Two satellite files sit beside the main table and are applied by `R/organise_np_data.R` on every
+rebuild. Use them in preference to hand-editing `gt_np_data.csv`, because that script reads the
+table and writes back over it: a hand edit survives only until a source re-supplies the row.
+
+- **`gt_sources/extra.csv` — inclusions.** Calls to add that no upstream source carries yet. One
+  row per (cell type, peptide) with its evidence, source and confidence.
+- **`gt_sources/exclusions.csv` — withdrawals.** Calls to remove. Leave `neuropeptide` blank to
+  drop the whole row for that cell type, or name a peptide to zero that single call and keep the
+  row.
+
+**Key an exclusion on the cell type, and leave `region` and `hemilineage` blank.** They are
+wildcards, and blank is almost always right: region and hemilineage are exactly the fields
+curation *changes*. In the 2026-08-31 update ten fan-shaped-body types moved from
+`midbrain`/`0` to `central_brain`/`LALv1_dorsal`, and an exclusion keyed on the old region would
+have silently stopped applying while still looking present in the file.
+
+The builder reports what it did every run: rows dropped, calls zeroed, and two distinct
+no-match cases kept apart — an entry whose cell type is *absent* from the table is holding
+pre-emptively and is reported as a message, whereas an entry whose cell type is *present* but
+whose keys no longer match has gone **stale** against a rename and raises a warning, because that
+is how a withdrawn call comes back looking verified.
+
 ## About the Data
 
 Our goal is to collate comprehensive data on Drosophila neuropeptides, including information on their expression patterns, receptors, and known functions. 

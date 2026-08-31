@@ -1,0 +1,6 @@
+species,region,hemilineage,cell_type,neuropeptide,withdrawn_calls,withdrawn_from_region,reason,source,date_added
+adult_drosophila_melanogaster,,,DNg70,,lk,central_brain,withdrawn by M. Zandawala in the 2026-08-31 gt_np_data.csv update,zandawala_2026-08-31,2026-08-31
+adult_drosophila_melanogaster,,,FB2F_a,,dh31,midbrain,withdrawn by M. Zandawala in the 2026-08-31 gt_np_data.csv update,zandawala_2026-08-31,2026-08-31
+adult_drosophila_melanogaster,,,FB5R,,dh44;ms,midbrain,withdrawn by M. Zandawala in the 2026-08-31 gt_np_data.csv update,zandawala_2026-08-31,2026-08-31
+adult_drosophila_melanogaster,,,FB5T,,neuropeptides,midbrain,withdrawn by M. Zandawala in the 2026-08-31 gt_np_data.csv update,zandawala_2026-08-31,2026-08-31
+adult_drosophila_melanogaster,,,FB8F,,nplp1,midbrain,withdrawn by M. Zandawala in the 2026-08-31 gt_np_data.csv update,zandawala_2026-08-31,2026-08-31

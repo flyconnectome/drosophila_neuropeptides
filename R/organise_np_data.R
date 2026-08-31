@@ -273,6 +273,85 @@ readr::write_csv(x = ft.np,
                  file = file.path(sources_dir,
                    sprintf("%s-gt_np_data.csv",
                            format(Sys.Date(), "%Y%m"))))
+############################################################################
+### EXCLUSIONS: withdrawn calls, recorded rather than merely deleted     ###
+############################################################################
+# ASB, 2026-08-31: "To make sure the exclusion set is observed, we might need to have a satellite
+# exclusions.csv if we do not have something similar already. New inclusions can go into the same
+# extra mechanism."
+#
+# WHY THIS EXISTS. Inclusions already had a home -- `gt_sources/extra.csv`, merged above. Removals
+# did not: a withdrawn call was expressed only as an ABSENCE from gt_np_data.csv. That is fragile
+# in the one way that matters here, because this script READS gt_np_data.csv and writes back over
+# it: any source that re-supplies a withdrawn row, or any rebuild from an older copy, silently
+# resurrects it and nothing anywhere records that a human had removed it on purpose. Seeded from
+# M. Zandawala's 2026-08-31 push, which withdrew fifteen cell types.
+#
+# TWO GRANULARITIES, chosen by whether `neuropeptide` is filled in:
+#   blank       -> drop the whole ROW for that cell type.
+#   a peptide   -> keep the row and zero THAT ONE column, for withdrawing a single call.
+# Blank `region`/`hemilineage`/`species` in an exclusion act as wildcards, so the common case is
+# one line naming a cell type.
+excl_path <- file.path(repo_root, "gt_sources", "exclusions.csv")
+if (file.exists(excl_path)) {
+  excl <- readr::read_csv(excl_path, show_col_types = FALSE)
+  .norm <- function(x) tolower(trimws(gsub("\u00a0", " ", as.character(x))))
+  n_row_before <- nrow(gt.nt.new)
+  dropped_total <- 0L; zeroed_total <- 0L; stale <- character(0); already <- character(0)
+  for (i in seq_len(nrow(excl))) {
+    e <- excl[i, ]
+    hit <- rep(TRUE, nrow(gt.nt.new))
+    for (f in c("species", "region", "hemilineage", "cell_type")) {
+      v <- .norm(e[[f]])
+      if (!is.na(v) && nzchar(v)) hit <- hit & (.norm(gt.nt.new[[f]]) %in% v)
+    }
+    np <- .norm(e[["neuropeptide"]])
+    if (!any(hit)) {
+      # TWO DIFFERENT THINGS LOOK THE SAME HERE and only one is a problem. If the cell type is
+      # absent from the table entirely, the call was already withdrawn upstream and this entry is
+      # doing its job pre-emptively -- that is the steady state and must not cry wolf on every
+      # build. If the cell type IS present but this entry's region/hemilineage no longer matches
+      # it, the exclusion has gone stale against a rename and is silently excluding nothing, which
+      # is exactly how a withdrawn call comes back looking verified.
+      if (.norm(e[["cell_type"]]) %in% .norm(gt.nt.new$cell_type))
+        stale <- c(stale, sprintf("%s (%s)", e[["cell_type"]], e[["region"]]))
+      else
+        already <- c(already, as.character(e[["cell_type"]]))
+      next
+    }
+    if (is.na(np) || !nzchar(np)) {
+      dropped_total <- dropped_total + sum(hit)
+      gt.nt.new <- gt.nt.new[!hit, , drop = FALSE]
+    } else if (np %in% colnames(gt.nt.new)) {
+      zeroed_total <- zeroed_total + sum(hit)
+      gt.nt.new[hit, np] <- 0
+    } else {
+      warning("exclusions.csv row ", i, " names peptide column '", np,
+              "', which is not a column of gt_np_data.csv -- NOTHING was excluded for it. ",
+              "Fix the spelling; do not leave it, because it reads as an applied exclusion.",
+              call. = FALSE)
+    }
+  }
+  message(sprintf("exclusions.csv: %d entries -> %d row(s) dropped, %d call(s) zeroed (%d -> %d rows)",
+                  nrow(excl), dropped_total, zeroed_total, n_row_before, nrow(gt.nt.new)))
+  # A STALE EXCLUSION IS THE FAILURE MODE THIS FILE INVITES. Once a cell type is renamed upstream,
+  # its exclusion silently stops applying and the withdrawn call comes back looking verified. So an
+  # entry that matches nothing is reported every build rather than passed over.
+  if (length(already))
+    message(sprintf("  %d entr(ies) matched nothing because the cell type is absent from the table -- ",
+                    length(already)),
+            "already withdrawn upstream, so the exclusion held pre-emptively: ",
+            paste(utils::head(already, 20), collapse = ", "))
+  if (length(stale))
+    warning("exclusions.csv: ", length(stale), " entr(ies) name a cell type that IS in the table ",
+            "but did not match on region/hemilineage -- the exclusion has gone STALE against a ",
+            "rename and is excluding nothing, which is how a withdrawn call comes back looking ",
+            "verified. Fix the keys: ", paste(utils::head(stale, 20), collapse = ", "),
+            call. = FALSE)
+} else {
+  message("gt_sources/exclusions.csv absent -- no exclusions applied.")
+}
+
 readr::write_csv(x = gt.nt.new,
                  file = file.path(repo_root, "gt_np_data.csv"))
 
