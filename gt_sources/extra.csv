@@ -26,3 +26,8 @@ adult_drosophila_melanogaster,ventral_nerve_cord,,MNad25,immuno,"Lk, Dh44",Maggi
 adult_drosophila_melanogaster,ventral_nerve_cord,,MNad52,immuno,"Lk, Dh44",Maggio et al. 2023,3
 adult_drosophila_melanogaster,ventral_nerve_cord,,MNad03,immuno,"Lk, Dh44",Maggio et al. 2023,3
 adult_drosophila_melanogaster,ventral_nerve_cord,,MNad37,immuno,"Lk, Dh44",Maggio et al. 2023,3
+adult_drosophila_melanogaster,optic_lobes,,Pm3,immuno,AstA,"Davis et al., 2020",4
+adult_drosophila_melanogaster,optic_lobes,,Tm9,TAPIN-seq,AstC,"Davis et al., 2020",2
+adult_drosophila_melanogaster,optic_lobes,,C2,TAPIN-seq,AstC,"Davis et al., 2020",2
+adult_drosophila_melanogaster,optic_lobes,,L4,TAPIN-seq,AstC,"Davis et al., 2020",2
+adult_drosophila_melanogaster,optic_lobes,,L5,TAPIN-seq,AstC,"Davis et al., 2020",2
