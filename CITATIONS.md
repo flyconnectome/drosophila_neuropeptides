@@ -179,7 +179,7 @@
 
 89.	Winther, A. M. E., Siviter, R. J., Isaac, R. E., Predel, R. & Nässel, D. R. Neuronal expression of tachykinin-related peptides and gene transcript during postembryonic development of Drosophila: TRP and Gene Transcript Expression inDrosophila. J. Comp. Neurol. 464, 180–196 (2003).
 
-90.	Wolff, T. et al. Cell type-specific driver lines targeting the Drosophila central complex and their use to investigate neuropeptide expression and sleep regulation. bioRxivorg (2024) doi:10.1101/2024.10.21.619448.
+90.	Wolff, T. et al. Cell type-specific driver lines targeting the Drosophila central complex and their use to investigate neuropeptide expression and sleep regulation. eLife (2025). Preprint: bioRxiv doi:10.1101/2024.10.21.619448. [published volume/DOI to be filled]
 
 91.	Wu, Y., Bidaye, S. S. & Mahringer, D. Drosophilafemale-specific brain neuron elicits persistent position- and direction-selective male-like social behaviors. (2019) doi:10.1101/594960.
 

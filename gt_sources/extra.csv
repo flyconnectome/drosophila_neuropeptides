@@ -34,3 +34,6 @@ adult_drosophila_melanogaster,optic_lobes,,L5,TAPIN-seq,AstC,"Davis et al., 2020
 adult_drosophila_melanogaster,central_brain,,DNg68,Immune,lk,"Savas et al., 2026",4
 adult_drosophila_melanogaster,central_brain,,SMP587,immuno,eh,"Scott et al., 2020",4
 adult_drosophila_melanogaster,central_brain,,cLM01,immuno,eh,"Scott et al., 2020",4
+adult_drosophila_melanogaster,central_brain,DM1_CX_p,hDeltaK,RNA-seq,"AstA, NPF","Wolff et al., 2025",1
+adult_drosophila_melanogaster,central_brain,DL1_dorsal,FB6A,RNA-seq,AstC,"Wolff et al., 2025",1
+adult_drosophila_melanogaster,central_brain,EBa1,ER5,RNA-seq,Dh31,"Wolff et al., 2025",1
