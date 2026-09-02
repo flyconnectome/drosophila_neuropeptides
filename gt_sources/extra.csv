@@ -26,7 +26,7 @@ adult_drosophila_melanogaster,ventral_nerve_cord,,MNad25,immuno,"Lk, Dh44",Maggi
 adult_drosophila_melanogaster,ventral_nerve_cord,,MNad52,immuno,"Lk, Dh44",Maggio et al. 2023,3
 adult_drosophila_melanogaster,ventral_nerve_cord,,MNad03,immuno,"Lk, Dh44",Maggio et al. 2023,3
 adult_drosophila_melanogaster,ventral_nerve_cord,,MNad37,immuno,"Lk, Dh44",Maggio et al. 2023,3
-adult_drosophila_melanogaster,optic_lobes,,Pm3,immuno,AstA,"Davis et al., 2020",4
+adult_drosophila_melanogaster,optic_lobes,,Pm09,immuno,AstA,"Davis et al., 2020",4
 adult_drosophila_melanogaster,optic_lobes,,Tm9,TAPIN-seq,AstC,"Davis et al., 2020",2
 adult_drosophila_melanogaster,optic_lobes,,C2,TAPIN-seq,AstC,"Davis et al., 2020",2
 adult_drosophila_melanogaster,optic_lobes,,L4,TAPIN-seq,AstC,"Davis et al., 2020",2
@@ -34,3 +34,6 @@ adult_drosophila_melanogaster,optic_lobes,,L5,TAPIN-seq,AstC,"Davis et al., 2020
 adult_drosophila_melanogaster,central_brain,,DNg68,Immune,lk,"Savas et al., 2026",4
 adult_drosophila_melanogaster,central_brain,,SMP587,immuno,eh,"Scott et al., 2020",4
 adult_drosophila_melanogaster,central_brain,,cLM01,immuno,eh,"Scott et al., 2020",4
+adult_drosophila_melanogaster,optic_lobes,,Sm15,scRNA-seq,CCHa1,"Kurmangaliyev, pers. comm. 2026-09-02",1
+adult_drosophila_melanogaster,optic_lobes,,MLt5,scRNA-seq,AstC,"Kurmangaliyev, pers. comm. 2026-09-02",1
+adult_drosophila_melanogaster,optic_lobes,,MTe51,scRNA-seq,CCHa2,"Kurmangaliyev, pers. comm. 2026-09-02",1

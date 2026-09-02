@@ -230,8 +230,10 @@ adult_drosophila_melanogaster,ventral_nerve_cord,TBD,MNad52,Maggio et al. 2023,i
 adult_drosophila_melanogaster,ventral_nerve_cord,TBD,MNad59,Maggio et al. 2023,immuno,4,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,ventral_nerve_cord,0,MsAHN,"Benett et al., 2026",scRNA-seq,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,ventral_nerve_cord,0,MtAHN,"Benett et al., 2026",scRNA-seq,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-adult_drosophila_melanogaster,optic_lobes,,Pm3,"Davis et al., 2020",immuno,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+adult_drosophila_melanogaster,optic_lobes,,Pm09,"Davis et al., 2020",immuno,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,optic_lobes,,Tm9,"Davis et al., 2020",TAPIN-seq,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,optic_lobes,,C2,"Davis et al., 2020",TAPIN-seq,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,optic_lobes,,L4,"Davis et al., 2020",TAPIN-seq,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,optic_lobes,,L5,"Davis et al., 2020",TAPIN-seq,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+adult_drosophila_melanogaster,optic_lobes,,Sm15,"Kurmangaliyev, pers. comm. 2026-09-02",scRNA-seq,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+adult_drosophila_melanogaster,optic_lobes,,MLt5,"Kurmangaliyev, pers. comm. 2026-09-02",scRNA-seq,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
