@@ -428,3 +428,6 @@ adult_drosophila_melanogaster,central_brain,CB2993,NA,npf,"Endres et al., 2026",
 adult_drosophila_melanogaster,central_brain,LNd_c,NA,npf,"Endres et al., 2026","immuno, intersection",4
 adult_drosophila_melanogaster,central_brain,DNp29,NA,npf,"Endres et al., 2026","immuno, intersection",4
 adult_drosophila_melanogaster,central_brain,hDeltaK,NA,npf,"Endres et al., 2026","immuno, intersection",4
+adult_drosophila_melanogaster,central_brain,hDeltaK,DM1_CX_p,"AstA, NPF","Wolff et al., 2025",RNA-seq,1
+adult_drosophila_melanogaster,central_brain,FB6A,DL1_dorsal,AstC,"Wolff et al., 2025",RNA-seq,1
+adult_drosophila_melanogaster,central_brain,ER5,EBa1,Dh31,"Wolff et al., 2025",RNA-seq,1

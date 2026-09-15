@@ -56,6 +56,7 @@ adult_drosophila_melanogaster,central_brain,DM1_CX_d2,EPG,"Wolff et al., 2024",E
 adult_drosophila_melanogaster,central_brain,DM4_CX_d2,EPGt,"Wolff et al., 2024",EASI-FISH,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
 adult_drosophila_melanogaster,central_brain,EBa1,ER4m,"Wolff et al., 2024",EASI-FISH,2,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,central_brain,EBa1,ER5,"Wolff et al., 2024",EASI-FISH,2,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+adult_drosophila_melanogaster,central_brain,EBa1,ER5,"Wolff et al., 2025",RNA-seq,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,central_brain,DM4__prim,ExR1,"Wolff et al., 2024",EASI-FISH,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,central_brain,putative_primary,ExR3,"Wolff et a., 2024",EASI-FISH,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,central_brain,LALv1_dorsal,FB1A,"Wolff et al., 2024",EASI-FISH,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
@@ -98,6 +99,7 @@ adult_drosophila_melanogaster,central_brain,LALv1_dorsal,FB5N,"Wolff et al., 202
 adult_drosophila_melanogaster,central_brain,AOTUv4_ventral,FB5Q,"Wolff et al., 2024",EASI-FISH,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
 adult_drosophila_melanogaster,central_brain,DM6_dorso_medial,"FB5R,FB5U","Wolff et al., 2024",EASI-FISH,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,central_brain,DL1_dorsal,FB6A,"Wolff et al., 2024",EASI-FISH,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0
+adult_drosophila_melanogaster,central_brain,DL1_dorsal,FB6A,"Wolff et al., 2025",RNA-seq,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,central_brain,DL1_dorsal,FB6A_c,"Wolff et al., 2024",EASI-FISH,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,central_brain,DL1_dorsal,FB6B,"Wolff et al., 2024",EASI-FISH,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0
 adult_drosophila_melanogaster,central_brain,DL1_dorsal,FB6D,"Wolff et al., 2024",EASI-FISH,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
@@ -119,6 +121,7 @@ adult_drosophila_melanogaster,central_brain,DM1_CX_d2,hDeltaF,"Wolff et al., 202
 adult_drosophila_melanogaster,central_brain,DM1_CX_p,hDeltaH,"Wolff et al., 2024",EASI-FISH,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
 adult_drosophila_melanogaster,central_brain,DM1_CX_d2,hDeltaI,"Wolff et al., 2024",EASI-FISH,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,central_brain,DM1_CX_p,hDeltaK,"Wolff et al., 2024",EASI-FISH,2,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+adult_drosophila_melanogaster,central_brain,DM1_CX_p,hDeltaK,"Wolff et al., 2025",RNA-seq,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,central_brain,0,hDeltaK,"Endres et al., 2026","immuno, intersection",4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,central_brain,putative_primary,ISN,"González Segarra et al., 2023",RNAi,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,central_brain,MBp1,KCab,Aso et al. 2019,scRNA-seq,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
