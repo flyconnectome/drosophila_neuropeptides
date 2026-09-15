@@ -190,3 +190,5 @@
 94.	Yurgel, M. E. et al. A single pair of leucokinin neurons are modulated by feeding state and regulate sleep-metabolism interactions. PLoS Biol. 17, e2006409 (2019).
 
 95.	Zhao, A. et al. A comprehensive neuroanatomical survey of the Drosophila Lobula Plate Tangential Neurons with predictions for their optic flow sensitivity. bioRxivorg (2023) doi:10.1101/2023.10.16.562634.
+
+96.	Endres, M. N., Dadyala, T. S., Christie, K. W., Sinakevitch, I. T. & Shao, L. Cellular source and circuit context organize functional specificity in the Drosophila NPF system. bioRxiv (2026) doi:10.64898/2026.09.08.750118.

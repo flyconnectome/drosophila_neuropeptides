@@ -37,3 +37,9 @@ adult_drosophila_melanogaster,central_brain,,cLM01,immuno,eh,"Scott et al., 2020
 adult_drosophila_melanogaster,optic_lobes,,Sm15,scRNA-seq,CCHa1,"Kurmangaliyev, pers. comm. 2026-09-02",1
 adult_drosophila_melanogaster,optic_lobes,,MLt5,scRNA-seq,AstC,"Kurmangaliyev, pers. comm. 2026-09-02",1
 adult_drosophila_melanogaster,optic_lobes,,MTe51,scRNA-seq,CCHa2,"Kurmangaliyev, pers. comm. 2026-09-02",1
+adult_drosophila_melanogaster,central_brain,,CB3017,"immuno, intersection",npf,"Endres et al., 2026",4
+adult_drosophila_melanogaster,central_brain,,CB2123,"immuno, intersection",npf,"Endres et al., 2026",4
+adult_drosophila_melanogaster,central_brain,,CB2993,"immuno, intersection",npf,"Endres et al., 2026",4
+adult_drosophila_melanogaster,central_brain,,LNd_c,"immuno, intersection",npf,"Endres et al., 2026",4
+adult_drosophila_melanogaster,central_brain,,DNp29,"immuno, intersection",npf,"Endres et al., 2026",4
+adult_drosophila_melanogaster,central_brain,,hDeltaK,"immuno, intersection",npf,"Endres et al., 2026",4
