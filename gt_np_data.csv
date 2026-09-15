@@ -141,8 +141,6 @@ adult_drosophila_melanogaster,central_brain,putative_primary,LHPV6q1,"Song et al
 adult_drosophila_melanogaster,central_brain,ALl1_dorsal,lLN2P_b,"Sizemore et al., 2023",immuno,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,central_brain,SLPav1_lateral,LNd_a,"Hermann-Luibl et al., 2014",immuno,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,central_brain,SLPav1_lateral,LNd_a,"Reinhard et al., 2023",scRNA-seq,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
-adult_drosophila_melanogaster,central_brain,SLPav1_lateral,LNd_c,Reinhard et al. 2023,immuno,4,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
-adult_drosophila_melanogaster,central_brain,0,LNd_c,"Endres et al., 2026","immuno, intersection",4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,central_brain,LALv1_dorsal,LNOa,"Wolff et al., 2024",EASI-FISH,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,central_brain,DILP__prim,m_NSC_DH44,"Reinhard et al., 2023",immuno,4,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,central_brain,DILP__prim,m_NSC_DILP,"Cao et al., 2001",immuno,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
