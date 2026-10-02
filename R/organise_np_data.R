@@ -64,6 +64,11 @@ normalise_gt_fields <- function(df) {
   if ("region" %in% names(df)) {
     r <- trimws(as.character(df$region))
     df$region <- ifelse(r %in% "vnc", "ventral_nerve_cord", r)
+    # Same defect, same fix, found 2026-10-02: gt_np_data.csv carried BOTH "optic_lobe" (7 rows)
+    # and "optic_lobes" (8) for one region, so anything selecting optic-lobe ground truth by
+    # region silently saw about half of it -- exactly the failure the vnc line above exists for.
+    # extra.csv already uses the plural, so the plural is canonical.
+    df$region <- ifelse(df$region %in% "optic_lobe", "optic_lobes", df$region)
   }
   df
 }
