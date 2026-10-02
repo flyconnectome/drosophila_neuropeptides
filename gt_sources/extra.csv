@@ -46,3 +46,11 @@ adult_drosophila_melanogaster,central_brain,,hDeltaK,"immuno, intersection",npf,
 adult_drosophila_melanogaster,central_brain,DM1_CX_p,hDeltaK,RNA-seq,"AstA, NPF","Wolff et al., 2025",1
 adult_drosophila_melanogaster,central_brain,DL1_dorsal,FB6A,RNA-seq,AstC,"Wolff et al., 2025",1
 adult_drosophila_melanogaster,central_brain,EBa1,ER5,RNA-seq,Dh31,"Wolff et al., 2025",1
+adult_drosophila_melanogaster,central_brain,,DNg80,immuno,burs,Zandawala lab,3
+adult_drosophila_melanogaster,central_brain,,SLP444,immuno,Gpb5,Zandawala lab,3
+adult_drosophila_melanogaster,central_brain,,l_NSC_ITP,immuno,Arc1,"Mattaliano et al., 2007",3
+adult_drosophila_melanogaster,central_brain,,LNd_b,immuno,Tristin,"Brown et al., 2024",3
+adult_drosophila_melanogaster,central_brain,,LNd_b,scRNA-seq,Tristin,"Reinhard et al., 2023",3
+adult_drosophila_melanogaster,optic_lobes,,cM09,scRNA-seq,CCHa1,"Treese et al., 2026",3
+adult_drosophila_melanogaster,optic_lobes,,MeVP1,scRNA-seq,CCHa2,"Treese et al., 2026",3
+adult_drosophila_melanogaster,optic_lobes,,MeLo3b,scRNA-seq,AstC,"Treese et al., 2026",3
