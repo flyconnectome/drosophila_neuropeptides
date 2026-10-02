@@ -103,8 +103,12 @@ Two satellite files sit beside the main table and are applied by `R/organise_np_
 rebuild. Use them in preference to hand-editing `gt_np_data.csv`, because that script reads the
 table and writes back over it: a hand edit survives only until a source re-supplies the row.
 
-- **`gt_sources/extra.csv` — inclusions.** Calls to add that no upstream source carries yet. One
-  row per (cell type, peptide) with its evidence, source and confidence.
+- **`gt_sources/extra.csv` — inclusions.** Calls to add that no upstream source carries yet.
+  **One row per (cell type, SOURCE)**, not per peptide: `neuropeptide_verified_source` holds a
+  single value, so several peptides from one study go on one row comma-separated, while one call
+  attested by two studies is two rows. The builder APPENDS these, so a cell type can end up with
+  several rows and that is correct — `FB1B` carries an Nplp1 call from Wolff et al. 2024 and
+  another from Janelia.
 - **`gt_sources/exclusions.csv` — withdrawals.** Calls to remove. Leave `neuropeptide` blank to
   drop the whole row for that cell type, or name a peptide to zero that single call and keep the
   row.
@@ -114,6 +118,14 @@ wildcards, and blank is almost always right: region and hemilineage are exactly 
 curation *changes*. In the 2026-08-31 update ten fan-shaped-body types moved from
 `midbrain`/`0` to `central_brain`/`LALv1_dorsal`, and an exclusion keyed on the old region would
 have silently stopped applying while still looking present in the file.
+
+**What an exclusion CANNOT do: withdraw one source's row when two sources supply the same cell
+type.** It is keyed on the cell type, and `extra.csv` appends, so both rows share the key —
+dropping the row kills both calls, and naming the peptide zeroes both. There is no way at present
+to say *"drop the Janelia duplicate, keep the Wolff one"*. If you need that, say so rather than
+deleting rows by hand: it wants an optional `source` column on `exclusions.csv`, which is a schema
+change. (Raised 2026-10-02, when exactly this was asked for across eight fan-shaped-body and
+vDelta types.)
 
 The builder reports what it did every run: rows dropped, calls zeroed, and two distinct
 no-match cases kept apart — an entry whose cell type is *absent* from the table is holding
