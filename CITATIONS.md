@@ -192,3 +192,5 @@
 95.	Zhao, A. et al. A comprehensive neuroanatomical survey of the Drosophila Lobula Plate Tangential Neurons with predictions for their optic flow sensitivity. bioRxivorg (2023) doi:10.1101/2023.10.16.562634.
 
 96.	Endres, M. N., Dadyala, T. S., Christie, K. W., Sinakevitch, I. T. & Shao, L. Cellular source and circuit context organize functional specificity in the Drosophila NPF system. bioRxiv (2026) doi:10.64898/2026.09.08.750118.
+
+97.	Tayler, T. D., Pacheco, D. A., Hergarden, A. C., Murthy, M. & Anderson, D. J. A neuropeptide circuit that coordinates sperm transfer and copulation duration in Drosophila. Proc. Natl. Acad. Sci. U. S. A. 109, 20697–20702 (2012) doi:10.1073/pnas.1218246109.
