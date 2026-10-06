@@ -22,11 +22,24 @@ np_symbol_to_col <- setNames(tolower(np_meta$Symbol), np_meta$Symbol)
 # spellings curators actually type. Without these, one peptide becomes several
 # columns: "dNPF" and "NPF" are the same gene product, as are "Hugin"/"Hug",
 # "Tachykinin"/"Tk" and "dArc1"/"Arc1".
+#
+# `Tristin` IS A TYPO FOR `Trissin`, AND IT HAD ALREADY MINTED A PHANTOM COLUMN (found 2026-10-06
+# while checking that Meet Zandawala's 2026-10-02 rows had landed). Trissin is the real FlyBase
+# symbol -- CG14871, in the Zandawala meta -- and `trissin` already carried calls on DNp27. The two
+# LNd_b rows spell it "Tristin", which this map did not know, so `canonical_peptide()` did exactly
+# what its comment promises and let it fall through as its own new lower-case column. The table
+# then held BOTH `trissin` (real, populated) and `tristin` (spurious, empty): one peptide become
+# two, which is the precise failure the paragraph above exists to prevent.
+#
+# The alias is the fix rather than correcting the spelling in extra.csv, because this map is for
+# "the spellings curators actually type" -- editing the source would repair today's rows and leave
+# the next person typing it to re-mint the column.
 np_symbol_to_col <- c(np_symbol_to_col,
                        Spab = "spab", Amn = "amn", Arc1 = "arc1",
                        Thyrostimulin = "thyrostimulin",
                        dNPF = "npf", dArc1 = "arc1", Hugin = "hug",
-                       Tachykinin = "tk", Leucokinin = "lk")
+                       Tachykinin = "tk", Leucokinin = "lk",
+                       Tristin = "trissin")
 
 # Canonicalise ONE peptide name to its column header. Matching is
 # case-insensitive because the annotation layer is hand-typed ("AstC", "Astc",
