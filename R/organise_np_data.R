@@ -309,7 +309,9 @@ readr::write_csv(x = ft.np,
 #   blank       -> drop the whole ROW for that cell type.
 #   a peptide   -> keep the row and zero THAT ONE column, for withdrawing a single call.
 # Blank `region`/`hemilineage`/`species` in an exclusion act as wildcards, so the common case is
-# one line naming a cell type.
+# one line naming a cell type. `match_source` (optional, added 2026-10-06) is the same idea for the
+# SOURCE of the row being withdrawn, which is what lets one study's duplicate be dropped while
+# another study's call for the same cell type is kept.
 excl_path <- file.path(repo_root, "gt_sources", "exclusions.csv")
 if (file.exists(excl_path)) {
   excl <- readr::read_csv(excl_path, show_col_types = FALSE)
@@ -322,6 +324,28 @@ if (file.exists(excl_path)) {
     for (f in c("species", "region", "hemilineage", "cell_type")) {
       v <- .norm(e[[f]])
       if (!is.na(v) && nzchar(v)) hit <- hit & (.norm(gt.nt.new[[f]]) %in% v)
+    }
+    # OPTIONAL `match_source`: narrow an exclusion to ONE source's row for a cell type.
+    #
+    # WHY IT EXISTS. Every other field here keys on the cell type, and `extra.csv` APPENDS, so a
+    # type supplied by two studies has two rows sharing every key -- and until now there was no way
+    # to say "drop the Janelia duplicate, keep the Wolff one". Dropping the row killed both and
+    # zeroing the peptide zeroed both. The README recorded this as a schema change that was wanted;
+    # this is it.
+    #
+    # IT IS A NEW COLUMN AND NOT THE EXISTING `source`, DELIBERATELY. `source` already means "who
+    # authorised this exclusion" -- "ASB 2026-08-31", "Lee et al. 2008 (CTR 331:659-673)". Reusing
+    # it would have made all nine existing exclusions start matching their authorisation text
+    # against the table's `neuropeptide_verified_source`, match nothing, and SILENTLY STOP
+    # APPLYING. That is the quiet failure this file's own stale-exclusion warning exists to catch,
+    # and it would have been introduced by the fix meant to improve it.
+    #
+    # Blank, or the column absent entirely, is a wildcard -- so every existing row behaves exactly
+    # as before and the change is backward compatible.
+    if ("match_source" %in% names(e)) {
+      ms <- .norm(e[["match_source"]])
+      if (!is.na(ms) && nzchar(ms))
+        hit <- hit & (.norm(gt.nt.new[["neuropeptide_verified_source"]]) %in% ms)
     }
     np <- .norm(e[["neuropeptide"]])
     if (!any(hit)) {

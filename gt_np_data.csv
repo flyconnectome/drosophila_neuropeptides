@@ -214,18 +214,10 @@ adult_drosophila_melanogaster,central_brain,DM1_CX_p,vDeltaC,"Wolff et al., 2024
 adult_drosophila_melanogaster,central_brain,DM1_CX_p,vDeltaD,"Wolff et al., 2024",EASI-FISH,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
 adult_drosophila_melanogaster,central_brain,DM1_CX_v,vDeltaE,"Wolff et al., 2024",EASI-FISH,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
 adult_drosophila_melanogaster,central_brain,DM2_CX_v,vDeltaM,"Wolff et al., 2024",EASI-FISH,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-adult_drosophila_melanogaster,midbrain,0,FB1B,Janelia,EASI-FSH,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
-adult_drosophila_melanogaster,midbrain,0,FB2C,Janelia,EASI-FSH,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
-adult_drosophila_melanogaster,midbrain,0,FB4D,Janelia,EASI-FSH,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
-adult_drosophila_melanogaster,midbrain,0,FB4E,Janelia,EASI-FSH,3,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
-adult_drosophila_melanogaster,midbrain,0,FB4J,Janelia,EASI-FSH,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,midbrain,0,FB5J,Janelia,EASI-FSH,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,midbrain,0,FB5N,Janelia,EASI-FSH,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
-adult_drosophila_melanogaster,midbrain,0,FB7H,Janelia,EASI-FSH,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0
-adult_drosophila_melanogaster,midbrain,0,FB8F_a,Janelia,EASI-FSH,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,midbrain,0,vDeltaC,Janelia,EASI-FSH,3,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
 adult_drosophila_melanogaster,midbrain,0,vDeltaD,Janelia,EASI-FSH,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
-adult_drosophila_melanogaster,midbrain,0,vDeltaM,Janelia,EASI-FSH,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,optic_lobes,0,C2,"Davis et al., 2020",TAPIN-seq,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,optic_lobes,0,cM09,"Treese et al., 2026",scRNA-seq,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,optic_lobes,putative_primary,l-LNv,"Reinhard et al., 2023",immuno,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0
