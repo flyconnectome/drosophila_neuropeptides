@@ -416,7 +416,7 @@ adult_drosophila_melanogaster,optic_lobes,Tm9,NA,AstC,"Davis et al., 2020",TAPIN
 adult_drosophila_melanogaster,optic_lobes,C2,NA,AstC,"Davis et al., 2020",TAPIN-seq,2
 adult_drosophila_melanogaster,optic_lobes,L4,NA,AstC,"Davis et al., 2020",TAPIN-seq,2
 adult_drosophila_melanogaster,optic_lobes,L5,NA,AstC,"Davis et al., 2020",TAPIN-seq,2
-adult_drosophila_melanogaster,central_brain,DNg68,NA,lk,"Savas et al., 2026",Immune,4
+adult_drosophila_melanogaster,central_brain,DNg68,NA,lk,"Savas et al., 2026",immuno,4
 adult_drosophila_melanogaster,central_brain,SMP587,NA,eh,"Scott et al., 2020",immuno,4
 adult_drosophila_melanogaster,central_brain,cLM01,NA,eh,"Scott et al., 2020",immuno,4
 adult_drosophila_melanogaster,optic_lobes,Sm15,NA,CCHa1,"Kurmangaliyev, pers. comm. 2026-09-02",scRNA-seq,1

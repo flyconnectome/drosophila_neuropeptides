@@ -35,7 +35,7 @@ adult_drosophila_melanogaster,central_brain,MX0__prim,DNg26,"Cheong et al., 2023
 adult_drosophila_melanogaster,central_brain,MX0__prim,DNg26,Pankratz lab,transgenics,3,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,central_brain,putative_primary,DNg30,"Jiang et al., 2013",immuno,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,central_brain,putative_primary,DNg30,"Scheunemann et al., 2018",immuno,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
-adult_drosophila_melanogaster,central_brain,0,DNg68,"Savas et al., 2026",Immune,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+adult_drosophila_melanogaster,central_brain,0,DNg68,"Savas et al., 2026",immuno,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,central_brain,putative_primary,DNg80,unknown,immuno,4,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,central_brain,0,DNg80,Zandawala lab,immuno,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,central_brain,0,DNp27,Brown et al. 2024,intersection,3,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
