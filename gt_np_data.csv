@@ -219,7 +219,10 @@ adult_drosophila_melanogaster,midbrain,0,FB5N,Janelia,EASI-FSH,3,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,midbrain,0,vDeltaC,Janelia,EASI-FSH,3,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
 adult_drosophila_melanogaster,midbrain,0,vDeltaD,Janelia,EASI-FSH,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
 adult_drosophila_melanogaster,optic_lobes,0,C2,"Davis et al., 2020",TAPIN-seq,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+adult_drosophila_melanogaster,optic_lobes,0,C3,"Kurmangaliyev et al., 2020",scRNA-seq,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,0
+adult_drosophila_melanogaster,optic_lobes,0,C3,"Ozel et al., 2021",scRNA-seq,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,optic_lobes,0,cM09,"Treese et al., 2026",scRNA-seq,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+adult_drosophila_melanogaster,optic_lobes,0,Dm2,"Kurmangaliyev et al., 2020",scRNA-seq,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,optic_lobes,putative_primary,l-LNv,"Reinhard et al., 2023",immuno,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0
 adult_drosophila_melanogaster,optic_lobes,0,L4,"Davis et al., 2020",TAPIN-seq,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,optic_lobes,0,L5,"Davis et al., 2020",TAPIN-seq,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

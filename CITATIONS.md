@@ -194,3 +194,7 @@
 96.	Endres, M. N., Dadyala, T. S., Christie, K. W., Sinakevitch, I. T. & Shao, L. Cellular source and circuit context organize functional specificity in the Drosophila NPF system. bioRxiv (2026) doi:10.64898/2026.09.08.750118.
 
 97.	Tayler, T. D., Pacheco, D. A., Hergarden, A. C., Murthy, M. & Anderson, D. J. A neuropeptide circuit that coordinates sperm transfer and copulation duration in Drosophila. Proc. Natl. Acad. Sci. U. S. A. 109, 20697–20702 (2012) doi:10.1073/pnas.1218246109.
+
+98.	Kurmangaliyev, Y. Z., Yoo, J., Valdes-Aleman, J., Sanfilippo, P. & Zipursky, S. L. Transcriptional programs of circuit assembly in the Drosophila visual system. Neuron 108, 1045–1057.e6 (2020) doi:10.1016/j.neuron.2020.10.006.
+
+99.	Özel, M. N. et al. Neuronal diversity and convergence in a visual system developmental atlas. Nature 589, 88–95 (2021) doi:10.1038/s41586-020-2879-3.
