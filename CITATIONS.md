@@ -198,3 +198,7 @@
 98.	Kurmangaliyev, Y. Z., Yoo, J., Valdes-Aleman, J., Sanfilippo, P. & Zipursky, S. L. Transcriptional programs of circuit assembly in the Drosophila visual system. Neuron 108, 1045–1057.e6 (2020) doi:10.1016/j.neuron.2020.10.006.
 
 99.	Özel, M. N. et al. Neuronal diversity and convergence in a visual system developmental atlas. Nature 589, 88–95 (2021) doi:10.1038/s41586-020-2879-3.
+
+100.	Reinhard, N. et al. Synaptic connectome of the Drosophila circadian clock. Nat. Commun. 15, 10392 (2024) doi:10.1038/s41467-024-54694-0.
+
+101.	Bennett, M. M. et al. Divergent co-transmission by a predictive motor circuit modulates auditory processing. Curr. Biol. 36, 4006–4023.e9 (2026) doi:10.1016/j.cub.2026.06.080.

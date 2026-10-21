@@ -18,7 +18,6 @@ adult_drosophila_melanogaster,central_brain,0,CB3017,"Endres et al., 2026","immu
 adult_drosophila_melanogaster,central_brain,0,cLM01,"Scott et al., 2020",immuno,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,central_brain,SMPp&v1_ventral,cM03,"Scott et al., 2020",immuno,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,central_brain,putative_primary,cM08b,"Krzeptowski et al., 2021",immuno,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-adult_drosophila_melanogaster,central_brain,putative_primary,CRE021,"Asahina et al., 2014",immuno,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
 adult_drosophila_melanogaster,central_brain,putative_primary,"CRZ01,CRZ02","Kubrak et al., 2016",immuno,4,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
 adult_drosophila_melanogaster,central_brain,PBp1,Delta7,"Wolff et al., 2024",EASI-FISH,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 adult_drosophila_melanogaster,central_brain,putative_primary,DN1a,"Reinhard et al., 2023",scRNA-seq,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -48,7 +47,7 @@ adult_drosophila_melanogaster,central_brain,putative_primary,DNp30,"Soderberg et
 adult_drosophila_melanogaster,central_brain,putative_primary,DNp32,"Carlsson et al., 2010",immuno,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,central_brain,putative_primary,DNp62,"Soderberg et al., 2012",immuno,4,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,central_brain,SMPpv1,DNpe048,"González Segarra et al., 2023",transgenics,3,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-adult_drosophila_melanogaster,central_brain,putative_primary,DPM,Waddell et al. 2000,immuno,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+adult_drosophila_melanogaster,central_brain,0,DPM,Aso et al. 2019,bulk RNA-seq,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0
 adult_drosophila_melanogaster,central_brain,putative_primary,DSKMP3,"Soderberg et al., 2012",immuno,4,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,central_brain,putative_primary,DSKMP3,"Wu et al., 2019",immuno,4,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,central_brain,DM1_CX_d2,EL,"Wolff et a., 2024",EASI-FISH,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0
@@ -226,20 +225,19 @@ adult_drosophila_melanogaster,optic_lobes,0,Dm2,"Kurmangaliyev et al., 2020",scR
 adult_drosophila_melanogaster,optic_lobes,putative_primary,l-LNv,"Reinhard et al., 2023",immuno,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0
 adult_drosophila_melanogaster,optic_lobes,0,L4,"Davis et al., 2020",TAPIN-seq,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,optic_lobes,0,L5,"Davis et al., 2020",TAPIN-seq,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-adult_drosophila_melanogaster,optic_lobes,SLPpl1,LMTe01,"Reinhard et al., 2023",immuno,4,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+adult_drosophila_melanogaster,optic_lobes,0,LMTe01,"Reinhard et al., 2024",immuno,3,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,optic_lobes,SLPpl1,LTe71,"Reinhard et al., 2023",immuno,4,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,optic_lobes,0,MeLo3b,"Treese et al., 2026",scRNA-seq,3,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,optic_lobes,0,MeVP1,"Treese et al., 2026",scRNA-seq,3,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,optic_lobes,0,MLt5,"Kurmangaliyev, pers. comm. 2026-09-02",scRNA-seq,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,optic_lobes,0,MTe51,"Kurmangaliyev, pers. comm. 2026-09-02",scRNA-seq,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-adult_drosophila_melanogaster,optic_lobes,0,Pm05,"Nassel et al., 2008",immuno,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
 adult_drosophila_melanogaster,optic_lobes,0,Pm09,"Davis et al., 2020",immuno,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,optic_lobes,0,s-LNv_a,"Reinhard et al., 2023",scRNA-seq,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,optic_lobes,0,s-LNv_b,"Johard et al., 2019",immuno,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0
 adult_drosophila_melanogaster,optic_lobes,0,s-LNv_b,"Reinhard et al., 2023",scRNA-seq,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0
 adult_drosophila_melanogaster,optic_lobes,0,Sm15,"Kurmangaliyev, pers. comm. 2026-09-02",scRNA-seq,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,optic_lobes,0,Tm9,"Davis et al., 2020",TAPIN-seq,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-adult_drosophila_melanogaster,ventral_nerve_cord,27X,AN27X004,Benett et al. 2026,immuno,4,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+adult_drosophila_melanogaster,ventral_nerve_cord,0,AN27X004,"Bennett et al., 2026",HCR,3,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,ventral_nerve_cord,TBD,EAXXX079,"Chen et al., 2024",immuno,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,ventral_nerve_cord,27X,EN27X010,"Lundquist et al., 1990",immuno,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,ventral_nerve_cord,TBD,ENXXX012,"Zandawala et al., 2021",immuno,4,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
