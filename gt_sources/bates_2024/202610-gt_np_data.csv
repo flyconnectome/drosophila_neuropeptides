@@ -444,4 +444,4 @@ adult_drosophila_melanogaster,optic_lobes,C3,NA,neuropeptides-negative,"Kurmanga
 adult_drosophila_melanogaster,optic_lobes,C3,NA,neuropeptides-negative,"Ozel et al., 2021",scRNA-seq,3
 adult_drosophila_melanogaster,optic_lobes,Dm2,NA,neuropeptides-negative,"Kurmangaliyev et al., 2020",scRNA-seq,3
 adult_drosophila_melanogaster,optic_lobes,LMTe01,NA,Dh44,"Reinhard et al., 2024",immuno,3
-adult_drosophila_melanogaster,ventral_nerve_cord,AN27X004,NA,Dh44,"Bennett et al., 2026",HCR,3
+adult_drosophila_melanogaster,ventral_nerve_cord,AN27X004,NA,Dh44,"Bennett et al., 2026",HCR-FISH,3
