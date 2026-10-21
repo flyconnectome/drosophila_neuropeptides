@@ -47,7 +47,7 @@ adult_drosophila_melanogaster,central_brain,putative_primary,DNp30,"Soderberg et
 adult_drosophila_melanogaster,central_brain,putative_primary,DNp32,"Carlsson et al., 2010",immuno,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,central_brain,putative_primary,DNp62,"Soderberg et al., 2012",immuno,4,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,central_brain,SMPpv1,DNpe048,"González Segarra et al., 2023",transgenics,3,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-adult_drosophila_melanogaster,central_brain,0,DPM,Aso et al. 2019,bulk RNA-seq,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0
+adult_drosophila_melanogaster,central_brain,putative_primary,DPM,Waddell et al. 2000,immuno,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,central_brain,putative_primary,DSKMP3,"Soderberg et al., 2012",immuno,4,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,central_brain,putative_primary,DSKMP3,"Wu et al., 2019",immuno,4,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,central_brain,DM1_CX_d2,EL,"Wolff et a., 2024",EASI-FISH,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0
