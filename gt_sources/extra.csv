@@ -60,19 +60,9 @@ adult_drosophila_melanogaster,optic_lobe,,C3,scRNA-seq,neuropeptides-negative,"O
 adult_drosophila_melanogaster,optic_lobe,,Dm2,scRNA-seq,neuropeptides-negative,"Kurmangaliyev et al., 2020",3
 adult_drosophila_melanogaster,optic_lobe,,LMTe01,immuno,Dh44,"Reinhard et al., 2024",3
 adult_drosophila_melanogaster,ventral_nerve_cord,,AN27X004,HCR-FISH,Dh44,"Bennett et al., 2026",3
-adult_drosophila_melanogaster,central_brain,,ISN,transgenics,cnma,Zandawala Lab,3
+adult_drosophila_melanogaster,central_brain,putative_primary,ISN,transgenics,cnma,Zandawala Lab,3
 adult_drosophila_melanogaster,central_brain,,DNp32,transgenics,ccap,Zandawala Lab,3
-adult_drosophila_melanogaster,central_brain,,Sm15,transgenics,ccha1,Zandawala Lab,3
-adult_drosophila_melanogaster,central_brain,,SNpp54,transgenics,capa,Zandawala Lab,3
-adult_drosophila_melanogaster,central_brain,,AN27X013,transgenics,itp,Zandawala Lab,3
-adult_drosophila_melanogaster,ventral_nerve_cord,,MNad13,transgenics,lk,Zandawala Lab,3
-adult_drosophila_melanogaster,ventral_nerve_cord,,MNad59,transgenics,lk,Zandawala Lab,3
-adult_drosophila_melanogaster,ventral_nerve_cord,,MNad38,transgenics,lk,Zandawala Lab,3
-adult_drosophila_melanogaster,ventral_nerve_cord,,MNad27,transgenics,lk,Zandawala Lab,3
-adult_drosophila_melanogaster,ventral_nerve_cord,,MNad18,transgenics,lk,Zandawala Lab,3
-adult_drosophila_melanogaster,ventral_nerve_cord,,MNad21,transgenics,lk,Zandawala Lab,3
-adult_drosophila_melanogaster,ventral_nerve_cord,,MNad25,transgenics,lk,Zandawala Lab,3
-adult_drosophila_melanogaster,ventral_nerve_cord,,MNad52,transgenics,lk,Zandawala Lab,3
-adult_drosophila_melanogaster,ventral_nerve_cord,,MNad03,transgenics,lk,Zandawala Lab,3
+adult_drosophila_melanogaster,optic_lobes,,Sm15,transgenics,ccha1,Zandawala Lab,3
+adult_drosophila_melanogaster,ventral_nerve_cord,,SNpp54,transgenics,capa,Zandawala Lab,3
+adult_drosophila_melanogaster,ventral_nerve_cord,27X,AN27X013,transgenics,itp,Zandawala Lab,3
 adult_drosophila_melanogaster,ventral_nerve_cord,,MNad07,transgenics,lk,Zandawala Lab,3
-adult_drosophila_melanogaster,ventral_nerve_cord,,MNad37,transgenics,lk,Zandawala Lab,3
