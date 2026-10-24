@@ -202,3 +202,5 @@
 100.	Reinhard, N. et al. Synaptic connectome of the Drosophila circadian clock. Nat. Commun. 15, 10392 (2024) doi:10.1038/s41467-024-54694-0.
 
 101.	Bennett, M. M. et al. Divergent co-transmission by a predictive motor circuit modulates auditory processing. Curr. Biol. 36, 4006–4023.e9 (2026) doi:10.1016/j.cub.2026.06.080.
+
+102.	Zandawala Lab. Unpublished light-microscopy matches of neuropeptide reporter lines to FAFB, BANC and MANC cell types (M. Zandawala, 2026-10-22).
