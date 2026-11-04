@@ -75,63 +75,118 @@ Coverage of `neuropeptide_verified` annotations across `franken_meta` super-clas
 
 ![franken_known_nps](https://github.com/funkelab/drosophila_neuropeptides/blob/main/inst/images/franken_known_nps.png?raw=true)
 
-## How to Contribute Data
+## How to add or withdraw ground truth
 
-### For Git Novices
+**Never edit `gt_np_data.csv` by hand.** `R/organise_np_data.R` regenerates that table, so a hand edit
+is lost at the next rebuild. Every change goes through one of two small files in `gt_sources/`:
 
-1. Download the `gt_np_data.csv` file and open it with your preferred spreadsheet application.
-2. Add your data to the bottom of the file and save it as a CSV.
-3. On the repository page, click the "+" sign next to "Code" and select "Upload Files".
-4. Upload your modified `gt_np_data.csv` file, ensuring the filename remains unchanged.
-5. Fill in the commit form:
-   - Provide a concise description of your changes in the first field.
-   - Add more detailed information in the "Add an optional extended description..." field.
-6. Select "Create a new branch for this commit and start a pull request".
-7. Review your changes on the "Open a pull request" page and click "Create pull request".
-8. Wait for review from a maintainer. Be prepared to answer follow-up questions about your data.
+| To... | Edit | |
+|---|---|---|
+| add a call | `gt_sources/extra.csv` | one row per cell type + source |
+| withdraw a call | `gt_sources/exclusions.csv` | one row per cell type |
 
-### For Git Users
+### Adding a call, step by step
 
-1. Clone this repository and create a new branch.
-2. Modify the `gt_np_data.csv` file.
-3. Commit your changes with a meaningful commit message and push to your branch.
-4. Create a Pull Request for your branch when you're satisfied with your changes.
+**1. Find the cell type name.** Use the FAFB-FlyWire name for the brain and the MANC name for the
+nerve cord. If the paper gives FlyWire root IDs, map them to cell types; root IDs change between
+FlyWire versions, so check that they match v783. Types are the unit here: a paper that sampled one
+hemisphere or some of a type's neurons still gives a call for the type.
 
-### Adding and withdrawing calls: `gt_sources/extra.csv` and `gt_sources/exclusions.csv`
+**2. Add one row to the bottom of `gt_sources/extra.csv`.** The columns, in order:
 
-Two satellite files sit beside the main table and are applied by `R/organise_np_data.R` on every
-rebuild. Use them in preference to hand-editing `gt_np_data.csv`, because that script reads the
-table and writes back over it: a hand edit survives only until a source re-supplies the row.
+```
+species,region,hemilineage,cell_type,neuropeptide_verified_evidence,neuropeptide_verified,neuropeptide_verified_source,neuropeptide_verified_confidence
+```
 
-- **`gt_sources/extra.csv` — inclusions.** Calls to add that no upstream source carries yet.
-  **One row per (cell type, SOURCE)**, not per peptide: `neuropeptide_verified_source` holds a
-  single value, so several peptides from one study go on one row comma-separated, while one call
-  attested by two studies is two rows. The builder APPENDS these, so a cell type can end up with
-  several rows and that is correct — `FB1B` carries an Nplp1 call from Wolff et al. 2024 and
-  another from Janelia.
-- **`gt_sources/exclusions.csv` — withdrawals.** Calls to remove. Leave `neuropeptide` blank to
-  drop the whole row for that cell type, or name a peptide to zero that single call and keep the
-  row.
+For example:
 
-**Key an exclusion on the cell type, and leave `region` and `hemilineage` blank.** They are
-wildcards, and blank is almost always right: region and hemilineage are exactly the fields
-curation *changes*. In the 2026-08-31 update ten fan-shaped-body types moved from
-`midbrain`/`0` to `central_brain`/`LALv1_dorsal`, and an exclusion keyed on the old region would
-have silently stopped applying while still looking present in the file.
+```
+adult_drosophila_melanogaster,central_brain,,LNd_b,immuno,Tristin,"Brown et al., 2024",3
+```
 
-**What an exclusion CANNOT do: withdraw one source's row when two sources supply the same cell
-type.** It is keyed on the cell type, and `extra.csv` appends, so both rows share the key —
-dropping the row kills both calls, and naming the peptide zeroes both. There is no way at present
-to say *"drop the Janelia duplicate, keep the Wolff one"*. If you need that, say so rather than
-deleting rows by hand: it wants an optional `source` column on `exclusions.csv`, which is a schema
-change. (Raised 2026-10-02, when exactly this was asked for across eight fan-shaped-body and
-vDelta types.)
+| Column | What to write |
+|---|---|
+| `species` | `adult_drosophila_melanogaster` |
+| `region` | `central_brain`, `ventral_nerve_cord` or `optic_lobe` |
+| `hemilineage` | leave blank, unless the type sits in exactly one |
+| `cell_type` | the name from step 1 |
+| `neuropeptide_verified_evidence` | the method, from the list below |
+| `neuropeptide_verified` | gene symbols as in Zandawala 2024 (`npf`, `asta`, `proc`). Several peptides from one study go in one quoted field: `"sNPF, Dh31"` |
+| `neuropeptide_verified_source` | one study, as `"Author et al., YEAR"`, in quotes because of the comma. If two studies attest a call, write two rows |
+| `neuropeptide_verified_confidence` | an integer from 0 to 5; see [About the Data](#about-the-data). It is used exactly as you write it, so always fill it in |
 
-The builder reports what it did every run: rows dropped, calls zeroed, and two distinct
-no-match cases kept apart — an entry whose cell type is *absent* from the table is holding
-pre-emptively and is reported as a message, whereas an entry whose cell type is *present* but
-whose keys no longer match has gone **stale** against a rename and raises a warning, because that
-is how a withdrawn call comes back looking verified.
+**Evidence terms.** Use one of these, spelled exactly, because the DCV analysis reads the spelling to
+decide whether a call is protein-level or gene-level:
+
+| Evidence term | Level | Usual confidence |
+|---|---|---|
+| `immuno`, `immuno, intersection` | protein | 4 or 5 |
+| `transgenics`, `intersection`, `MCFO` | gene | 3 |
+| `EASI-FISH`, `TAPIN-seq`, `RNAi` | gene | 2 to 3 |
+| `HCR-FISH` | gene | 3 |
+| `scRNA-seq`, `RT-PCR` | gene | 1 to 3 |
+
+A new term needs checking first: `HCR` on its own, for example, matched neither level, so its calls
+silently counted for nothing. Ask before inventing one.
+
+**A cell type that lacks a peptide.** To record that a type does not express neuropeptides, write
+`neuropeptides-negative` in `neuropeptide_verified`, with the evidence and source as usual. The table
+then holds `-1` for it.
+
+**3. Cite the source, if it is new.** Add it in all three places, using the same source string as your
+row:
+- `CITATIONS.md`: append, do not renumber.
+- `gt_sources/citations.csv`: `citation,pmid,doi`; write `preprint` for the pmid where there is none.
+- `gt_sources/citations.bib`: BibTeX.
+
+**4. Send it in.**
+- *Not comfortable with Git:* open `gt_sources/extra.csv` on GitHub, click the pencil icon, add your
+  rows at the bottom, and choose "Create a new branch for this commit and start a pull request".
+  A maintainer rebuilds the table and merges. Say in the pull request where the call comes from.
+- *Using Git:* run `git pull`, add your rows, then rebuild (step 5) and push.
+  Other people also append to `extra.csv`. If it conflicts, keep both blocks, take `gt_np_data.csv`
+  from origin and rebuild; never merge the generated table by hand.
+
+**5. Rebuild.** From the repository root:
+
+```bash
+Rscript R/organise_np_data.R
+```
+
+This reads `bancr::franken_meta()` from SeaTable (it needs `BANCTABLE_TOKEN`; there is a GCS fallback),
+applies both files and rewrites `gt_np_data.csv`. Read its report, then check that your row is in
+`gt_np_data.csv` and commit all the changed files together.
+
+**6. Tell whoever uses it.** The table does not reach an analysis by itself. In the DCV project
+(`htem/dcv`), run `Rscript R/process/build_np_labels.R` to rebuild the peptide maps, then refit the
+DCV-rich threshold (`R/process/compute_threshold.R`), because the protein-level calls are its positive
+set. So a new protein-level call can move the threshold, and with it every DCV-rich call in the paper.
+Before adding one, check that type's soma DCV density. If the evidence is sound but the type would
+damage the calibration, keep its row in `extra.csv` and also add the type to `exclusions.csv`: the
+first records what the study found, the second what we calibrate on.
+
+### Withdrawing a call
+
+Add a row to `gt_sources/exclusions.csv`. Its columns:
+
+```
+species,region,hemilineage,cell_type,neuropeptide,withdrawn_calls,withdrawn_from_region,reason,source,date_added,match_source
+```
+
+- **Key it on the cell type, and leave `region` and `hemilineage` blank.** They are wildcards, and they
+  are the fields curation changes: an exclusion keyed on an old region silently stops applying while
+  still looking present in the file.
+- **Leave `neuropeptide` blank** to drop the whole row, or name one peptide to zero that single call.
+- **Fill in `match_source`** to drop only one study's row where two studies supply the same cell type,
+  for example to remove a Janelia duplicate and keep the Wolff et al. row. Blank means every source.
+- Always fill in `reason`, `source` and `date_added`.
+
+### What the builder reports
+
+Each rebuild prints the rows dropped and the calls zeroed, and keeps two no-match cases apart. An entry
+whose cell type is *absent* from the table is holding pre-emptively, and is reported as a message. An
+entry whose cell type is *present* but whose keys no longer match has gone **stale** against a rename,
+and raises a warning, because that is how a withdrawn call comes back looking verified.
 
 ## About the Data
 
