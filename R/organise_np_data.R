@@ -39,7 +39,16 @@ np_symbol_to_col <- c(np_symbol_to_col,
                        Thyrostimulin = "thyrostimulin",
                        dNPF = "npf", dArc1 = "arc1", Hugin = "hug",
                        Tachykinin = "tk", Leucokinin = "lk",
-                       Tristin = "trissin")
+                       Tristin = "trissin",
+                       # hDeltaF's Wolff et al. negative is typed "neuropeptide-negative" upstream.
+                       # It meant the same call as "neuropeptides-negative" but minted a column of
+                       # its own, `neuropeptide`. That name now belongs to the flag below.
+                       Neuropeptide = "neuropeptides")
+
+# Peptide columns whose product is not a neuropeptide. The calls stay on record, on their own rows,
+# with `neuropeptide` = FALSE, so that a reader can drop them with one filter (ASB, 2026-11-06).
+# Arc1 is a Gag-like capsid protein.
+not_neuropeptides <- c("arc1")
 
 # Canonicalise ONE peptide name to its column header. Matching is
 # case-insensitive because the annotation layer is hand-typed ("AstC", "Astc",
@@ -252,6 +261,9 @@ ft.np.m <- ft.np %>%
   dplyr::mutate(neuropeptide_verified = gsub("-negative.*","",neuropeptide_verified)) %>%
   # Canonicalise BEFORE spreading, so "dNPF" and "NPF" land in one column.
   dplyr::mutate(neuropeptide_verified = canonical_peptide(neuropeptide_verified)) %>%
+  # `spread()` makes one row per combination of every other column, so this flag is also what puts
+  # a not-a-neuropeptide call on its own row. It cannot share a row with its source's real peptides.
+  dplyr::mutate(neuropeptide = !neuropeptide_verified %in% not_neuropeptides) %>%
   dplyr::distinct() %>%
   tidyr::spread(key = neuropeptide_verified, value = value, fill = 0) %>%
   as.data.frame()
@@ -264,7 +276,8 @@ colnames(ft.np.m) <- tolower(colnames(ft.np.m))
 meta.cols <- c("species", "region", "hemilineage", "cell_type",
                "neuropeptide_verified_source",
                "neuropeptide_verified_evidence",
-               "neuropeptide_verified_confidence")
+               "neuropeptide_verified_confidence",
+               "neuropeptide")
 nps <- sort(setdiff(colnames(ft.np.m),meta.cols))
 gt.nt <- ft.np.m
 gt.nt[is.na(gt.nt)] <- 0
