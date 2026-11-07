@@ -204,3 +204,7 @@
 101.	Bennett, M. M. et al. Divergent co-transmission by a predictive motor circuit modulates auditory processing. Curr. Biol. 36, 4006–4023.e9 (2026) doi:10.1016/j.cub.2026.06.080.
 
 102.	Zandawala Lab. Unpublished light-microscopy matches of neuropeptide reporter lines to FAFB, BANC and MANC cell types (M. Zandawala, 2026-10-22).
+
+103.	Reinhard, N. et al. The lateral posterior clock neurons of Drosophila melanogaster express three neuropeptides and have multiple connections within the circadian clock network and beyond. J. Comp. Neurol. 530, 1507-1529 (2022) doi:10.1002/cne.25294.
+
+104.	Johard, H. A. D. et al. Peptidergic clock neurons in Drosophila: ion transport peptide and short neuropeptide F in subsets of dorsal and ventral lateral neurons. J. Comp. Neurol. 516, 59-73 (2009) doi:10.1002/cne.22099.
