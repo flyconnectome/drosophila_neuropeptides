@@ -455,3 +455,4 @@ adult_drosophila_melanogaster,central_brain,AstA1,NA,asta,"Hergarden et al., 201
 adult_drosophila_melanogaster,central_brain,DNp27,NA,Trissin,"Deng et al., 2019",transgenics,3
 adult_drosophila_melanogaster,central_brain,LNd_a,NA,npf,"Johard et al., 2009",immuno,4
 adult_drosophila_melanogaster,central_brain,SLP444,NA,Gpb5,"Francés et al., 2026",RNAi,2
+adult_drosophila_melanogaster,optic_lobes,Pm05,NA,AstA,"Deng et al., 2019",transgenics,3

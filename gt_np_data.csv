@@ -238,6 +238,7 @@ adult_drosophila_melanogaster,optic_lobes,0,MeLo3b,"Treese et al., 2026",scRNA-s
 adult_drosophila_melanogaster,optic_lobes,0,MeVP1,"Treese et al., 2026",scRNA-seq,3,TRUE,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,optic_lobes,0,MLt5,"Kurmangaliyev, pers. comm. 2026-09-02",scRNA-seq,1,TRUE,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,optic_lobes,0,MTe51,"Kurmangaliyev, pers. comm. 2026-09-02",scRNA-seq,1,TRUE,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+adult_drosophila_melanogaster,optic_lobes,0,Pm05,"Deng et al., 2019",transgenics,3,TRUE,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,optic_lobes,0,Pm09,"Davis et al., 2020",immuno,4,TRUE,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,optic_lobes,0,s-LNv_a,"Reinhard et al., 2023",scRNA-seq,1,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 adult_drosophila_melanogaster,optic_lobes,0,s-LNv_b,"Johard et al., 2019",immuno,4,TRUE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0
