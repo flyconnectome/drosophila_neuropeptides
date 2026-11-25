@@ -242,6 +242,23 @@ The `zandawala_2024/neuropeptide_meta.csv` file contains detailed meta informati
 - `Coexpressed with other peptide`: Whether it's coexpressed with other neuropeptides
 - `Notes`: Additional relevant information
 
+## Used by / related projects
+
+- [htem/drosophila_dense_core_vesicles](https://github.com/htem/drosophila_dense_core_vesicles): analysis code for the
+  dense core vesicle (DCV) paper. It reads `gt_np_data.csv` (via `R/process/build_np_labels.R`). Cell types with
+  protein-level calls are the positive set that sets the soma DCV-rich threshold and tests it by cross-validation.
+  They also supply the labels for the networks that sort DCVs and name each neuropeptide from DCV appearance.
+- [htem/dcvdetect](https://github.com/htem/dcvdetect): the DCV detector that produced the detections. It does not
+  read this repository.
+- Harvard Dataverse, [doi:10.7910/DVN/AJTJKJ](https://doi.org/10.7910/DVN/AJTJKJ) (draft): the DCV detections and
+  derived data for the paper.
+
+![dcv_fig1l_known_nps_banc](inst/images/dcv_fig1l_known_nps_banc.png)
+
+Soma DCV density in BANC for every cell type with protein-level evidence in this repository, against the DCV-rich
+threshold (dashed); C3 and Dm2, at right, are known negatives. Figure 1l of "Dense core vesicles map neuropeptide
+signaling across the fly brain-and-cord", Azatian, Delgado et al. 2026, bioRxiv (DOI to come).
+
 ## Acknowledgements
 
 *As of July 20th 2024 -- repo private* 
