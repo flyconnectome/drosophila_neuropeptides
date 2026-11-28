@@ -68,11 +68,6 @@
     },
     {
       "relation": "isReferencedBy",
-      "identifier": "10.1101/BIORXIV-DOI-PLACEHOLDER-DCV-PAPER",
-      "resource_type": "publication-preprint"
-    },
-    {
-      "relation": "isReferencedBy",
       "identifier": "10.7910/DVN/AJTJKJ",
       "resource_type": "dataset"
     },

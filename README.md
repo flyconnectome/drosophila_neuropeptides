@@ -259,7 +259,7 @@ The `zandawala_2024/neuropeptide_meta.csv` file contains detailed meta informati
 
 Soma DCV density in BANC for every cell type with protein-level evidence in this repository, against the DCV-rich
 threshold (dashed); C3 and Dm2, at right, are known negatives. Figure 1l of "Dense core vesicles map neuropeptide
-signaling across the fly brain-and-cord", Azatian, Delgado et al. 2026, bioRxiv (DOI to come).
+signaling across the fly brain-and-cord", Azatian, Delgado et al., bioRxiv (2026), DOI to be added.
 
 ## Acknowledgements
 
