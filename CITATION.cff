@@ -1,0 +1,60 @@
+cff-version: 1.2.0
+message: "If you use this ground truth, please cite it by the concept DOI below (all versions), or by the version DOI of the release you used, and cite the original studies listed in CITATIONS.md."
+title: "drosophila_neuropeptides: A curated database of neuropeptide expression by Drosophila cell types"
+type: dataset
+license: CC-BY-4.0
+doi: 10.5281/zenodo.20818143
+repository-code: "https://github.com/flyconnectome/drosophila_neuropeptides"
+keywords:
+  - Drosophila
+  - neuropeptide
+  - connectomics
+  - cell types
+  - ground truth
+authors:
+  - family-names: Bates
+    given-names: Alexander Shakeel
+    orcid: "https://orcid.org/0000-0002-1195-0445"
+    affiliation: "Harvard Medical School"
+  - family-names: Jefferis
+    given-names: Gregory S. X. E.
+    orcid: "https://orcid.org/0000-0002-0587-9355"
+    affiliation: "MRC Laboratory of Molecular Biology"
+  - family-names: Zandawala
+    given-names: Meet
+    orcid: "https://orcid.org/0000-0001-6498-2208"
+    affiliation: "University of Nevada Reno"
+  - family-names: Adjavon
+    given-names: Diane-Yayra
+    orcid: "https://orcid.org/0009-0001-4702-0776"
+    affiliation: "HHMI Janelia Research Campus"
+  - family-names: Funke
+    given-names: Jan
+    orcid: "https://orcid.org/0000-0003-4388-7783"
+    affiliation: "HHMI Janelia Research Campus"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.20818143
+    description: "Concept DOI: all versions, resolves to the latest"
+  - type: doi
+    value: 10.5281/zenodo.20818144
+    description: "Version DOI of v1.1.0"
+references:
+  - type: article
+    title: "Distributed control circuits across a brain-and-cord connectome"
+    doi: 10.1038/s41586-026-10735-w
+    journal: Nature
+    year: 2026
+    authors:
+      - family-names: Bates
+        given-names: Alexander Shakeel
+  - type: article
+    title: "Dense core vesicles map neuropeptide signaling across the fly brain-and-cord"
+    journal: bioRxiv
+    year: 2026
+    notes: "Preprint; DOI to be added when public"
+    authors:
+      - family-names: Azatian
+        given-names: Yervand
+      - family-names: Delgado
+        given-names: Kevin M.

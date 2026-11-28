@@ -4,6 +4,8 @@ This repository contains curated data on neuropeptides found in *Drosophila mela
 
 For a complete list of references for our ground truth, please see our [CITATIONS.md](CITATIONS.md) file.
 
+Cite this resource by its Zenodo concept DOI, which always resolves to the latest version: [doi:10.5281/zenodo.20818143](https://doi.org/10.5281/zenodo.20818143) (see [CITATION.cff](CITATION.cff)).
+
 ## Scope
 
 This repository focuses on neuropeptides in Drosophila, which are larger signaling molecules than fast-acting neurotransmitters. Neuropeptides often act as neuromodulators, affecting the properties of neural circuits. For fast-acting small molecule neurotransmitter annotation, please refer to our separate repository: [funkelab/drosophila_neurotransmitters](https://github.com/funkelab/drosophila_neurotransmitters).
